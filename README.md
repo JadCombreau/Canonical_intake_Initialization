@@ -1,6 +1,6 @@
-## Ananax_canonical_intake Workflow :
+# Ananax_canonical_intake Workflow :
 
-
+## Check & Read XML
 
 | Variable Name | Variable description | Value type | Input Value | Output Value |
 | ------ | ------ | ------ | ------ |  ------ |
