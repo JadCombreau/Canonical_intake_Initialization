@@ -29,8 +29,8 @@ balbalbalbalabl fkdhsgklghsdklgsdh
 | piff | DESCRIPTION | TYPE | INPUT | OUTPUT |
 
 
-|| CANONICAL | ANALYTICAL |
-|-----------|---------------------|-------------|
+| | CANONICAL | ANALYTICAL |
+|-----------|-----------|-----------|
 |INLET | `'Isn't this fun?'` | 'Isn't this fun?' |
 |ACTRAN |`"Isn't this fun?"` |"Isn't this fun?" |
 |MADIWHAX |`is em-dash` | is em-dash |
