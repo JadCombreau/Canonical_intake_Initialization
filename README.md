@@ -1,5 +1,7 @@
 ## Ananax_canonical_intake Workflow :
 
+
+
 | Variable Name | Value type | Input Value | Output Value |
 | ------ | ------ | ------ | ------ |
 | pathOfXML | TYPE | INPUT | OUTPUT |
