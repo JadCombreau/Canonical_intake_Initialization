@@ -1,7 +1,11 @@
 # Ananax_canonical_intake Workflow :
 
 ## Check & Read XML
- ### EXPLANATION OF WHAT THE BOX DOES
+
+### Explanation of what the box does
+
+balbalbalbalabl fkdhsgklghsdklgsdh
+
 | Variable Name | Variable description | Value type | Input Value | Output Value |
 | ------ | ------ | ------ | ------ |  ------ |
 | pathOfXML | DESCRIPTION | TYPE | INPUT | OUTPUT |
