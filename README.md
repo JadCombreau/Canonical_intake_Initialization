@@ -1,11 +1,11 @@
-| Plugin | README |
-| ------ | ------ |
-| Dropbox | [plugins/dropbox/README.md][PlDb] |
-| GitHub | [plugins/github/README.md][PlGh] |
-| Google Drive | [plugins/googledrive/README.md][PlGd] |
-| OneDrive | [plugins/onedrive/README.md][PlOd] |
-| Medium | [plugins/medium/README.md][PlMe] |
-| Google Analytics | [plugins/googleanalytics/README.md][PlGa] |
+| Variable Name | Input Value | Output Value |
+| ------ | ------ | ------ |
+| Dropbox | [plugins/dropbox/README.md][PlDb] | [plugins/dropbox/README.md][PlDb] |
+| GitHub | [plugins/github/README.md][PlGh] | [plugins/dropbox/README.md][PlDb] |
+| Google Drive | [plugins/googledrive/README.md][PlGd] | [plugins/dropbox/README.md][PlDb] |
+| OneDrive | [plugins/onedrive/README.md][PlOd] | [plugins/dropbox/README.md][PlDb] |
+| Medium | [plugins/medium/README.md][PlMe] | [plugins/dropbox/README.md][PlDb] |
+| Google Analytics | [plugins/googleanalytics/README.md][PlGa] | [plugins/dropbox/README.md][PlDb] |
 
 # Welcome to StackEdit!
 
