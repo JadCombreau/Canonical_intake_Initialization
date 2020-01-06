@@ -29,10 +29,10 @@ balbalbalbalabl fkdhsgklghsdklgsdh
 | piff | DESCRIPTION | TYPE | INPUT | OUTPUT |
 
 
-|                |ASCII                          |HTML                         |
+|                |CANONICAL                         |ANALYTICAL                        |
 |----------------|-------------------------------|-----------------------------|
-|Single backticks|`'Isn't this fun?'`            |'Isn't this fun?'            |
-|Quotes          |`"Isn't this fun?"`            |"Isn't this fun?"            |
-|Dashes          |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
+|INLET |`'Isn't this fun?'`            |'Isn't this fun?'            |
+|ACTRAN          |`"Isn't this fun?"`            |"Isn't this fun?"            |
+|MADIWHAX          |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
 
 
