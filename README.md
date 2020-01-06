@@ -1,13 +1,25 @@
+## Ananax_canonical_intake Workflow :
+
 | Variable Name | Input Value | Output Value |
 | ------ | ------ | ------ |
-| Dropbox | [plugins/dropbox/README.md][PlDb] | [plugins/dropbox/README.md][PlDb] |
-| GitHub | [plugins/github/README.md][PlGh] | [plugins/dropbox/README.md][PlDb] |
-| Google Drive | [plugins/googledrive/README.md][PlGd] | [plugins/dropbox/README.md][PlDb] |
-| OneDrive | [plugins/onedrive/README.md][PlOd] | [plugins/dropbox/README.md][PlDb] |
-| Medium | [plugins/medium/README.md][PlMe] | [plugins/dropbox/README.md][PlDb] |
-| Google Analytics | [plugins/googleanalytics/README.md][PlGa] | [plugins/dropbox/README.md][PlDb] |
+| pathOfXML | [plugins/dropbox/README.md][PlDb] | [plugins/dropbox/README.md][PlDb] |
+| pathOfLogsFolder | [plugins/github/README.md][PlGh] | [plugins/dropbox/README.md][PlDb] |
+| myLogger | [plugins/googledrive/README.md][PlGd] | [plugins/dropbox/README.md][PlDb] |
+| xsd | [plugins/onedrive/README.md][PlOd] | [plugins/dropbox/README.md][PlDb] |
+| linearFrequencies | [plugins/medium/README.md][PlMe] | [plugins/dropbox/README.md][PlDb] |
+| numberOfConfigurations | [plugins/googleanalytics/README.md][PlGa] | [plugins/dropbox/README.md][PlDb] |
+| namesOfConfigurations | [plugins/github/README.md][PlGh] | [plugins/dropbox/README.md][PlDb] |
+| pathsOfUserFieldmeshes | [plugins/googledrive/README.md][PlGd] | [plugins/dropbox/README.md][PlDb] |
+| nbTreatments | [plugins/onedrive/README.md][PlOd] | [plugins/dropbox/README.md][PlDb] |
+| maxNodeMemory | [plugins/medium/README.md][PlMe] | [plugins/dropbox/README.md][PlDb] |
+| numberOfCoresByNode | [plugins/googleanalytics/README.md][PlGa] | [plugins/dropbox/README.md][PlDb] |
+| maxNumberOfProcesses | [plugins/github/README.md][PlGh] | [plugins/dropbox/README.md][PlDb] |
+| memorySecurityCriteria | [plugins/googledrive/README.md][PlGd] | [plugins/dropbox/README.md][PlDb] |
+| namesOfPostprocessingProcesses | [plugins/onedrive/README.md][PlOd] | [plugins/dropbox/README.md][PlDb] |
+| N1k | [plugins/medium/README.md][PlMe] | [plugins/dropbox/README.md][PlDb] |
+| areAttenuationMatrices | [plugins/googleanalytics/README.md][PlGa] | [plugins/dropbox/README.md][PlDb] |
+| piff | [plugins/medium/README.md][PlMe] | [plugins/dropbox/README.md][PlDb] |
 
-# Welcome to StackEdit!
 
 Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by opening the **file explorer** on the left corner of the navigation bar.
 
