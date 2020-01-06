@@ -2,28 +2,28 @@
 
 
 
-| Variable Name | Value type | Input Value | Output Value |
-| ------ | ------ | ------ | ------ |
-| pathOfXML | TYPE | INPUT | OUTPUT |
-| pathOfLogsFolder | TYPE | INPUT | OUTPUT |
-| myLogger | TYPE | INPUT | OUTPUT |
-| xsd | TYPE | INPUT | OUTPUT |
-| linearFrequencies | TYPE | INPUT | OUTPUT |
-| numberOfConfigurations | TYPE | INPUT | OUTPUT |
-| namesOfConfigurations | TYPE | INPUT | OUTPUT |
-| pathsOfUserFieldmeshes | TYPE | INPUT | OUTPUT |
-| nbTreatments | TYPE | INPUT | OUTPUT |
-| maxNodeMemory | TYPE | INPUT | OUTPUT |
-| numberOfCoresByNode | TYPE | INPUT | OUTPUT |
-| maxNumberOfProcesses | TYPE | INPUT | OUTPUT |
-| memorySecurityCriteria | TYPE | INPUT | OUTPUT |
-| namesOfPostprocessingProcesses | TYPE | INPUT | OUTPUT |
-| N1k | TYPE | INPUT | OUTPUT |
-| areAttenuationMatrices | TYPE | INPUT | OUTPUT |
-| piff | TYPE | INPUT | OUTPUT |
+| Variable Name | Variable description | Value type | Input Value | Output Value |
+| ------ | ------ | ------ | ------ |  ------ |
+| pathOfXML | DESCRIPTION | TYPE | INPUT | OUTPUT |
+| pathOfLogsFolder | DESCRIPTION | TYPE | INPUT | OUTPUT |
+| myLogger | DESCRIPTION | TYPE | INPUT | OUTPUT |
+| xsd | DESCRIPTION | TYPE | INPUT | OUTPUT |
+| linearFrequencies | DESCRIPTION | TYPE | INPUT | OUTPUT |
+| numberOfConfigurations | DESCRIPTION | TYPE | INPUT | OUTPUT |
+| namesOfConfigurations | DESCRIPTION | TYPE | INPUT | OUTPUT |
+| pathsOfUserFieldmeshes | DESCRIPTION | TYPE | INPUT | OUTPUT |
+| nbTreatments | DESCRIPTION | TYPE | INPUT | OUTPUT |
+| maxNodeMemory | DESCRIPTION | TYPE | INPUT | OUTPUT |
+| numberOfCoresByNode | DESCRIPTION | TYPE | INPUT | OUTPUT |
+| maxNumberOfProcesses | DESCRIPTION | TYPE | INPUT | OUTPUT |
+| memorySecurityCriteria | DESCRIPTION | TYPE | INPUT | OUTPUT |
+| namesOfPostprocessingProcesses | DESCRIPTION | TYPE | INPUT | OUTPUT |
+| N1k | DESCRIPTION | TYPE | INPUT | OUTPUT |
+| areAttenuationMatrices | DESCRIPTION | TYPE | INPUT | OUTPUT |
+| piff | DESCRIPTION | TYPE | INPUT | OUTPUT |
 
 
-Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by opening the **file explorer** on the left corner of the navigation bar.
+## Explanation of 
 
 
 # Files
