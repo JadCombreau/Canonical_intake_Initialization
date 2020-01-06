@@ -4,7 +4,6 @@
 # Ananax_canonical_intake Workflow :
 
 Explanation of the workflow and his role
-Texte normal suivi d’un <span class="bg-info text-success">texte coloré en vert sur fond bleu</span> dans un paragraphe.
 ## Check & Read XML
 
 ### Explanation of what the box does
