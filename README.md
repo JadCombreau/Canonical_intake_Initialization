@@ -9,7 +9,7 @@ Explanation of the workflow and his role
 balbalbalbalabl fkdhsgklghsdklgsdh
 
 | Variable Name | Variable description | Value type | Input Value | Output Value |
-| ------ | ------ | ------ | ------ |  ------ |
+| ------ | ------------ | ------ | ------ |  ------ |
 | pathOfXML | DESCRIPTION | TYPE | INPUT | OUTPUT |
 | pathOfLogsFolder | DESCRIPTION | TYPE | INPUT | OUTPUT |
 | myLogger | DESCRIPTION | TYPE | INPUT | OUTPUT |
