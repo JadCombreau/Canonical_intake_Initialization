@@ -1,4 +1,4 @@
-![ananaxcanonicalintake](https://user-images.githubusercontent.com/45098441/71828184-201f9f80-30a2-11ea-81f8-18cfbb8be836.jpeg)
+![Exemple worflow](https://user-images.githubusercontent.com/45098441/71828184-201f9f80-30a2-11ea-81f8-18cfbb8be836.jpeg)
 
 
 # Ananax_canonical_intake Workflow :
