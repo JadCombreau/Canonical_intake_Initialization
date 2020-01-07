@@ -22,7 +22,7 @@ This Workflow therefore presents seven boxes:
 Here is the Workflow structure by specification :
 
 | | CANONICAL | ANALYTICAL |
-|-----------|:-----------:|!-----------:|
+|-----------|:-----------:|:-----------:|
 |INTAKE | X | -- |
 |BYPASS | -- | -- |
 
