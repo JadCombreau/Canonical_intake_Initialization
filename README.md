@@ -1,4 +1,4 @@
-# COMBREAU JAD - ANANAX CANONONICAL INTAKE WORKFLOW
+# COMBREAU JAD - ANANAX CANONONICAL INTAKE
 ## Markdown documentation file
 
 ## Ananax2d_Canonical_Intake Workflow over Isight
