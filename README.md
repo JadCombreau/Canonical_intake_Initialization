@@ -10,7 +10,11 @@ Explanation of the workflow and his role
 
 ### Explanation of what the box does
 
-balbalbalbalabl fkdhsgklghsdklgsdh
+This part of the "Check & Read XML" Workflow is for, but, as its name suggests, to verify and read the input XML file of the Workflow. We must therefore retrieve the values that interest us.
+
+First, we must check the structure of the XML input file by running the XSD specific to this type of XML and in the specific case of this Workflow. We will therefore have to indicate the path to the XSD file.
+
+In the case of this Workflow (Canonical Intake), we need to retrieve the values ​​for the number and the name of the configurations, the number of treatments, the frequencies as well as the name of the post-processing process. This list is not exhaustive.
 
 | Import name | Import functions | Import location |
 | ------ | ------ | ------ |
