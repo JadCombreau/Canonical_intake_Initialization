@@ -3,7 +3,21 @@
 
 ## Ananax2d_Canonical_Intake Workflow over Isight
 
-### Workflow type
+### Workflow type & role
+
+This Workflow (Canonical Intake) has the final goal, like the other Workflows, the calculation of the acoustic attenuation matrix.
+It intervenes in the canonical case of air intake, that is to say that unlike the analytical case, we do not have to generate a mesh. The mesh is assumed to be uniform and Actran automatically generates it for us.
+
+The air inlet duct is therefore assumed to be more or less uniform. We do not calculate a flow, since it is supposed to be uniform. There is no weighted average to be used for computation in various nodes of mesh.
+
+This Workflow therefore presents seven boxes:
+- Initialization: allows among other things the creation of initialization variables, environment variables or even the test of the structure and the reading of the input file (XML)
+- Acoustic Meshes: allows the generation of a uniform mesh. It is not the user who takes care of this because the mesh is supposed to be uniform (canonical case)
+- Acoustic Models:
+- Cutoff Computations: determines the resources required (different from Scout Computations)
+- Scout Computations: go blank to determine the resources required (number of HPC nodes, amount of memory, etc.)
+- Acoustic Computations: call of the Actran solver for the acoustic calculation of the noise of the air intake
+- Postprocessing: allows the generation of the attenuation matrix, we add up the noise differences obtained on the different microphones (OASPL)
 
 Here is the Workflow structure by specification :
 
@@ -12,8 +26,6 @@ Here is the Workflow structure by specification :
 |INLET | `'Isn't this fun?'` | 'Isn't this fun?' |
 |ACTRAN |`"Isn't this fun?"` |"Isn't this fun?" |
 |MADIWHAX |`is em-dash` | is em-dash |
-
-Explanation of the workflow and his role
 
 Here is the exact structure of the workflow through its different boxes or components :
 
