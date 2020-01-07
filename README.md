@@ -47,7 +47,7 @@ To execute the script "Check & Read XML" correctly, we need to import other Pyth
 The table below lists all the imports to be made :
 
 | Import name | Import functions | Import location |
-| ------ | :------: | :------: |
+| ------ | :------: | ------ |
 | XMLAnanax2dCanonicalIntake | FUNCTIONS NAMES | `/src_wf/python/api/ductnoise/fannoise/ananax/ananax2d_canonical_intake` |
 | Logger | FUNCTIONS NAMES | `/src_wf/python/workflows/common` |
 | CommonFunctions | FUNCTIONS NAMES | `/src_wf/python/workflows/common` |
