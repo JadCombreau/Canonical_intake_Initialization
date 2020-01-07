@@ -1,7 +1,6 @@
-# COMBREAU JAD - MARKDOWN
+# COMBREAU JAD - MARKDOWN - ANANAX CANONONICAL INTAKE WORKFLOW
 
 ![Exemple worflow](https://user-images.githubusercontent.com/45098441/71828184-201f9f80-30a2-11ea-81f8-18cfbb8be836.jpeg)
-
 
 # Ananax_canonical_intake Workflow :
 
@@ -19,6 +18,7 @@ In the case of this Workflow (Canonical Intake), we need to retrieve the values 
 ### Which files to import ?
 
 To execute the script "Check & Read XML" correctly, we need to import other Python libraries.
+The table below lists all the imports to be made :
 
 | Import name | Import functions | Import location |
 | ------ | ------ | ------ |
