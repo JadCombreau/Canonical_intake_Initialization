@@ -47,7 +47,7 @@ To execute the script "Check & Read XML" correctly, we need to import other Pyth
 The table below lists all the imports to be made :
 
 | Import name | Import functions | Import location |
-| ------ | ------ | ------ |
+| :------: | :------: | :------: |
 | XMLAnanax2dCanonicalIntake | FUNCTIONS NAMES | `/share/giseh_fr0_devel/ananax/v2020r1/RedHatEL-7/x86_64/src_wf/python/api/ductnoise/fannoise/ananax/ananax2d_canonical_intake` |
 | Logger | FUNCTIONS NAMES | `/share/giseh_fr0_devel/ananax/v2020r1/RedHatEL-7/x86_64/src_wf/python/workflows/common` |
 | CommonFunctions | FUNCTIONS NAMES | `/share/giseh_fr0_devel/ananax/v2020r1/RedHatEL-7/x86_64/src_wf/python/workflows/common` |
@@ -59,7 +59,7 @@ The table below lists all the imports to be made :
 The table below lists all the variables to be created in Isight and their role :
 
 | Variable Name | Variable description | Value type | Input Value | Output Value |
-| ------ | ------------ | ------ | ------ |  ------ |
+| :------: | :------------: | :------: | :------: |  :------: |
 | pathOfXML | DESCRIPTION | TYPE | INPUT | OUTPUT |
 | pathOfLogsFolder | DESCRIPTION | TYPE | INPUT | OUTPUT |
 | myLogger | DESCRIPTION | TYPE | INPUT | OUTPUT |
