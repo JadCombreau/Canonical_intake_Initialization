@@ -1,10 +1,24 @@
 # COMBREAU JAD - MARKDOWN - ANANAX CANONONICAL INTAKE WORKFLOW
 
-![Exemple worflow](https://user-images.githubusercontent.com/45098441/71828184-201f9f80-30a2-11ea-81f8-18cfbb8be836.jpeg)
+## Ananax2d_Canonical_Intake Workflow over Isight
 
-# Ananax_canonical_intake Workflow :
+### Workflow type
+
+Here is the Workflow structure by specification :
+
+| | CANONICAL | ANALYTICAL |
+|-----------|-----------|-----------|
+|INLET | `'Isn't this fun?'` | 'Isn't this fun?' |
+|ACTRAN |`"Isn't this fun?"` |"Isn't this fun?" |
+|MADIWHAX |`is em-dash` | is em-dash |
 
 Explanation of the workflow and his role
+
+Here is the exact structure of the workflow through its different boxes or components :
+
+![Exemple worflow](https://user-images.githubusercontent.com/45098441/71828184-201f9f80-30a2-11ea-81f8-18cfbb8be836.jpeg)
+
+
 ## Check & Read XML
 
 ### Explanation of what the box does
@@ -51,12 +65,5 @@ The table below lists all the variables to be created in Isight and their role :
 | N1k | DESCRIPTION | TYPE | INPUT | OUTPUT |
 | areAttenuationMatrices | DESCRIPTION | TYPE | INPUT | OUTPUT |
 | piff | DESCRIPTION | TYPE | INPUT | OUTPUT |
-
-
-| | CANONICAL | ANALYTICAL |
-|-----------|-----------|-----------|
-|INLET | `'Isn't this fun?'` | 'Isn't this fun?' |
-|ACTRAN |`"Isn't this fun?"` |"Isn't this fun?" |
-|MADIWHAX |`is em-dash` | is em-dash |
 
 
