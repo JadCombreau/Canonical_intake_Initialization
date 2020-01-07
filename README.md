@@ -16,6 +16,10 @@ First, we must check the structure of the XML input file by running the XSD spec
 
 In the case of this Workflow (Canonical Intake), we need to retrieve the values ​​for the number and the name of the configurations, the number of treatments, the frequencies as well as the name of the post-processing process. This list is not exhaustive.
 
+### Which files to import ?
+
+To execute the script "Check & Read XML" correctly, we need to import other Python libraries.
+
 | Import name | Import functions | Import location |
 | ------ | ------ | ------ |
 | XMLAnanax2dCanonicalIntake | FUNCTIONS NAMES | `/share/giseh_fr0_devel/ananax/v2020r1/RedHatEL-7/x86_64/src_wf/python/api/ductnoise/fannoise/ananax/ananax2d_canonical_intake` |
