@@ -23,9 +23,8 @@ Here is the Workflow structure by specification :
 
 | | CANONICAL | ANALYTICAL |
 |-----------|-----------|-----------|
-|INLET | `'Isn't this fun?'` | 'Isn't this fun?' |
-|ACTRAN |`"Isn't this fun?"` |"Isn't this fun?" |
-|MADIWHAX |`is em-dash` | is em-dash |
+|INTAKE | X | -- |
+|BYPASS | -- |-- |
 
 Here is the exact structure of the workflow through its different boxes or components :
 
