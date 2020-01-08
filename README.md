@@ -60,21 +60,21 @@ The table below lists all the variables to be created in Isight and their role :
 | Variable Name | Variable description | Value type | Input Value | Output Value |
 | ------ | :------------: | :------: | :------: |  :------: |
 | pathOfXML | DESCRIPTION | TYPE | INPUT | OUTPUT |
-| pathOfLogsFolder | DESCRIPTION | TYPE | INPUT | OUTPUT |
+| pathOfLogsFolder | DESCRIPTION | STRING | - | OUTPUT |
 | myLogger | DESCRIPTION | TYPE | INPUT | OUTPUT |
-| xsd | DESCRIPTION | TYPE | INPUT | OUTPUT |
-| linearFrequencies | DESCRIPTION | TYPE | INPUT | OUTPUT |
-| numberOfConfigurations | DESCRIPTION | TYPE | INPUT | OUTPUT |
-| namesOfConfigurations | DESCRIPTION | TYPE | INPUT | OUTPUT |
-| pathsOfUserFieldmeshes | DESCRIPTION | TYPE | INPUT | OUTPUT |
-| nbTreatments | DESCRIPTION | TYPE | INPUT | OUTPUT |
-| maxNodeMemory | DESCRIPTION | TYPE | INPUT | OUTPUT |
-| numberOfCoresByNode | DESCRIPTION | TYPE | INPUT | OUTPUT |
-| maxNumberOfProcesses | DESCRIPTION | TYPE | INPUT | OUTPUT |
-| memorySecurityCriteria | DESCRIPTION | TYPE | INPUT | OUTPUT |
-| namesOfPostprocessingProcesses | DESCRIPTION | TYPE | INPUT | OUTPUT |
+| xsd | DESCRIPTION | STRING | INPUT | OUTPUT |
+| linearFrequencies | DESCRIPTION | ARRAY DOUBLE | 0 | OUTPUT |
+| numberOfConfigurations | DESCRIPTION | INT | 0 | OUTPUT |
+| namesOfConfigurations | DESCRIPTION | ARRAY STRING | 0 | OUTPUT |
+| pathsOfUserFieldmeshes | DESCRIPTION | ARRAY STRING | 0 | OUTPUT |
+| nbTreatments | DESCRIPTION | INT | 0 | OUTPUT |
+| maxNodeMemory | DESCRIPTION | INT | 12 | OUTPUT |
+| numberOfCoresByNode | DESCRIPTION | INT | 8 | OUTPUT |
+| maxNumberOfProcesses | DESCRIPTION | INT | 0 | OUTPUT |
+| memorySecurityCriteria | DESCRIPTION | REAL | 0.0 | OUTPUT |
+| namesOfPostprocessingProcesses | DESCRIPTION | ARRAY STRING | 0 | OUTPUT |
 | N1k | DESCRIPTION | TYPE | INPUT | OUTPUT |
-| areAttenuationMatrices | DESCRIPTION | TYPE | INPUT | OUTPUT |
+| areAttenuationMatrices | DESCRIPTION | BOOL | INPUT | OUTPUT |
 | piff | DESCRIPTION | TYPE | INPUT | OUTPUT |
 
 
