@@ -59,6 +59,7 @@ The table below lists all the variables to be created in Isight and their role :
 
 | Variable Name | Variable description | Value type | Input Value | Output Value |
 | ------ | :------------: | :------: | :------: |  :------: |
+| pathOfPythonSrcFolder | DESCRIPTION | STRING | INPUT | OUTPUT |
 | pathOfXML | DESCRIPTION | TYPE | INPUT | OUTPUT |
 | pathOfLogsFolder | DESCRIPTION | STRING | - | OUTPUT |
 | myLogger | DESCRIPTION | TYPE | INPUT | OUTPUT |
