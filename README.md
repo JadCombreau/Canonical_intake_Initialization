@@ -97,7 +97,7 @@ __Mapped outputs variables to send to following boxes :__
 | areBaseline | DESCRIPTION | BOOL | - | X |
 | baselineConfigurationsIds | DESCRIPTION | INT | - | X |
 
-__Unmapped outputs variables :__
+__Unmapped outputs variables (which are not sent to the following boxes):__
 
 | Variable Name | Variable description | Type | Input | Output |
 | ------ | :------------: | :------: | :------: |  :------: |
