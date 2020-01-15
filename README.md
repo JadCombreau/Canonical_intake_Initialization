@@ -1,6 +1,11 @@
 # COMBREAU JAD - ANANAX CANONICAL INTAKE
 ## Markdown documentation file
 
+| | CANONICAL | ANALYTICAL |
+|-----------|:-----------:|:-----------:|
+|INTAKE | X | -- |
+|BYPASS | -- | -- |
+
 ## Ananax2d_Canonical_Intake Workflow over Isight
 
 ### Workflow type & role
@@ -25,13 +30,6 @@ __This Workflow therefore presents seven boxes :__
 - __Scout Computations :__ *blank calculation to determine the resources required (number of HPC nodes, amount of memory, etc.)*
 - __Acoustic Computations :__ *Actran or Madhiwax solver for the noise acoustic calculation in the air intake (to obtain frequencies)*
 - __Postprocessing :__ *allows the generation of the attenuation matrix (PIFF & PID calculus)*
-
-Here is the Workflow structure by specification :
-
-| | CANONICAL | ANALYTICAL |
-|-----------|:-----------:|:-----------:|
-|INTAKE | X | -- |
-|BYPASS | -- | -- |
 
 ## Check & Read XML
 
