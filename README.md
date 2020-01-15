@@ -79,6 +79,11 @@ __Inputs variables :__
 | nameOfComponent | DESCRIPTION | TYPE | X | - |
 | pathOfApplicationRootFolder | DESCRIPTION | STRING | X | - |
 | namesOfMetaComponent | DESCRIPTION | ARRAY STRING | X | - |
+
+__Outputs variables :__
+
+| Variable Name | Variable description | Value type | Input | Output |
+| ------ | :------------: | :------: | :------: |  :------: |
 | linearFrequencies | DESCRIPTION | ARRAY DOUBLE | - | X |
 | numberOfConfigurations | DESCRIPTION | INT | - | X |
 | pathOfLogsFolder | DESCRIPTION | TYPE | - | X |
@@ -95,11 +100,6 @@ __Inputs variables :__
 | areAttenuationMatrices | DESCRIPTION | BOOL | - | X |
 | areBaseline | DESCRIPTION | TYPE | - | X |
 | baselineConfigurationsIds | DESCRIPTION | TYPE | - | X |
-
-__Outputs variables :__
-
-| Variable Name | Variable description | Value type | Input | Output |
-| ------ | :------------: | :------: | :------: |  :------: |
 
 ### Which files do we receive from previous boxes ? 
 
