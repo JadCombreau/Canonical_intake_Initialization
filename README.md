@@ -70,42 +70,43 @@ The table below lists all the variables to be created in Isight and their role :
 
 __Mapped inputs variables to receive to previous boxes :__ 
 
-| Variable Name | Variable description | Value type | Input | Output |
+| Variable Name | Variable description | Type | Input | Output |
 | ------ | :------------: | :------: | :------: |  :------: |
-| XMLInput | DESCRIPTION | STRING | X |- |
-| pathOfPythonSrcFolder | DESCRIPTION | STRING | X |- |
-| pathOfJobFolder | DESCRIPTION | STRING | X | - |
-| nameOfLogsFolder | DESCRIPTION | STRING | X | - |
-| verbosity | DESCRIPTION | TYPE | X | - |
-| nameOfComponent | DESCRIPTION | TYPE | X | - |
-| pathOfApplicationRootFolder | DESCRIPTION | STRING | X | - |
-| namesOfMetaComponent | DESCRIPTION | ARRAY STRING | X | - |
+| XMLInput | Input XML which contain all data | FILE | X |- |
+| pathOfPythonSrcFolder | Python source folder wich contain all librairies | STRING | X |- |
+| pathOfJobFolder | Job folder to copy all results | STRING | X | - |
+| nameOfLogsFolder | Name of result logs folder - Usually LOGS | STRING | X | - |
+| verbosity | Verbosity schema value - Actually fine | STRING | X | - |
+| nameOfComponent | Name of result component folder - Usually checkSchema | STRING | X | - |
+| pathOfApplicationRootFolder | Root folder - Usually /x86_64 | STRING | X | - |
+| namesOfMetaComponent | Name of result meta component folder - Usually 00_Initialization | STRING | X | - |
 
 __Mapped outputs variables to send to following boxes :__
 
-| Variable Name | Variable description | Value type | Input | Output |
+| Variable Name | Variable description | Type | Input | Output |
 | ------ | :------------: | :------: | :------: |  :------: |
-| linearFrequencies | DESCRIPTION | ARRAY DOUBLE | - | X |
-| numberOfConfigurations | DESCRIPTION | INT | - | X |
-| pathOfLogsFolder | DESCRIPTION | TYPE | - | X |
+| linearFrequencies | All linear frequencies in the XML file | ARRAY DOUBLE | - | X |
+| numberOfConfigurations | Configuration number in the XML file | INT | - | X |
+| pathOfLogsFolder | Logs folder result repository | STRING | - | X |
 | pathsOfUserFieldmeshes | DESCRIPTION | ARRAY STRING | - | X |
-| maxNodeMemory | DESCRIPTION | INT | - | X |
-| numberOfCoresByNode | DESCRIPTION | INT | - | X |
-| maxNumberOfProcesses | DESCRIPTION | INT | - | X |
-| memorySecurityCriteria | DESCRIPTION | REAL | - | X |
+| maxNodeMemory | Max node memory available | INT | - | X |
+| numberOfCoresByNode | Number of core in each node memory | INT | - | X |
+| maxNumberOfProcesses | Maximum processes number | INT | - | X |
+| memorySecurityCriteria | Security criteria for memory | REAL | - | X |
 | namesOfPostprocessingProcesses | DESCRIPTION | ARRAY STRING | - | X |
-| areBaseline | DESCRIPTION | TYPE | - | X |
-| baselineConfigurationsIds | DESCRIPTION | TYPE | - | X |
+| areBaseline | DESCRIPTION | BOOL | - | X |
+| baselineConfigurationsIds | DESCRIPTION | INT | - | X |
 
 __Unmapped outputs variables :__
 
-| Variable Name | Variable description | Value type | Input | Output |
+| Variable Name | Variable description | Type | Input | Output |
 | ------ | :------------: | :------: | :------: |  :------: |
 | nbTreatments | DESCRIPTION | INT | - | X |
-| angles | DESCRIPTION | ARRAY DOUBLE | - | X |
-| isEnginerating | DESCRIPTION | TYPE | - | X |
-| enginerating | DESCRIPTION | TYPE | - | X |
-| areAttenuationMatrices | DESCRIPTION | BOOL | - | X |
+| angles | Array microphones angles - Usually each 5° | ARRAY DOUBLE | - | X |
+| isEnginerating | DESCRIPTION | BOOL | - | X |
+| enginerating | DESCRIPTION | DOUBLE | - | X |
+| areAttenuationMatrices | In intake flow, we want attenuation matrice | BOOL | - | X |
+
 ### Which files do we receive from previous boxes ? 
 
 ### And which files do we send to following boxes ?
