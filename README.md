@@ -32,7 +32,8 @@ Here is the Workflow structure by specification :
 Here is the exact structure of the workflow through its different boxes or components :
 
 
-![Initialization](https://user-images.githubusercontent.com/45098441/72421960-c8f48b80-3781-11ea-9073-ac1cdbf4e9c8.jpeg)
+![Initialization components](https://user-images.githubusercontent.com/45098441/72422332-88e1d880-3782-11ea-9f99-39a2ec1a7396.jpeg)
+
 
 
 ## Check & Read XML
