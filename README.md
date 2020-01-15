@@ -17,8 +17,8 @@ The air inlet duct is therefore assumed to be more or less uniform. We do not ca
 __This Workflow therefore presents seven boxes :__
 
 ![Exemple workflow](https://user-images.githubusercontent.com/45098441/72423329-5a64fd00-3784-11ea-81c9-93b43f4a6cd7.jpeg)
-
 ----------------------------
+
 
 - __Initialization :__ *allows among other things the creation of initialization variables, environment variables or even the test of the structure and the reading of the input file (XML)*
 - __Acoustic Meshes :__ *allows the generation and the creation of an uniform mesh (canonical case)*
