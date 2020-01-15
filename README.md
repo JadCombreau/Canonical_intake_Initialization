@@ -68,7 +68,7 @@ The table below lists all the imports to be made :
 
 The table below lists all the variables to be created in Isight and their role :
 
-__Inputs variables to receive to previous boxes :__ 
+__Mapped inputs variables to receive to previous boxes :__ 
 
 | Variable Name | Variable description | Value type | Input | Output |
 | ------ | :------------: | :------: | :------: |  :------: |
@@ -81,7 +81,7 @@ __Inputs variables to receive to previous boxes :__
 | pathOfApplicationRootFolder | DESCRIPTION | STRING | X | - |
 | namesOfMetaComponent | DESCRIPTION | ARRAY STRING | X | - |
 
-__Outputs variables :__
+__Mapped outputs variables to send to following boxes :__
 
 | Variable Name | Variable description | Value type | Input | Output |
 | ------ | :------------: | :------: | :------: |  :------: |
@@ -89,19 +89,23 @@ __Outputs variables :__
 | numberOfConfigurations | DESCRIPTION | INT | - | X |
 | pathOfLogsFolder | DESCRIPTION | TYPE | - | X |
 | pathsOfUserFieldmeshes | DESCRIPTION | ARRAY STRING | - | X |
-| nbTreatments | DESCRIPTION | INT | - | X |
-| angles | DESCRIPTION | ARRAY DOUBLE | - | X |
 | maxNodeMemory | DESCRIPTION | INT | - | X |
 | numberOfCoresByNode | DESCRIPTION | INT | - | X |
 | maxNumberOfProcesses | DESCRIPTION | INT | - | X |
 | memorySecurityCriteria | DESCRIPTION | REAL | - | X |
 | namesOfPostprocessingProcesses | DESCRIPTION | ARRAY STRING | - | X |
-| isEnginerating | DESCRIPTION | TYPE | - | X |
-| enginerating | DESCRIPTION | TYPE | - | X |
-| areAttenuationMatrices | DESCRIPTION | BOOL | - | X |
 | areBaseline | DESCRIPTION | TYPE | - | X |
 | baselineConfigurationsIds | DESCRIPTION | TYPE | - | X |
 
+__Unmapped outputs variables :__
+
+| Variable Name | Variable description | Value type | Input | Output |
+| ------ | :------------: | :------: | :------: |  :------: |
+| nbTreatments | DESCRIPTION | INT | - | X |
+| angles | DESCRIPTION | ARRAY DOUBLE | - | X |
+| isEnginerating | DESCRIPTION | TYPE | - | X |
+| enginerating | DESCRIPTION | TYPE | - | X |
+| areAttenuationMatrices | DESCRIPTION | BOOL | - | X |
 ### Which files do we receive from previous boxes ? 
 
 ### And which files do we send to following boxes ?
