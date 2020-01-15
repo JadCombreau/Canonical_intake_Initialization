@@ -16,8 +16,6 @@ The air inlet duct is therefore assumed to be more or less uniform. We do not ca
 
 __This Workflow therefore presents seven boxes :__
 
-----------------------------
-
 ![Exemple workflow](https://user-images.githubusercontent.com/45098441/72423329-5a64fd00-3784-11ea-81c9-93b43f4a6cd7.jpeg)
 
 ----------------------------
@@ -41,8 +39,6 @@ First, we must check the structure of the XML input file by running the XSD spec
 In the case of this Workflow (Canonical Intake), we need to retrieve the values for the number and the name of the configurations, the number of treatments, the frequencies as well as the name of the post-processing process. This list is not exhaustive.
 
 __Check & Read XML__ box is preceded by the __Create Folders__ box, which consist in the repository creation (contained in the *namesOfFolder* agregate) and followed by the __Get Mesh & Models Frequencies__ box which consist in the recovery of the linear frequencies and the mesh frequencies (this is just linear frequencied to which we applied a step)
-
-----------------------------
 
 ![Initialization components](https://user-images.githubusercontent.com/45098441/72422704-36ed8280-3783-11ea-9d05-2fd0d949db32.jpeg)
 
