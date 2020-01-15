@@ -71,23 +71,29 @@ The table below lists all the variables to be created in Isight and their role :
 | Variable Name | Variable description | Value type | Input Value | Output Value |
 | ------ | :------------: | :------: | :------: |  :------: |
 | pathOfPythonSrcFolder | DESCRIPTION | STRING | INPUT | OUTPUT |
-| pathOfXML | DESCRIPTION | TYPE | INPUT | OUTPUT |
-| pathOfLogsFolder | DESCRIPTION | STRING | - | OUTPUT |
-| myLogger | DESCRIPTION | TYPE | INPUT | OUTPUT |
-| xsd | DESCRIPTION | STRING | INPUT | OUTPUT |
+| pathOfJobFolder | DESCRIPTION | STRING | - | OUTPUT |
+| nameOfLogsFolder | DESCRIPTION | STRING | - | OUTPUT |
+| pathOfMetaComponent | DESCRIPTION | STRING | - | OUTPUT |
+| logger.verbosity | DESCRIPTION | TYPE | INPUT | OUTPUT |
+| pathOfLogsFolder | DESCRIPTION | TYPE | INPUT | OUTPUT |
+| logger.nameOfComponent | DESCRIPTION | TYPE | INPUT | OUTPUT |
+| pathOfApplicationRootFolder | DESCRIPTION | STRING | INPUT | OUTPUT |
 | linearFrequencies | DESCRIPTION | ARRAY DOUBLE | 0 | OUTPUT |
 | numberOfConfigurations | DESCRIPTION | INT | 0 | OUTPUT |
 | namesOfConfigurations | DESCRIPTION | ARRAY STRING | 0 | OUTPUT |
 | pathsOfUserFieldmeshes | DESCRIPTION | ARRAY STRING | 0 | OUTPUT |
 | nbTreatments | DESCRIPTION | INT | 0 | OUTPUT |
+| angles | DESCRIPTION | ARRAY DOUBLE | 0 | OUTPUT |
 | maxNodeMemory | DESCRIPTION | INT | 12 | OUTPUT |
 | numberOfCoresByNode | DESCRIPTION | INT | 8 | OUTPUT |
 | maxNumberOfProcesses | DESCRIPTION | INT | 0 | OUTPUT |
 | memorySecurityCriteria | DESCRIPTION | REAL | 0.0 | OUTPUT |
 | namesOfPostprocessingProcesses | DESCRIPTION | ARRAY STRING | 0 | OUTPUT |
-| N1k | DESCRIPTION | TYPE | INPUT | OUTPUT |
+| isEnginerating | DESCRIPTION | TYPE | INPUT | OUTPUT |
+| enginerating | DESCRIPTION | TYPE | INPUT | OUTPUT |
 | areAttenuationMatrices | DESCRIPTION | BOOL | INPUT | OUTPUT |
-| piff | DESCRIPTION | TYPE | INPUT | OUTPUT |
+| areBaseline | DESCRIPTION | TYPE | INPUT | OUTPUT |
+| baselineConfigurationsIds | DESCRIPTION | TYPE | INPUT | OUTPUT |
 
 ### Which files do we receive from previous boxes ? 
 
