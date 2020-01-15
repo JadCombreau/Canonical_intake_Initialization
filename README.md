@@ -53,8 +53,10 @@ __Check & Read XML__ box is preceded by the __Create Folders__ box, which consis
 
 ### Which files to import ?
 
-To execute the script "Check & Read XML" correctly, we need to import other Python libraries.
+To execute the script __Check & Read XML__ correctly, we need to import Python libraries.
 The table below lists all the imports to be made :
+
+-------------
 
 | Import name | Import location |
 | ------ | ------ |
