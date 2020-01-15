@@ -58,11 +58,11 @@ The table below lists all the imports to be made :
 
 | Import name | Import location |
 | ------ | ------ |
-| XMLAnanax2dCanonicalIntake | `/src_wf/python/api/ductnoise/fannoise/ananax/ananax2d_canonical_intake` |
-| Logger | `/src_wf/python/workflows/common` |
-| CommonFunctions | `/src_wf/python/workflows/common` |
-| PiffPostprocessing | `/src_wf/python/workflows/ductnoise/common/postprocessing` |
-| PiffPostprocessingAnanax2dCanonicalIntake | `/src_wf/python/workflows/ductnoise/fannoise/ananax/ananax2d_canonical_intake` |
+| XMLAnanax2dCanonicalIntake | `/python/api/ductnoise/fannoise/ananax/ananax2d_canonical_intake` |
+| Logger | `/python/workflows/common` |
+| CommonFunctions | `/python/workflows/common` |
+| PiffPostprocessing | `/python/workflows/ductnoise/common/postprocessing` |
+| PiffPostprocessingAnanax2dCanonicalIntake | `/python/workflows/ductnoise/fannoise/ananax/ananax2d_canonical_intake` |
 
 ### What about variables ?
 
