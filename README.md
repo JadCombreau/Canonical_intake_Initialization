@@ -29,8 +29,7 @@ Here is the Workflow structure by specification :
 |INTAKE | X | -- |
 |BYPASS | -- | -- |
 
-Here is the exact structure of the workflow through its different boxes or components :
-
+__Check & Read XML__ box is preceded by the __Create Folders__ box, which consist in the repository creation (contained in the *namesOfFolder* agregate) and followed by the __Get Mesh & Models Frequencies__ box which consist in the recovery of the linear frequencies and the mesh frequencies (this is just linear frequencied to which we applied a step)
 
 ![Initialization components](https://user-images.githubusercontent.com/45098441/72422704-36ed8280-3783-11ea-9d05-2fd0d949db32.jpeg)
 
