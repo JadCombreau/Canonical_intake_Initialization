@@ -62,7 +62,7 @@ The table below lists all the imports to be made :
 | Logger | `/python/workflows/common` |
 | CommonFunctions | `/python/workflows/common` |
 | PiffPostprocessing | `/python/workflows/ductnoise/common/postprocessing` |
-| PiffPostprocessingAnanax2dCanonicalIntake | `/python/workflows/ductnoise/fannoise/ananax/ananax2d_canonical_intake` |
+| PiffPostprocessingAnanax2dCanonicalIntake | /python/workflows/ductnoise/fannoise/ananax/ananax2d_canonical_intake |
 
 ### What about variables ?
 
