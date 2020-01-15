@@ -56,13 +56,13 @@ __Check & Read XML__ box is preceded by the __Create Folders__ box, which consis
 To execute the script "Check & Read XML" correctly, we need to import other Python libraries.
 The table below lists all the imports to be made :
 
-| Import name | Import functions | Import location |
-| ------ | :------: | ------ |
-| XMLAnanax2dCanonicalIntake | FUNCTIONS NAMES | `/src_wf/python/api/ductnoise/fannoise/ananax/ananax2d_canonical_intake` |
-| Logger | FUNCTIONS NAMES | `/src_wf/python/workflows/common` |
-| CommonFunctions | FUNCTIONS NAMES | `/src_wf/python/workflows/common` |
-| PiffPostprocessing | FUNCTIONS NAMES | `/src_wf/python/workflows/ductnoise/common/postprocessing` |
-| PiffPostprocessingAnanax2dCanonicalIntake | FUNCTIONS NAMES | `/src_wf/python/workflows/ductnoise/fannoise/ananax/ananax2d_canonical_intake` |
+| Import name | Import location |
+| ------ | ------ |
+| XMLAnanax2dCanonicalIntake | `/src_wf/python/api/ductnoise/fannoise/ananax/ananax2d_canonical_intake` |
+| Logger | `/src_wf/python/workflows/common` |
+| CommonFunctions | `/src_wf/python/workflows/common` |
+| PiffPostprocessing | `/src_wf/python/workflows/ductnoise/common/postprocessing` |
+| PiffPostprocessingAnanax2dCanonicalIntake | `/src_wf/python/workflows/ductnoise/fannoise/ananax/ananax2d_canonical_intake` |
 
 ### What about variables ?
 
