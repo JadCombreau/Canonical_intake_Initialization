@@ -1,12 +1,11 @@
 # COMBREAU JAD - ANANAX CANONICAL INTAKE
 ## Markdown documentation file
+## Ananax2d_Canonical_Intake Workflow over Isight
 
 | | CANONICAL | ANALYTICAL |
 |-----------|:-----------:|:-----------:|
 |INTAKE | X | -- |
 |BYPASS | -- | -- |
-
-## Ananax2d_Canonical_Intake Workflow over Isight
 
 ### Workflow type & role
 
