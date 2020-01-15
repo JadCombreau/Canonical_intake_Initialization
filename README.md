@@ -11,13 +11,13 @@ It intervenes in the canonical case of air intake, that is to say that unlike th
 The air inlet duct is therefore assumed to be more or less uniform. We do not calculate a flow, since it is supposed to be uniform. There is no weighted average to be used for computation in various nodes of mesh.
 
 This Workflow therefore presents seven boxes:
-- __Initialization :__ allows among other things the creation of initialization variables, environment variables or even the test of the structure and the reading of the input file (XML)
-- __Acoustic Meshes :__ allows the generation and the creation of an uniform mesh (canonical case)
-- __Acoustic Models :__ input file, thermodynamic file etc.
-- __Cutoff Computations :__ source representation (modal base)
-- __Scout Computations :__ blank calculation to determine the resources required (number of HPC nodes, amount of memory, etc.)
-- __Acoustic Computations :__ Actran or Madhiwax solver for the noise acoustic calculation in the air intake (to obtain frequencies)
-- __Postprocessing :__ allows the generation of the attenuation matrix (PIFF & PID calculus)
+- __Initialization :__ *allows among other things the creation of initialization variables, environment variables or even the test of the structure and the reading of the input file (XML)
+- __Acoustic Meshes :__ *allows the generation and the creation of an uniform mesh (canonical case)
+- __Acoustic Models :__ *input file, thermodynamic file etc.
+- __Cutoff Computations :__ *source representation (modal base)
+- __Scout Computations :__ *blank calculation to determine the resources required (number of HPC nodes, amount of memory, etc.)
+- __Acoustic Computations :__ *Actran or Madhiwax solver for the noise acoustic calculation in the air intake (to obtain frequencies)
+- __Postprocessing :__ *allows the generation of the attenuation matrix (PIFF & PID calculus)
 
 Here is the Workflow structure by specification :
 
