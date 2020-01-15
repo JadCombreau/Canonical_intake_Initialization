@@ -68,18 +68,20 @@ The table below lists all the imports to be made :
 
 The table below lists all the variables to be created in Isight and their role :
 
+__Inputs variables :__ 
+
 | Variable Name | Variable description | Value type | Input | Output |
 | ------ | :------------: | :------: | :------: |  :------: |
 | pathOfPythonSrcFolder | DESCRIPTION | STRING | X |- |
 | pathOfJobFolder | DESCRIPTION | STRING | X | - |
 | nameOfLogsFolder | DESCRIPTION | STRING | X | - |
 | verbosity | DESCRIPTION | TYPE | X | - |
-| pathOfLogsFolder | DESCRIPTION | TYPE | - | X |
 | nameOfComponent | DESCRIPTION | TYPE | X | - |
 | pathOfApplicationRootFolder | DESCRIPTION | STRING | X | - |
+| namesOfMetaComponent | DESCRIPTION | ARRAY STRING | X | - |
 | linearFrequencies | DESCRIPTION | ARRAY DOUBLE | - | X |
 | numberOfConfigurations | DESCRIPTION | INT | - | X |
-| namesOfMetaComponent | DESCRIPTION | ARRAY STRING | X | - |
+| pathOfLogsFolder | DESCRIPTION | TYPE | - | X |
 | pathsOfUserFieldmeshes | DESCRIPTION | ARRAY STRING | - | X |
 | nbTreatments | DESCRIPTION | INT | - | X |
 | angles | DESCRIPTION | ARRAY DOUBLE | - | X |
@@ -93,6 +95,11 @@ The table below lists all the variables to be created in Isight and their role :
 | areAttenuationMatrices | DESCRIPTION | BOOL | - | X |
 | areBaseline | DESCRIPTION | TYPE | - | X |
 | baselineConfigurationsIds | DESCRIPTION | TYPE | - | X |
+
+__Outputs variables :__
+
+| Variable Name | Variable description | Value type | Input | Output |
+| ------ | :------------: | :------: | :------: |  :------: |
 
 ### Which files do we receive from previous boxes ? 
 
