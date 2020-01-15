@@ -74,6 +74,7 @@ __Mapped inputs variables to receive to previous boxes :__
 | pathOfApplicationRootFolder | Root folder - Usually /x86_64 | STRING | X | - |
 | namesOfMetaComponent | Name of result meta component folder - Usually 00_Initialization | STRING | X | - |
 
+
 __Mapped outputs variables to send to following boxes :__
 
 | Variable Name | Variable description | Type | Input | Output |
@@ -90,6 +91,7 @@ __Mapped outputs variables to send to following boxes :__
 | areBaseline | DESCRIPTION | BOOL | - | X |
 | baselineConfigurationsIds | DESCRIPTION | INT | - | X |
 
+
 __Unmapped outputs variables (which are not sent to the following boxes) :__
 
 | Variable Name | Variable description | Type | Input | Output |
@@ -99,9 +101,4 @@ __Unmapped outputs variables (which are not sent to the following boxes) :__
 | isEnginerating | DESCRIPTION | BOOL | - | X |
 | enginerating | DESCRIPTION | DOUBLE | - | X |
 | areAttenuationMatrices | In intake flow, we want attenuation matrice | BOOL | - | X |
-
-### Which files do we receive from previous boxes ? 
-
-### And which files do we send to following boxes ?
-
 
