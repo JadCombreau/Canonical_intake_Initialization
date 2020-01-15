@@ -68,10 +68,11 @@ The table below lists all the imports to be made :
 
 The table below lists all the variables to be created in Isight and their role :
 
-__Inputs variables :__ 
+__Inputs variables to receive to previous boxes :__ 
 
 | Variable Name | Variable description | Value type | Input | Output |
 | ------ | :------------: | :------: | :------: |  :------: |
+| XMLInput | DESCRIPTION | STRING | X |- |
 | pathOfPythonSrcFolder | DESCRIPTION | STRING | X |- |
 | pathOfJobFolder | DESCRIPTION | STRING | X | - |
 | nameOfLogsFolder | DESCRIPTION | STRING | X | - |
