@@ -29,19 +29,19 @@ Here is the Workflow structure by specification :
 |INTAKE | X | -- |
 |BYPASS | -- | -- |
 
-__Check & Read XML__ box is preceded by the __Create Folders__ box, which consist in the repository creation (contained in the *namesOfFolder* agregate) and followed by the __Get Mesh & Models Frequencies__ box which consist in the recovery of the linear frequencies and the mesh frequencies (this is just linear frequencied to which we applied a step)
-
-![Initialization components](https://user-images.githubusercontent.com/45098441/72422704-36ed8280-3783-11ea-9d05-2fd0d949db32.jpeg)
-
 ## Check & Read XML
 
-### Explanation of what the box does
+### What the box does ?
 
 This part of the "Check & Read XML" Workflow is for, but, as its name suggests, to verify and read the input XML file of the Workflow. We must therefore retrieve the values that interest us.
 
 First, we must check the structure of the XML input file by running the XSD specific to this type of XML and in the specific case of this Workflow. We will therefore have to indicate the path to the XSD file.
 
-In the case of this Workflow (Canonical Intake), we need to retrieve the values ​​for the number and the name of the configurations, the number of treatments, the frequencies as well as the name of the post-processing process. This list is not exhaustive.
+In the case of this Workflow (Canonical Intake), we need to retrieve the values for the number and the name of the configurations, the number of treatments, the frequencies as well as the name of the post-processing process. This list is not exhaustive.
+
+__Check & Read XML__ box is preceded by the __Create Folders__ box, which consist in the repository creation (contained in the *namesOfFolder* agregate) and followed by the __Get Mesh & Models Frequencies__ box which consist in the recovery of the linear frequencies and the mesh frequencies (this is just linear frequencied to which we applied a step)
+
+![Initialization components](https://user-images.githubusercontent.com/45098441/72422704-36ed8280-3783-11ea-9d05-2fd0d949db32.jpeg)
 
 ### Which files to import ?
 
@@ -80,5 +80,9 @@ The table below lists all the variables to be created in Isight and their role :
 | N1k | DESCRIPTION | TYPE | INPUT | OUTPUT |
 | areAttenuationMatrices | DESCRIPTION | BOOL | INPUT | OUTPUT |
 | piff | DESCRIPTION | TYPE | INPUT | OUTPUT |
+
+### Which files do we receive from previous boxes ? 
+
+### And which files do we send to following boxes ?
 
 
