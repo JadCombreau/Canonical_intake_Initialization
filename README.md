@@ -12,6 +12,8 @@ The air inlet duct is therefore assumed to be more or less uniform. We do not ca
 
 __This Workflow therefore presents seven boxes :__
 
+![Exemple workflow](https://user-images.githubusercontent.com/45098441/72247568-6e2e2900-35f5-11ea-850a-23eac41aa2e9.jpeg)
+
 - __Initialization :__ *allows among other things the creation of initialization variables, environment variables or even the test of the structure and the reading of the input file (XML)*
 - __Acoustic Meshes :__ *allows the generation and the creation of an uniform mesh (canonical case)*
 - __Acoustic Models :__ *input file, thermodynamic file etc.*
@@ -29,7 +31,6 @@ Here is the Workflow structure by specification :
 
 Here is the exact structure of the workflow through its different boxes or components :
 
-![Exemple workflow](https://user-images.githubusercontent.com/45098441/72247568-6e2e2900-35f5-11ea-850a-23eac41aa2e9.jpeg)
 
 ![Initialization workflow](https://user-images.githubusercontent.com/45098441/72248105-a5e9a080-35f6-11ea-850c-05bc6fa3f0a3.jpeg)
 
