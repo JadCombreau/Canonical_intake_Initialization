@@ -11,8 +11,8 @@ It intervenes in the canonical case of air intake, that is to say that unlike th
 The air inlet duct is therefore assumed to be more or less uniform. We do not calculate a flow, since it is supposed to be uniform. There is no weighted average to be used for computation in various nodes of mesh.
 
 This Workflow therefore presents seven boxes:
-- Initialization: allows among other things the creation of initialization variables, environment variables or even the test of the structure and the reading of the input file (XML)
-- Acoustic Meshes: allows the generation and the creation of an uniform mesh (canonical case)
+- *Initialization:* allows among other things the creation of initialization variables, environment variables or even the test of the structure and the reading of the input file (XML)
+- *Acoustic Meshes:* allows the generation and the creation of an uniform mesh (canonical case)
 - Acoustic Models: input file, thermodynamic file etc.
 - Cutoff Computations: source representation (modal base)
 - Scout Computations: blank calculation to determine the resources required (number of HPC nodes, amount of memory, etc.)
