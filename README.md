@@ -12,12 +12,12 @@ The air inlet duct is therefore assumed to be more or less uniform. We do not ca
 
 This Workflow therefore presents seven boxes:
 - Initialization: allows among other things the creation of initialization variables, environment variables or even the test of the structure and the reading of the input file (XML)
-- Acoustic Meshes: allows the generation of a uniform mesh. It is not the user who takes care of this because the mesh is supposed to be uniform (canonical case)
-- Acoustic Models:
-- Cutoff Computations: determines the resources required (different from Scout Computations)
-- Scout Computations: go blank to determine the resources required (number of HPC nodes, amount of memory, etc.)
-- Acoustic Computations: call of the Actran solver for the acoustic calculation of the noise of the air intake
-- Postprocessing: allows the generation of the attenuation matrix, we add up the noise differences obtained on the different microphones (OASPL)
+- Acoustic Meshes: allows the generation and the creation of an uniform mesh (canonical case)
+- Acoustic Models: input file, thermodynamic file etc.
+- Cutoff Computations: source representation (modal base)
+- Scout Computations: blank calculation to determine the resources required (number of HPC nodes, amount of memory, etc.)
+- Acoustic Computations: Actran or Madhiwax solver for the noise acoustic calculation in the air intake (to obtain frequencies)
+- Postprocessing: allows the generation of the attenuation matrix (PIFF & PID calculus)
 
 Here is the Workflow structure by specification :
 
