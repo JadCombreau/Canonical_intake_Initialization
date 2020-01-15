@@ -56,8 +56,6 @@ __Check & Read XML__ box is preceded by the __Create Folders__ box, which consis
 To execute the script __Check & Read XML__ correctly, we need to import Python libraries.
 The table below lists all the imports to be made :
 
--------------
-
 | Import name | Import location |
 | ------ | ------ |
 | XMLAnanax2dCanonicalIntake | `/python/api/ductnoise/fannoise/ananax/ananax2d_canonical_intake` |
@@ -70,32 +68,31 @@ The table below lists all the imports to be made :
 
 The table below lists all the variables to be created in Isight and their role :
 
-| Variable Name | Variable description | Value type | Input Value | Output Value |
+| Variable Name | Variable description | Value type | Input | Output |
 | ------ | :------------: | :------: | :------: |  :------: |
-| pathOfPythonSrcFolder | DESCRIPTION | STRING | INPUT | OUTPUT |
-| pathOfJobFolder | DESCRIPTION | STRING | - | OUTPUT |
-| nameOfLogsFolder | DESCRIPTION | STRING | - | OUTPUT |
-| pathOfMetaComponent | DESCRIPTION | STRING | - | OUTPUT |
-| logger.verbosity | DESCRIPTION | TYPE | INPUT | OUTPUT |
-| pathOfLogsFolder | DESCRIPTION | TYPE | INPUT | OUTPUT |
-| logger.nameOfComponent | DESCRIPTION | TYPE | INPUT | OUTPUT |
-| pathOfApplicationRootFolder | DESCRIPTION | STRING | INPUT | OUTPUT |
-| linearFrequencies | DESCRIPTION | ARRAY DOUBLE | 0 | OUTPUT |
-| numberOfConfigurations | DESCRIPTION | INT | 0 | OUTPUT |
-| namesOfConfigurations | DESCRIPTION | ARRAY STRING | 0 | OUTPUT |
-| pathsOfUserFieldmeshes | DESCRIPTION | ARRAY STRING | 0 | OUTPUT |
-| nbTreatments | DESCRIPTION | INT | 0 | OUTPUT |
-| angles | DESCRIPTION | ARRAY DOUBLE | 0 | OUTPUT |
-| maxNodeMemory | DESCRIPTION | INT | 12 | OUTPUT |
-| numberOfCoresByNode | DESCRIPTION | INT | 8 | OUTPUT |
-| maxNumberOfProcesses | DESCRIPTION | INT | 0 | OUTPUT |
-| memorySecurityCriteria | DESCRIPTION | REAL | 0.0 | OUTPUT |
-| namesOfPostprocessingProcesses | DESCRIPTION | ARRAY STRING | 0 | OUTPUT |
-| isEnginerating | DESCRIPTION | TYPE | INPUT | OUTPUT |
-| enginerating | DESCRIPTION | TYPE | INPUT | OUTPUT |
-| areAttenuationMatrices | DESCRIPTION | BOOL | INPUT | OUTPUT |
-| areBaseline | DESCRIPTION | TYPE | INPUT | OUTPUT |
-| baselineConfigurationsIds | DESCRIPTION | TYPE | INPUT | OUTPUT |
+| pathOfPythonSrcFolder | DESCRIPTION | STRING | X |- |
+| pathOfJobFolder | DESCRIPTION | STRING | X | - |
+| nameOfLogsFolder | DESCRIPTION | STRING | X | - |
+| verbosity | DESCRIPTION | TYPE | X | - |
+| pathOfLogsFolder | DESCRIPTION | TYPE | - | X |
+| nameOfComponent | DESCRIPTION | TYPE | X | - |
+| pathOfApplicationRootFolder | DESCRIPTION | STRING | X | - |
+| linearFrequencies | DESCRIPTION | ARRAY DOUBLE | - | X |
+| numberOfConfigurations | DESCRIPTION | INT | - | X |
+| namesOfMetaComponent | DESCRIPTION | ARRAY STRING | X | - |
+| pathsOfUserFieldmeshes | DESCRIPTION | ARRAY STRING | - | X |
+| nbTreatments | DESCRIPTION | INT | - | X |
+| angles | DESCRIPTION | ARRAY DOUBLE | - | X |
+| maxNodeMemory | DESCRIPTION | INT | - | X |
+| numberOfCoresByNode | DESCRIPTION | INT | - | X |
+| maxNumberOfProcesses | DESCRIPTION | INT | - | X |
+| memorySecurityCriteria | DESCRIPTION | REAL | - | X |
+| namesOfPostprocessingProcesses | DESCRIPTION | ARRAY STRING | - | X |
+| isEnginerating | DESCRIPTION | TYPE | - | X |
+| enginerating | DESCRIPTION | TYPE | - | X |
+| areAttenuationMatrices | DESCRIPTION | BOOL | - | X |
+| areBaseline | DESCRIPTION | TYPE | - | X |
+| baselineConfigurationsIds | DESCRIPTION | TYPE | - | X |
 
 ### Which files do we receive from previous boxes ? 
 
