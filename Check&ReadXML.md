@@ -29,7 +29,9 @@ __This Workflow therefore presents seven boxes :__
 - __Postprocessing :__ *allows the generation of the attenuation matrix (PIFF & PID calculus)*
 
 ## Check & Read XML
+### Script Language
 
+All the __Check & Read XML__ is written in Python language.
 ### What the box does ?
 
 This part of the "Check & Read XML" Workflow is for, but, as its name suggests, to verify and read the input XML file of the Workflow. We must therefore retrieve the values that interest us.
