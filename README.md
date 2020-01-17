@@ -73,6 +73,7 @@ __Mapped inputs variables to receive to previous boxes :__
 | nameOfComponent | Name of result component folder - Usually checkSchema | STRING | X | - |
 | pathOfApplicationRootFolder | Root folder - Usually /x86_64 | STRING | X | - |
 | namesOfMetaComponent | Name of result meta component folder - Usually 00_Initialization | STRING | X | - |
+| MachToleranceDichotomy | DESCRIPTION | REAL | X | - |
 
 
 __Mapped outputs variables to send to following boxes :__
@@ -90,6 +91,13 @@ __Mapped outputs variables to send to following boxes :__
 | namesOfPostprocessingProcesses | DESCRIPTION | ARRAY STRING | - | X |
 | areBaseline | DESCRIPTION | BOOL | - | X |
 | baselineConfigurationsIds | DESCRIPTION | INT | - | X |
+| machAtFan | DESCRIPTION | REAL | - | X |
+| velocityAtFan | DESCRIPTION | REAL | - | X |
+| staticCelerityAtFan | DESCRIPTION | REAL | - | X |
+| staticFluidDensityAtFan | DESCRIPTION | REAL | - | X |
+| Cp | DESCRIPTION | REAL | - | X |
+| Cv | DESCRIPTION | REAL | - | X |
+
 
 
 __Unmapped outputs variables (which are not sent to the following boxes) :__
