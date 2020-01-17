@@ -29,6 +29,9 @@ __This Workflow therefore presents seven boxes :__
 - __Postprocessing :__ *allows the generation of the attenuation matrix (PIFF & PID calculus)*
 
 ## Create Folders
+### Script Language
+
+All the __Create Folders__ box is written in Shell UNIX language.
 ### What the box does ?
 
 This part of the "Check & Read XML" Workflow is for, but, as its name suggests, to verify and read the input XML file of the Workflow. We must therefore retrieve the values that interest us.
