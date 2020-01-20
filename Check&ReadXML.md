@@ -40,11 +40,11 @@ __Mapped inputs variables to receive to previous boxes :__
 | XMLInput | Input XML which contain all data | FILE | X |- |
 | pathOfPythonSrcFolder | Python source folder wich contain all librairies | STRING | X |- |
 | pathOfJobFolder | Job folder to copy all results | STRING | X | - |
-| nameOfLogsFolder | Name of result logs folder - Usually LOGS | STRING | X | - |
+| nameOfLogsFolder | Name of result logs folder - Usually "LOGS" | STRING | X | - |
 | verbosity | Verbosity schema value - Actually fine | STRING | X | - |
-| nameOfComponent | Name of result component folder - Usually checkSchema | STRING | X | - |
-| pathOfApplicationRootFolder | Root folder - Usually /x86_64 | STRING | X | - |
-| namesOfMetaComponent | Name of result meta component folder - Usually 00_Initialization | STRING | X | - |
+| nameOfComponent | Name of result component folder - Usually "checkSchema" | STRING | X | - |
+| pathOfApplicationRootFolder | Root folder - Usually "x86_64" | STRING | X | - |
+| namesOfMetaComponent | Name of result meta component folder - Usually "00_Initialization" | STRING | X | - |
 | MachToleranceDichotomy | DESCRIPTION | REAL | X | - |
 
 
