@@ -19,8 +19,8 @@ __Mapped inputs variables to receive to previous boxes :__
 
 | Variable Name | Variable description | Type | Input | Output |
 | ------ | :------------: | :------: | :------: |  :------: |
-| nameOfAcousticMeshesFolder | Acoustic Meshes Folder - Usually ACOUSMESH | STRING | X |- |
-| nameOfInputsFolder | Input folder - Usually INPUTS | STRING | X |- |
+| nameOfAcousticMeshesFolder | Acoustic Meshes Folder - Usually "ACOUSMESH" | STRING | X |- |
+| nameOfInputsFolder | Input folder - Usually "INPUTS" | STRING | X |- |
 | nameOfLinearAcousticModelsFolder | Acoustic Models Folder - Usually LINEAR/MODELS | STRING | X | - |
 | nameOfLogsFolder | Logs Folder - Usually LOGS | STRING | X | - |
 | nameOfLinearComputationsFolder | Linear Computations Folder - Usually LINEAR/COMPUTATIONS | STRING | X | - |
