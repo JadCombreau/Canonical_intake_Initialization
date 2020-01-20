@@ -37,15 +37,16 @@ __Mapped inputs variables to receive to previous boxes :__
 
 | Variable Name | Variable description | Type | Input | Output |
 | ------ | :------------: | :------: | :------: |  :------: |
-| XMLInput | Input XML which contain all data | FILE | X |- |
-| pathOfPythonSrcFolder | Python source folder wich contain all librairies | STRING | X |- |
-| pathOfJobFolder | Job folder to copy all results | STRING | X | - |
-| nameOfLogsFolder | Name of result logs folder - Usually LOGS | STRING | X | - |
-| verbosity | Verbosity schema value - Actually fine | STRING | X | - |
-| nameOfComponent | Name of result component folder - Usually checkSchema | STRING | X | - |
-| pathOfApplicationRootFolder | Root folder - Usually /x86_64 | STRING | X | - |
-| namesOfMetaComponent | Name of result meta component folder - Usually 00_Initialization | STRING | X | - |
-| MachToleranceDichotomy | DESCRIPTION | REAL | X | - |
+| nameOfAcousticMeshesFolder | DESCRIPTION | STRING | X |- |
+| nameOfInputsFolder | DESCRIPTION | STRING | X |- |
+| nameOfLinearAcousticModelsFolder | DESCRIPTION | STRING | X | - |
+| nameOfLogsFolder | DESCRIPTION | STRING | X | - |
+| nameOfLinearComputationsFolder | DESCRIPTION | STRING | X | - |
+| nameOfLinearCutoffFolder | DESCRIPTION | STRING | X | - |
+| nameOfLinearPostprocessingFolder | DESCRIPTION | STRING | X | - |
+| nameOfMicrophonesFolder | DESCRIPTION | STRING | X | - |
+| nameOfScoutComputationsFolder | DESCRIPTION | STRING | X | - |
+| nameOfScripts | DESCRIPTION | STRING | X | - |
 
 
 __Mapped outputs variables to send to following boxes :__
