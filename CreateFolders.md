@@ -21,11 +21,11 @@ __Mapped inputs variables to receive to previous boxes :__
 | ------ | :------------: | :------: | :------: |  :------: |
 | nameOfAcousticMeshesFolder | Acoustic Meshes Folder - Usually "ACOUSMESH" | STRING | X |- |
 | nameOfInputsFolder | Input folder - Usually "INPUTS" | STRING | X |- |
-| nameOfLinearAcousticModelsFolder | Acoustic Models Folder - Usually LINEAR/MODELS | STRING | X | - |
-| nameOfLogsFolder | Logs Folder - Usually LOGS | STRING | X | - |
-| nameOfLinearComputationsFolder | Linear Computations Folder - Usually LINEAR/COMPUTATIONS | STRING | X | - |
-| nameOfLinearCutoffFolder | Linear Cutoff Folder - Usually LINEAR/CUTOFF | STRING | X | - |
-| nameOfLinearPostprocessingFolder | Linear Postprocessing Folder - Usually LINEAR/POST | STRING | X | - |
-| nameOfMicrophonesFolder | Microphones Folder - Usually MICROPHONES | STRING | X | - |
-| nameOfScoutComputationsFolder | Scout Computations Folder - Usually SCOUT | STRING | X | - |
-| nameOfScripts | Scripts Folder - Usually SCRIPTS | STRING | X | - |
+| nameOfLinearAcousticModelsFolder | Acoustic Models Folder - Usually "LINEAR/MODELS" | STRING | X | - |
+| nameOfLogsFolder | Logs Folder - Usually "LOGS" | STRING | X | - |
+| nameOfLinearComputationsFolder | Linear Computations Folder - Usually "LINEAR/COMPUTATIONS" | STRING | X | - |
+| nameOfLinearCutoffFolder | Linear Cutoff Folder - Usually "LINEAR/CUTOFF" | STRING | X | - |
+| nameOfLinearPostprocessingFolder | Linear Postprocessing Folder - Usually "LINEAR/POST" | STRING | X | - |
+| nameOfMicrophonesFolder | Microphones Folder - Usually "MICROPHONES" | STRING | X | - |
+| nameOfScoutComputationsFolder | Scout Computations Folder - Usually "SCOUT" | STRING | X | - |
+| nameOfScripts | Scripts Folder - Usually "SCRIPTS" | STRING | X | - |
