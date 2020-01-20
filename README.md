@@ -28,12 +28,12 @@ __This Workflow therefore presents seven boxes :__
 - __Acoustic Computations :__ *Actran or Madhiwax solver for the noise acoustic calculation in the air intake (to obtain frequencies)*
 - __Postprocessing :__ *allows the generation of the attenuation matrix (PIFF & PID calculus)*
 
-__Initialization details :__
+### Initialization details :
 
-### The left side :
+#### The left side :
 
 ![Workflowleft](https://user-images.githubusercontent.com/45098441/72735505-3c403800-3b9c-11ea-9b80-446dedf0615e.jpeg)
 
-### And the right side :
+#### And the right side :
 
 ![Workflowright](https://user-images.githubusercontent.com/45098441/72735511-3f3b2880-3b9c-11ea-9771-076188e4fe7a.jpeg)
