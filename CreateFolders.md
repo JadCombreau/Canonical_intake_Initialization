@@ -15,17 +15,18 @@ __Check & Read XML__ box is preceded by the __Reference to Init_v2020r1__ box, w
 
 The table below lists all the variables to be created in Isight and their role :
 
-__Mapped inputs variables to receive to previous boxes :__ 
+__Mapped inputs/outputs variables to receive to previous boxes :__ 
 
 | Variable Name | Variable description | Type | Input | Output |
 | ------ | :------------: | :------: | :------: |  :------: |
-| nameOfAcousticMeshesFolder | Acoustic Meshes Folder - Usually "ACOUSMESH" | STRING | X |- |
-| nameOfInputsFolder | Input folder - Usually "INPUTS" | STRING | X |- |
-| nameOfLinearAcousticModelsFolder | Acoustic Models Folder - Usually "LINEAR/MODELS" | STRING | X | - |
-| nameOfLogsFolder | Logs Folder - Usually "LOGS" | STRING | X | - |
-| nameOfLinearComputationsFolder | Linear Computations Folder - Usually "LINEAR/COMPUTATIONS" | STRING | X | - |
-| nameOfLinearCutoffFolder | Linear Cutoff Folder - Usually "LINEAR/CUTOFF" | STRING | X | - |
-| nameOfLinearPostprocessingFolder | Linear Postprocessing Folder - Usually "LINEAR/POST" | STRING | X | - |
-| nameOfMicrophonesFolder | Microphones Folder - Usually "MICROPHONES" | STRING | X | - |
-| nameOfScoutComputationsFolder | Scout Computations Folder - Usually "SCOUT" | STRING | X | - |
-| nameOfScripts | Scripts Folder - Usually "SCRIPTS" | STRING | X | - |
+| nameOfAcousticMeshesFolder | Acoustic Meshes Folder - Usually "ACOUSMESH" | STRING | X | X |
+| nameOfInputsFolder | Input folder - Usually "INPUTS" | STRING | X | X |
+| nameOfLinearAcousticModelsFolder | Acoustic Models Folder - Usually "LINEAR/MODELS" | STRING | X | X |
+| nameOfLogsFolder | Logs Folder - Usually "LOGS" | STRING | X | X |
+| nameOfLinearComputationsFolder | Linear Computations Folder - Usually "LINEAR/COMPUTATIONS" | STRING | X | X |
+| nameOfLinearCutoffFolder | Linear Cutoff Folder - Usually "LINEAR/CUTOFF" | STRING | X | X |
+| nameOfLinearPostprocessingFolder | Linear Postprocessing Folder - Usually "LINEAR/POST" | STRING | X | X |
+| nameOfMicrophonesFolder | Microphones Folder - Usually "MICROPHONES" | STRING | X | X |
+| nameOfScoutComputationsFolder | Scout Computations Folder - Usually "SCOUT" | STRING | X | X |
+| nameOfScripts | Scripts Folder - Usually "SCRIPTS" | STRING | X | X |
+| pathOfJobFolder | Job Folder Repository | STRING | X | - |
