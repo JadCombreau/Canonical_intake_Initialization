@@ -16,7 +16,7 @@ The air inlet duct is therefore assumed to be more or less uniform. We do not ca
 
 __This Workflow therefore presents seven boxes :__
 
-![Exemple workflow](https://user-images.githubusercontent.com/45098441/72423329-5a64fd00-3784-11ea-81c9-93b43f4a6cd7.jpeg)
+![Exemple workflow](https://user-images.githubusercontent.com/45098441/72733825-eddd6a00-3b98-11ea-9b77-2d24f6790d91.jpeg)
 ----------------------------
 
 
