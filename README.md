@@ -9,10 +9,12 @@
 
 ### Workflow type & role
 
-This Workflow (Canonical Intake) has the final goal, like the other Workflows, the calculation of the acoustic attenuation matrix.
-It intervenes in the canonical case of air intake, that is to say that unlike the analytical case, we do not have to generate a mesh. The mesh is assumed to be uniform and Actran automatically generates it for us.
+This Workflow (Canonical Intake) has the final goal (like the other Workflows) the acoustic attenuation matrix calculus.
+This Workflow is for canonical case of air intake, that is to say (unlike the analytical case), we do not have to generate any mesh. 
 
-The air inlet duct is therefore assumed to be more or less uniform. We do not calculate a flow, since it is supposed to be uniform. There is no weighted average to be used for computation in various nodes of mesh.
+The mesh is assumed to be uniform and Actran automatically generates it for us. Sounds simple right ?
+
+The air inlet duct is therefore assumed to be more or less uniform. We do not calculate any flow. There is no weighted average to be used for computation in various nodes of mesh.
 
 __This Workflow therefore presents seven boxes :__
 
