@@ -61,18 +61,18 @@ __Mapped outputs variables to send to following boxes :__
 
 | Variable Name | Variable description | Type | Input | Output |
 | ------ | :------------: | :------: | :------: |  :------: |
-| linearFrequencies | All linear frequencies in the XML file | ARRAY DOUBLE | - | X |
-| numberOfConfigurations | Configuration number in the XML file | INT | - | X |
-| pathOfLogsFolder | Logs folder result repository | STRING | - | X |
-| pathsOfUserFieldmeshes | DESCRIPTION | ARRAY STRING | - | X |
-| maxNodeMemory | Max node memory available | INT | - | X |
-| numberOfCoresByNode | Number of core in each node memory | INT | - | X |
-| maxNumberOfProcesses | Maximum processes number | INT | - | X |
-| memorySecurityCriteria | Security criteria for memory | REAL | - | X |
-| namesOfPostprocessingProcesses | DESCRIPTION | ARRAY STRING | - | X |
-| areBaseline | DESCRIPTION | BOOL | - | X |
-| baselineConfigurationsIds | DESCRIPTION | INT | - | X |
-| machAtFan | DESCRIPTION | REAL | - | X |
+| areAcousticMeshes | All linear frequencies in the XML file | ARRAY DOUBLE | - | X |
+| areLinearAcousticModels | Configuration number in the XML file | INT | - | X |
+| isFlow | Logs folder result repository | STRING | - | X |
+| isFlowMesh | DESCRIPTION | ARRAY STRING | - | X |
+| areAcousticMeshConstraints | Max node memory available | INT | - | X |
+| areMicrophones | Number of core in each node memory | INT | - | X |
+| areLinearCutoffResults | Maximum processes number | INT | - | X |
+| areInterpolatedMeshes | Security criteria for memory | REAL | - | X |
+| areLinearResults | DESCRIPTION | ARRAY STRING | - | X |
+| areScoutResults | DESCRIPTION | BOOL | - | X |
+| nbAcousticMeshesAvailable | DESCRIPTION | INT | - | X |
+| nbCutoffResultsAvailable | DESCRIPTION | REAL | - | X |
 | velocityAtFan | DESCRIPTION | REAL | - | X |
 | staticCelerityAtFan | DESCRIPTION | REAL | - | X |
 | staticFluidDensityAtFan | DESCRIPTION | REAL | - | X |
