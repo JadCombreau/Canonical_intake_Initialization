@@ -17,6 +17,8 @@ This script consists in initializing an array containing the various Isight vari
 - Scout Computations
 - Scripts
 
+Finally, the script modifies the acces rights in RWX (770) and for groups (gr-acplat in our case).
+
 __Create Folders__ box is preceded by the __Reference to Init_v2020r1__ box, which consists in correctly initializing the environment necessary for launching the Workflow and followed by the __Check & Read XML__ box which consist in the XML file reading & checking.
 
 ![Initialization components](https://user-images.githubusercontent.com/45098441/72733876-0e0d2900-3b99-11ea-8aef-c4e3a3eb80dd.jpeg)
