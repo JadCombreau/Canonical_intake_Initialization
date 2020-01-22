@@ -6,7 +6,7 @@ All the __Create Folders__ box is written in Shell UNIX language.
 
 
 
-__Check & Read XML__ box is preceded by the __Reference to Init_v2020r1__ box, which consist in the correct copy of all files and folders required for this workflow and followed by the __Check & Read XML__ box which consist in the XML file reading & checking.
+__Create Folders__ box is preceded by the __Reference to Init_v2020r1__ box, which consists in correctly initializing the environment necessary for launching the Workflow and followed by the __Check & Read XML__ box which consist in the XML file reading & checking.
 
 ![Initialization components](https://user-images.githubusercontent.com/45098441/72733876-0e0d2900-3b99-11ea-8aef-c4e3a3eb80dd.jpeg)
 ----------------------------
