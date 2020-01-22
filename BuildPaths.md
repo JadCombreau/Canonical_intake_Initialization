@@ -23,24 +23,10 @@ The script is divided into different sub-areas for easier understanding :
 
 In the case of this Workflow (Canonical Intake), we need to retrieve the values for the number and the name of the configurations, the number of treatments, the frequencies as well as the name of the post-processing process. This list is not exhaustive.
 
-__Check & Read XML__ box is preceded by the __Create Folders__ box, which consist in the repository creation (contained in the *namesOfFolder* agregate) and followed by the __Get Mesh & Models Frequencies__ box which consist in the recovery of the linear frequencies and the mesh frequencies (this is just linear frequencied to which we applied a step)
+__Build Paths__ box is preceded by the __Link Data from Numacous__ box, which consist in the Numacous directory link (copy of all files in this directory to the Job Folder repository) and followed by the __Scenario Analyser__ box : It makes it possible to test if files or directories do not exist and therefore to determine which configurations or frequencies to restart.
 
 ![Initialization components](https://user-images.githubusercontent.com/45098441/72734164-7eb44580-3b99-11ea-8313-26fdce7081a8.jpeg)
 ----------------------------
-
-
-### Which files to import ?
-
-To execute the script __Check & Read XML__ correctly, we need to import Python libraries.
-The table below lists all the imports to be made :
-
-| Import name | Import location |
-| ------ | ------ |
-| XMLAnanax2dCanonicalIntake | `/python/api/ductnoise/fannoise/ananax/ananax2d_canonical_intake` |
-| Logger | `/python/workflows/common` |
-| CommonFunctions | `/python/workflows/common` |
-| PiffPostprocessing | `/python/workflows/ductnoise/common/postprocessing` |
-| PiffPostprocessingAnanax2dCanonicalIntake | `/python/workflows/ductnoise/fannoise/ananax/ananax2d_canonical_intake` |
 
 ### What about variables ?
 
