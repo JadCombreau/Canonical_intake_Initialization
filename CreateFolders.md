@@ -4,7 +4,18 @@
 All the __Create Folders__ box is written in Shell UNIX language.
 ### What the box does ?
 
+This script consists in initializing an array containing the various Isight variables (containing repository names) then the creation of these different folders. In the Canonical Intake Workflow case, we need a folder for each member of this list :
 
+- Acoustic Mesh
+- Inputs
+- Linear Acoustic Models
+- Linear Computations
+- Linear Cutoff
+- Linear Postprocessing
+- Logs
+- Microphones
+- Scout Computations
+- Scripts
 
 __Create Folders__ box is preceded by the __Reference to Init_v2020r1__ box, which consists in correctly initializing the environment necessary for launching the Workflow and followed by the __Check & Read XML__ box which consist in the XML file reading & checking.
 
