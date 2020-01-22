@@ -4,13 +4,26 @@
 All the __Scenario Analyser__ box is written in Python.
 ### What the box does ?
 
-This part of the "Check & Read XML" Workflow is for, but, as its name suggests, to verify and read the input XML file of the Workflow. We must therefore retrieve the values that interest us.
+The scenario analyzer allows you to test if there are missing folders/files after the first execution of the workflow (during the first execution, all repositories exists but are empty). This script therefore avoids restarting all configurations/frequencies and therefore saves a lot of time ...
 
-First, we must check the structure of the XML input file by running the XSD specific to this type of XML and in the specific case of this Workflow. We will therefore have to indicate the path to the XSD file.
+This script must therefore be able to check if a file is missing in a specific folder (which we know  : since we know exactly the number of configurations and frequencies to launch).
 
-In the case of this Workflow (Canonical Intake), we need to retrieve the values for the number and the name of the configurations, the number of treatments, the frequencies as well as the name of the post-processing process. This list is not exhaustive.
+To begin, this script must copy the Numacous Repository and remove folder if it already exists.
 
-__Check & Read XML__ box is preceded by the __Create Folders__ box, which consist in the repository creation (contained in the *namesOfFolder* agregate) and followed by the __Get Mesh & Models Frequencies__ box which consist in the recovery of the linear frequencies and the mesh frequencies (this is just linear frequencied to which we applied a step)
+__This script must therefore test the existence of each member of the following list :__
+
+- isFlowMesh
+- isFlow
+- areAcousticMeshConstraints
+- areAllAcousticMeshes
+- isAcousGeomData
+- areMicrophones
+- areAllInterpolatedMeshes
+- areAllCutoffResults
+- areAllScoutResultsAndMemos
+- areAllComputationsResults
+
+*__Scenario Analyser__ box is preceded by the __Build Paths__ box which consist in the creation of different file paths necessary for all the Workflow and followed by the __Copy Init__ box which consists in copying the folder from our Job folder (after modifications) into the Numacous folder.*
 
 ![Initialization components](https://user-images.githubusercontent.com/45098441/72733938-2e3ce800-3b99-11ea-9aef-180fca448d24.jpeg)
 ----------------------------
@@ -23,11 +36,7 @@ The table below lists all the imports to be made :
 
 | Import name | Import location |
 | ------ | ------ |
-| XMLAnanax2dCanonicalIntake | `/python/api/ductnoise/fannoise/ananax/ananax2d_canonical_intake` |
 | Logger | `/python/workflows/common` |
-| CommonFunctions | `/python/workflows/common` |
-| PiffPostprocessing | `/python/workflows/ductnoise/common/postprocessing` |
-| PiffPostprocessingAnanax2dCanonicalIntake | `/python/workflows/ductnoise/fannoise/ananax/ananax2d_canonical_intake` |
 
 ### What about variables ?
 
