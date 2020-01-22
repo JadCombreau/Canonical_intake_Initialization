@@ -37,17 +37,67 @@ __Mapped inputs variables to receive to previous boxes :__
 
 | Variable Name | Variable description | Type | Input | Output |
 | ------ | :------------: | :------: | :------: |  :------: |
-| XMLInput | Input XML which contain all data | FILE | X |- |
-| pathOfPythonSrcFolder | Python source folder wich contain all librairies | STRING | X |- |
-| pathOfJobFolder | Job folder to copy all results | STRING | X | - |
-| nameOfLogsFolder | Name of result logs folder - Usually LOGS | STRING | X | - |
-| verbosity | Verbosity schema value - Actually fine | STRING | X | - |
-| nameOfComponent | Name of result component folder - Usually checkSchema | STRING | X | - |
-| pathOfApplicationRootFolder | Root folder - Usually /x86_64 | STRING | X | - |
-| namesOfMetaComponent | Name of result meta component folder - Usually 00_Initialization | STRING | X | - |
-| MachToleranceDichotomy | DESCRIPTION | REAL | X | - |
-
-
+| nameOfTools | Input XML which contain all data | FILE | X |- |
+| nameOfNacelle | Python source folder wich contain all librairies | STRING | X |- |
+| nameOfSpinner | Job folder to copy all results | STRING | X | - |
+| nameOfInputXml | Name of result logs folder - Usually LOGS | STRING | X | - |
+| nameOfMonitoringStatus | Verbosity schema value - Actually fine | STRING | X | - |
+| formatOfFrequencyStr | Name of result component folder - Usually checkSchema | STRING | X | - |
+| formatOfConfigurationIdStr | Root folder - Usually /x86_64 | STRING | X | - |
+| nameOfActranMemo | Name of result meta component folder - Usually 00_Initialization | STRING | X | - |
+| nameOfConstraints | DESCRIPTION | REAL | X | - |
+| formatOfSizeMesh | Input XML which contain all data | FILE | X |- |
+| nameOfGeomAcousData | Python source folder wich contain all librairies | STRING | X |- |
+| formatOfAcousticMesh | Job folder to copy all results | STRING | X | - |
+| formatOfFieldmesh | Name of result logs folder - Usually LOGS | STRING | X | - |
+| formatOfFieldmeshPtl | Verbosity schema value - Actually fine | STRING | X | - |
+| nameOfMicrophones | Name of result component folder - Usually checkSchema | STRING | X | - |
+| formatOfAcousticModel | Root folder - Usually /x86_64 | STRING | X | - |
+| nameOfSessionForAcousticAnalysis | Name of result meta component folder - Usually 00_Initialization | STRING | X | - |
+| nameOfEnvFile | DESCRIPTION | REAL | X | - |
+| nameOfCutoffModes | Input XML which contain all data | FILE | X |- |
+| formatOfScoutMemo | Python source folder wich contain all librairies | STRING | X |- |
+| formatOfScoutModel | Job folder to copy all results | STRING | X | - |
+| formatOfScoutResult | Name of result logs folder - Usually LOGS | STRING | X | - |
+| nameOfActranSequentialLog | Verbosity schema value - Actually fine | STRING | X | - |
+| nameOfActranParallelLog | Name of result component folder - Usually checkSchema | STRING | X | - |
+| formatOfComputationResultActran | Root folder - Usually /x86_64 | STRING | X | - |
+| nameOfActranResultPtl | Name of result meta component folder - Usually 00_Initialization | STRING | X | - |
+| formatOfcomputationResultPtl | DESCRIPTION | REAL | X | - |
+| formatOfComputationResult | Input XML which contain all data | FILE | X |- |
+| formatOfComputationMemo | Python source folder wich contain all librairies | STRING | X |- |
+| formatOfAttenuationsMatrixl | Job folder to copy all results | STRING | X | - |
+| formatOfLinearPiffResult | Name of result logs folder - Usually LOGS | STRING | X | - |
+| nameOfLinearPiffXML | Verbosity schema value - Actually fine | STRING | X | - |
+| nameOfInputs | Name of result component folder - Usually checkSchema | STRING | X | - |
+| nameOfInfo | Root folder - Usually /x86_64 | STRING | X | - |
+| nameOfScripts | Name of result meta component folder - Usually 00_Initialization | STRING | X | - |
+| formatOfFrequencyFolder | DESCRIPTION | REAL | X | - |
+| formatOfConfigurationFolder | Input XML which contain all data | FILE | X |- |
+| nameOfFlowMeshFolder | Python source folder wich contain all librairies | STRING | X |- |
+| nameOfFlowFolder | Job folder to copy all results | STRING | X | - |
+| nameOfAcousticMeshesFolder | Name of result logs folder - Usually LOGS | STRING | X | - |
+| nameOfMicrophonesFolder | Verbosity schema value - Actually fine | STRING | X | - |
+| nameOfInterpolatedMeshesFolder | Name of result component folder - Usually checkSchema | STRING | X | - |
+| nameOfLinearAcousticModelsFolder | Root folder - Usually /x86_64 | STRING | X | - |
+| nameOfLinearCutoffFolder | Name of result meta component folder - Usually 00_Initialization | STRING | X | - |
+| nameOfScoutComputationsFolder | Python source folder wich contain all librairies | STRING | X |- |
+| nameOfLinearComputationsFolder | Job folder to copy all results | STRING | X | - |
+| formatOfPostprocessingProcessFolder | Name of result logs folder - Usually LOGS | STRING | X | - |
+| formatOfRelativePostprocessingFolder | Verbosity schema value - Actually fine | STRING | X | - |
+| nameOfAbsolutePostprocessingFolder | Name of result component folder - Usually checkSchema | STRING | X | - |
+| pathOfJobFolder | Root folder - Usually /x86_64 | STRING | X | - |
+| pathOfResourcesFolder | Name of result meta component folder - Usually 00_Initialization | STRING | X | - |
+| meshFrequencies | Python source folder wich contain all librairies | STRING | X |- |
+| pathOfUserFieldmeshes | Job folder to copy all results | STRING | X | - |
+| areBaseline | Name of result logs folder - Usually LOGS | STRING | X | - |
+| baselineConfigurationIds | Verbosity schema value - Actually fine | STRING | X | - |
+| namesOfPostprocessingProcesses | Name of result component folder - Usually checkSchema | STRING | X | - |
+| 0 | Root folder - Usually /x86_64 | STRING | X | - |
+| 1 | Name of result meta component folder - Usually 00_Initialization | STRING | X | - |
+| numberOfConfigurations | Root folder - Usually /x86_64 | STRING | X | - |
+| modelFrequencies | Name of result meta component folder - Usually 00_Initialization | STRING | X | - |
+| pathOfNumacousFolder | Root folder - Usually /x86_64 | STRING | X | - |
 __Mapped outputs variables to send to following boxes :__
 
 | Variable Name | Variable description | Type | Input | Output |
