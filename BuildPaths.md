@@ -15,7 +15,7 @@ The script is divided into different sub-areas for easier understanding :
 - The "acousmesh" part
 - The "microphones" part
 - The "linear models" part
--- The "linear frequency" subpart
+  - The "linear frequency" subpart
 - The "linear cutoff" part
 - The "scouts" part
 - The "linear computations" part
