@@ -37,7 +37,7 @@ __Mapped inputs variables to receive to previous boxes :__
 
 | Variable Name | Variable description | Type | Input | Output |
 | ------ | :------------: | :------: | :------: |  :------: |
-| nameOfTools | Input XML which contain all data | FILE | X |- |
+| nameOfTools | Input XML which contain all data | STRING | X |- |
 | nameOfNacelle | Python source folder wich contain all librairies | STRING | X |- |
 | nameOfSpinner | Job folder to copy all results | STRING | X | - |
 | nameOfInputXml | Name of result logs folder - Usually LOGS | STRING | X | - |
@@ -45,7 +45,7 @@ __Mapped inputs variables to receive to previous boxes :__
 | formatOfFrequencyStr | Name of result component folder - Usually checkSchema | STRING | X | - |
 | formatOfConfigurationIdStr | Root folder - Usually /x86_64 | STRING | X | - |
 | nameOfActranMemo | Name of result meta component folder - Usually 00_Initialization | STRING | X | - |
-| nameOfConstraints | DESCRIPTION | REAL | X | - |
+| nameOfConstraints | DESCRIPTION | STRING | X | - |
 | formatOfSizeMesh | Input XML which contain all data | FILE | X |- |
 | nameOfGeomAcousData | Python source folder wich contain all librairies | STRING | X |- |
 | formatOfAcousticMesh | Job folder to copy all results | STRING | X | - |
@@ -54,8 +54,8 @@ __Mapped inputs variables to receive to previous boxes :__
 | nameOfMicrophones | Name of result component folder - Usually checkSchema | STRING | X | - |
 | formatOfAcousticModel | Root folder - Usually /x86_64 | STRING | X | - |
 | nameOfSessionForAcousticAnalysis | Name of result meta component folder - Usually 00_Initialization | STRING | X | - |
-| nameOfEnvFile | DESCRIPTION | REAL | X | - |
-| nameOfCutoffModes | Input XML which contain all data | FILE | X |- |
+| nameOfEnvFile | DESCRIPTION | STRING | X | - |
+| nameOfCutoffModes | Input XML which contain all data | STRING | X |- |
 | formatOfScoutMemo | Python source folder wich contain all librairies | STRING | X |- |
 | formatOfScoutModel | Job folder to copy all results | STRING | X | - |
 | formatOfScoutResult | Name of result logs folder - Usually LOGS | STRING | X | - |
@@ -98,29 +98,48 @@ __Mapped inputs variables to receive to previous boxes :__
 | numberOfConfigurations | Root folder - Usually /x86_64 | STRING | X | - |
 | modelFrequencies | Name of result meta component folder - Usually 00_Initialization | STRING | X | - |
 | pathOfNumacousFolder | Root folder - Usually /x86_64 | STRING | X | - |
+
 __Mapped outputs variables to send to following boxes :__
 
 | Variable Name | Variable description | Type | Input | Output |
 | ------ | :------------: | :------: | :------: |  :------: |
-| linearFrequencies | All linear frequencies in the XML file | ARRAY DOUBLE | - | X |
-| numberOfConfigurations | Configuration number in the XML file | INT | - | X |
-| pathOfLogsFolder | Logs folder result repository | STRING | - | X |
-| pathsOfUserFieldmeshes | DESCRIPTION | ARRAY STRING | - | X |
-| maxNodeMemory | Max node memory available | INT | - | X |
-| numberOfCoresByNode | Number of core in each node memory | INT | - | X |
-| maxNumberOfProcesses | Maximum processes number | INT | - | X |
-| memorySecurityCriteria | Security criteria for memory | REAL | - | X |
-| namesOfPostprocessingProcesses | DESCRIPTION | ARRAY STRING | - | X |
-| areBaseline | DESCRIPTION | BOOL | - | X |
-| baselineConfigurationsIds | DESCRIPTION | INT | - | X |
-| machAtFan | DESCRIPTION | REAL | - | X |
-| velocityAtFan | DESCRIPTION | REAL | - | X |
-| staticCelerityAtFan | DESCRIPTION | REAL | - | X |
-| staticFluidDensityAtFan | DESCRIPTION | REAL | - | X |
-| Cp | DESCRIPTION | REAL | - | X |
-| Cv | DESCRIPTION | REAL | - | X |
+| pathOfTools | All linear frequencies in the XML file | STRING | - | X |
+| pathOfScriptsRootFolder | Configuration number in the XML file | STRING | - | X |
+| pathOfNacelle | Logs folder result repository | STRING | - | X |
+| pathsOfSpinner | DESCRIPTION | STRING | - | X |
+| pathOfInputXml | Max node memory available | STRING | - | X |
+| pathOfMonitoringStatus | Number of core in each node memory | STRING | - | X |
+| pathOfConstraints | Maximum processes number | STRING | - | X |
+| pathsOfSizeMesh | Security criteria for memory | ARRAY STRING | - | X |
+| pathsOfAcousticMeshes | DESCRIPTION | ARRAY STRING | - | X |
+| pathOfAcousGeomData | DESCRIPTION | STRING | - | X |
+| pathOfMicrophones | DESCRIPTION | STRING | - | X |
+| pathsOfFieldmeshes | DESCRIPTION | ARRAY STRING | - | X |
+| pathsOfFieldmeshesPtl | DESCRIPTION | ARRAY STRING | - | X |
+| pathOfActranAcousticSession | DESCRIPTION | STRING | - | X |
+| pathsOfLinearModels_configuration_linearFrequency | DESCRIPTION | ARRAY STRING 2D | - | X |
+| pathsOfLinearAcousticModelsEnv_configuration_linearFrequency | DESCRIPTION | ARRAY STRING 2D | - | X |
+| pathsOfLinearAcousticModelsMemo_configuration_linearFrequency | DESCRIPTION | ARRAY STRING 2D | - | X |
+| pathsOfNumacousLinearModels_configuration_linearFrequency | DESCRIPTION | ARRAY STRING 2D | - | X |
+| pathsOfLinearCutoffMemo | DESCRIPTION | ARRAY STRING | - | X |
+| pathsOfCutoffResults | DESCRIPTION | ARRAY STRING | - | X |
+| pathsOfScoutMemo | DESCRIPTION | ARRAY STRING | - | X |
+| pathsOfScoutResults | DESCRIPTION | ARRAY STRING | - | X |
+| pathsOfScoutModels | DESCRIPTION | ARRAY STRING | - | X |
+| pathsOfScoutMemosActran | DESCRIPTION | ARRAY STRING | - | X |
+| pathsOfScoutResultsActran | DESCRIPTION | ARRAY STRING | - | X |
+| pathsOfScoutLogs | DESCRIPTION | ARRAY STRING | - | X |
 
-
+| pathsOfLinearLogs_configuration_linearFrequency | DESCRIPTION | ARRAY STRING 2D | - | X |
+| pathsOfLinearMemos_configuration_linearFrequency | DESCRIPTION | ARRAY STRING 2D | - | X |
+| pathsOfLinearMemosActran_configuration_linearFrequency | DESCRIPTION | ARRAY STRING 2D | - | X |
+| pathsOfLinearResults_configuration_linearFrequency | DESCRIPTION | ARRAY STRING 2D | - | X |
+| pathsOfLinearResultsActran_configuration_linearFrequency | DESCRIPTION | ARRAY STRING 2D | - | X |
+| pathsOfLinearResultsPtl_configuration_linearFrequency | DESCRIPTION | ARRAY STRING 2D | - | X |
+| pathsOfLinearResultsPtlActran_configuration_linearFrequency | DESCRIPTION | ARRAY STRING 2D | - | X |
+| pathsOfAttenuationsMatrices_process_configurationId | DESCRIPTION | ARRAY STRING 2D | - | X |
+| pathsOfPiffResult_process_configurationId | DESCRIPTION | ARRAY STRING 2D | - | X |
+| pathsOfPiffXml_process_configurationId | DESCRIPTION | ARRAY STRING 2D | - | X |
 
 __Unmapped outputs variables (which are not sent to the following boxes) :__
 
