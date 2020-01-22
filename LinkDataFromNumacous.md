@@ -23,20 +23,6 @@ The input XML file previously nammed "input.xml" will be copied and renamed "pre
 ![Initialization components](https://user-images.githubusercontent.com/45098441/72733893-182f2780-3b99-11ea-938b-583d766d3fde.jpeg)
 ----------------------------
 
-
-### Which files to import ?
-
-To execute the script __Check & Read XML__ correctly, we need to import Python libraries.
-The table below lists all the imports to be made :
-
-| Import name | Import location |
-| ------ | ------ |
-| XMLAnanax2dCanonicalIntake | `/python/api/ductnoise/fannoise/ananax/ananax2d_canonical_intake` |
-| Logger | `/python/workflows/common` |
-| CommonFunctions | `/python/workflows/common` |
-| PiffPostprocessing | `/python/workflows/ductnoise/common/postprocessing` |
-| PiffPostprocessingAnanax2dCanonicalIntake | `/python/workflows/ductnoise/fannoise/ananax/ananax2d_canonical_intake` |
-
 ### What about variables ?
 
 The table below lists all the variables to be created in Isight and their role :
@@ -47,16 +33,4 @@ __Mapped inputs variables to receive to previous boxes :__
 | ------ | :------------: | :------: | :------: |  :------: |
 | pathOfJobFolder | Job folder to copy all results - Usually "/x86_64/samples/canonicalIntake" | STRING | X | - |
 | pathOfNumacousFolder | Numacous folder repository - Usually "/projects/numacous" | STRING | X | - |
-
-
-
-__Unmapped outputs variables (which are not sent to the following boxes) :__
-
-| Variable Name | Variable description | Type | Input | Output |
-| ------ | :------------: | :------: | :------: |  :------: |
-| nbTreatments | DESCRIPTION | INT | - | X |
-| angles | Array microphones angles - Usually each 5° | ARRAY DOUBLE | - | X |
-| isEnginerating | DESCRIPTION | BOOL | - | X |
-| enginerating | DESCRIPTION | DOUBLE | - | X |
-| areAttenuationMatrices | In intake flow, we want attenuation matrice | BOOL | - | X |
 
