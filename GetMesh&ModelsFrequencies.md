@@ -10,7 +10,7 @@ First, we must check the structure of the XML input file by running the XSD spec
 
 In the case of this Workflow (Canonical Intake), we need to retrieve the values for the number and the name of the configurations, the number of treatments, the frequencies as well as the name of the post-processing process. This list is not exhaustive.
 
-__Check & Read XML__ box is preceded by the __Create Folders__ box, which consist in the repository creation (contained in the *namesOfFolder* agregate) and followed by the __Get Mesh & Models Frequencies__ box which consist in the recovery of the linear frequencies and the mesh frequencies (this is just linear frequencied to which we applied a step)
+__Get Mesh & Models Frequencies__ box is preceded by the __Check & Read XML__ box which consist in the XML file reading & checking and followed by the __Link Data from Numacous__ box which consist in the Numacous directory link (copy of all files in this directory to the Job Folder repository)
 
 ![Initialization components](https://user-images.githubusercontent.com/45098441/72733887-149ba080-3b99-11ea-8a0b-7e1238c4e042.jpeg)
 ----------------------------
