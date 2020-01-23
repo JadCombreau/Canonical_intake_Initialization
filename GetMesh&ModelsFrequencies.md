@@ -15,20 +15,6 @@ In the case of this Workflow (Canonical Intake), we need to retrieve the values 
 ![Initialization components](https://user-images.githubusercontent.com/45098441/72733887-149ba080-3b99-11ea-8a0b-7e1238c4e042.jpeg)
 ----------------------------
 
-
-### Which files to import ?
-
-To execute the script __Check & Read XML__ correctly, we need to import Python libraries.
-The table below lists all the imports to be made :
-
-| Import name | Import location |
-| ------ | ------ |
-| XMLAnanax2dCanonicalIntake | `/python/api/ductnoise/fannoise/ananax/ananax2d_canonical_intake` |
-| Logger | `/python/workflows/common` |
-| CommonFunctions | `/python/workflows/common` |
-| PiffPostprocessing | `/python/workflows/ductnoise/common/postprocessing` |
-| PiffPostprocessingAnanax2dCanonicalIntake | `/python/workflows/ductnoise/fannoise/ananax/ananax2d_canonical_intake` |
-
 ### What about variables ?
 
 The table below lists all the variables to be created in Isight and their role :
