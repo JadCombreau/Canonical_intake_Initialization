@@ -47,16 +47,19 @@ __Init__ subpart :
 
 __Get JobID__ box :
 
+| :------: | :------: |
 | XMLAnanax2dCanonicalIntake | `/python/api/ductnoise/fannoise/ananax/ananax2d_canonical_intake` |
 | Logger | `/python/workflows/common` |
 
 __Initialization__ box :
 
+| :------: | :------: |
 | XMLAnanax2dCanonicalIntake | `/python/api/ductnoise/fannoise/ananax/ananax2d_canonical_intake` |
 | Logger | `/python/workflows/common` |
 
 __Copy Scripts & Manage Rights__ box :
 
+| :------: | :------: |
 | XMLAnanax2dCanonicalIntake | `/python/api/ductnoise/fannoise/ananax/ananax2d_canonical_intake` |
 | Logger | `/python/workflows/common` |
 
