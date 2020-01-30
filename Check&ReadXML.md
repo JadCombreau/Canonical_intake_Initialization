@@ -69,13 +69,6 @@ __Mapped outputs variables to send to following boxes :__
 | staticFluidDensityAtFan | - | REAL | - | X |
 | Cp | - | REAL | - | X |
 | Cv | - | REAL | - | X |
-
-
-
-__Unmapped outputs variables (which are not sent to the following boxes) :__
-
-| Variable Name | Variable description | Type | Input | Output |
-| ------ | :------------: | :------: | :------: |  :------: |
 | nbTreatments | - | INT | - | X |
 | angles | Array microphones angles - Usually each 5° | ARRAY DOUBLE | - | X |
 | isEnginerating | - | BOOL | - | X |
