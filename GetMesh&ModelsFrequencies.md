@@ -35,14 +35,6 @@ __Mapped outputs variables to send to following boxes :__
 | ------ | :------------: | :------: | :------: |  :------: |
 | meshFrequencies | All mesh frequencies after script | ARRAY REAL | - | X |
 | modelFrequencies | - | ARRAY REAL | - | X |
-
-
-
-
-__Unmapped outputs variables (which are not sent to the following boxes) :__
-
-| Variable Name | Variable description | Type | Input | Output |
-| ------ | :------------: | :------: | :------: |  :------: |
 | maxFrequency | - | REAL | - | X |
 | frequencyUpperRange | - | INT | - | X |
 | meshFrequency | mesh frequencies before array | REAL | - | X |
