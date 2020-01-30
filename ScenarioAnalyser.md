@@ -37,6 +37,7 @@ The table below lists all the imports to be made :
 | Import name | Import location |
 | ------ | ------ |
 | Logger | `/python/workflows/common` |
+| ScenarioAnalyser | `/python/workflows/ductnoise/fannoise/ananax/ananax2d_canonical_intake` |
 
 ### What about variables ?
 
