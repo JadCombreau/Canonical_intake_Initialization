@@ -1,5 +1,5 @@
-## Get Job ID
-### Script Language
+## Init Workflow Subpart
+### Scripts Language
 
 Init Workflow part contains three boxes :
 
@@ -11,19 +11,19 @@ Init Workflow part contains three boxes :
 
 __Get JobID :__
 
-This part of the "Check & Read XML" Workflow is for, but, as its name suggests, to verify and read the input XML file of the Workflow. We must therefore retrieve the values that interest us.
+*...*
 
 __Initialization :__
 
-First, we must check the structure of the XML input file by running the XSD specific to this type of XML and in the specific case of this Workflow. We will therefore have to indicate the path to the XSD file.
+*...*
 
 __Copy Scripts & Manage Rights :__
 
-In the case of this Workflow (Canonical Intake), we need to retrieve the values for the number and the name of the configurations, the number of treatments, the frequencies as well as the name of the post-processing process. This list is not exhaustive.
+*...*
 
 ![Initialization components](https://user-images.githubusercontent.com/45098441/72733867-08afde80-3b99-11ea-88fb-0736ee0ea2e3.jpeg)
 
-__Init__ subpart is preceded by the __Set ANANAX environment and resources PATH__ box, which consist in the repository creation (contained in the *namesOfFolder* agregate) and followed by the __Create Folders__ box which consist in the recovery of the linear frequencies and the mesh frequencies (this is just linear frequencied to which we applied a step)
+__Init__ subpart is preceded by the __Set ANANAX environment and resources PATH__ box, which consist in ... and followed by the __Create Folders__ box which consist in ...
 
 ![Details](https://user-images.githubusercontent.com/45098441/72733862-02216700-3b99-11ea-90d0-fba2f892a949.jpeg)
 
