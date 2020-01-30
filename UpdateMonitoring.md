@@ -4,13 +4,9 @@
 All the __Update Monitoring__ box is written in Python.
 ### What the box does ?
 
-This part of the "Check & Read XML" Workflow is for, but, as its name suggests, to verify and read the input XML file of the Workflow. We must therefore retrieve the values that interest us.
+This script allows to update the status of the workflow and to pass the finished parts in "finished", it allows to modify the XML file directly (using of the Python language DOM API - Document Object Model) which allows you to access the tree structure of an XML file and thus read or modify the nodes and information that interest us.
 
-First, we must check the structure of the XML input file by running the XSD specific to this type of XML and in the specific case of this Workflow. We will therefore have to indicate the path to the XSD file.
-
-In the case of this Workflow (Canonical Intake), we need to retrieve the values for the number and the name of the configurations, the number of treatments, the frequencies as well as the name of the post-processing process. This list is not exhaustive.
-
-__Check & Read XML__ box is preceded by the __Create Folders__ box, which consist in the repository creation (contained in the *namesOfFolder* agregate) and followed by the __Get Mesh & Models Frequencies__ box which consist in the recovery of the linear frequencies and the mesh frequencies (this is just linear frequencied to which we applied a step)
+__Update Monitoring__ box is preceded by the __Copy Init__ box which consists in copying the folder from our Job folder (after modifications) into the Numacous folder. This is the last box of the Initialization part.
 
 ![Initialization components](https://user-images.githubusercontent.com/45098441/72733988-401e8b00-3b99-11ea-9015-013f4ee6d3d6.jpeg)
 ----------------------------
@@ -18,16 +14,14 @@ __Check & Read XML__ box is preceded by the __Create Folders__ box, which consis
 
 ### Which files to import ?
 
-To execute the script __Check & Read XML__ correctly, we need to import Python libraries.
+To execute the script __Update Monitoring__ correctly, we need to import Python libraries.
 The table below lists all the imports to be made :
 
 | Import name | Import location |
 | ------ | ------ |
-| XMLAnanax2dCanonicalIntake | `/python/api/ductnoise/fannoise/ananax/ananax2d_canonical_intake` |
+| UpdateMonitoring | `/python/api/ductnoise/fannoise/ananax/ananax2d_canonical_intake` |
 | Logger | `/python/workflows/common` |
 | CommonFunctions | `/python/workflows/common` |
-| PiffPostprocessing | `/python/workflows/ductnoise/common/postprocessing` |
-| PiffPostprocessingAnanax2dCanonicalIntake | `/python/workflows/ductnoise/fannoise/ananax/ananax2d_canonical_intake` |
 
 ### What about variables ?
 
@@ -37,48 +31,30 @@ __Mapped inputs variables to receive to previous boxes :__
 
 | Variable Name | Variable description | Type | Input | Output |
 | ------ | :------------: | :------: | :------: |  :------: |
-| XMLInput | Input XML which contain all data | FILE | X |- |
-| pathOfPythonSrcFolder | Python source folder wich contain all librairies | STRING | X |- |
-| pathOfJobFolder | Job folder to copy all results | STRING | X | - |
-| nameOfLogsFolder | Name of result logs folder - Usually LOGS | STRING | X | - |
-| verbosity | Verbosity schema value - Actually fine | STRING | X | - |
-| nameOfComponent | Name of result component folder - Usually checkSchema | STRING | X | - |
-| pathOfApplicationRootFolder | Root folder - Usually /x86_64 | STRING | X | - |
-| namesOfMetaComponent | Name of result meta component folder - Usually 00_Initialization | STRING | X | - |
-| MachToleranceDichotomy | DESCRIPTION | REAL | X | - |
-
-
-__Mapped outputs variables to send to following boxes :__
-
-| Variable Name | Variable description | Type | Input | Output |
-| ------ | :------------: | :------: | :------: |  :------: |
-| linearFrequencies | All linear frequencies in the XML file | ARRAY DOUBLE | - | X |
-| numberOfConfigurations | Configuration number in the XML file | INT | - | X |
-| pathOfLogsFolder | Logs folder result repository | STRING | - | X |
-| pathsOfUserFieldmeshes | DESCRIPTION | ARRAY STRING | - | X |
-| maxNodeMemory | Max node memory available | INT | - | X |
-| numberOfCoresByNode | Number of core in each node memory | INT | - | X |
-| maxNumberOfProcesses | Maximum processes number | INT | - | X |
-| memorySecurityCriteria | Security criteria for memory | REAL | - | X |
-| namesOfPostprocessingProcesses | DESCRIPTION | ARRAY STRING | - | X |
-| areBaseline | DESCRIPTION | BOOL | - | X |
-| baselineConfigurationsIds | DESCRIPTION | INT | - | X |
-| machAtFan | DESCRIPTION | REAL | - | X |
-| velocityAtFan | DESCRIPTION | REAL | - | X |
-| staticCelerityAtFan | DESCRIPTION | REAL | - | X |
-| staticFluidDensityAtFan | DESCRIPTION | REAL | - | X |
-| Cp | DESCRIPTION | REAL | - | X |
-| Cv | DESCRIPTION | REAL | - | X |
-
-
-
-__Unmapped outputs variables (which are not sent to the following boxes) :__
-
-| Variable Name | Variable description | Type | Input | Output |
-| ------ | :------------: | :------: | :------: |  :------: |
-| nbTreatments | DESCRIPTION | INT | - | X |
-| angles | Array microphones angles - Usually each 5° | ARRAY DOUBLE | - | X |
-| isEnginerating | DESCRIPTION | BOOL | - | X |
-| enginerating | DESCRIPTION | DOUBLE | - | X |
-| areAttenuationMatrices | In intake flow, we want attenuation matrice | BOOL | - | X |
-
+| linearFrequencies | All linear frequencies in the XML file | ARRAY DOUBLE | X | - |
+| numberOfConfigurations | Configuration number in the XML file | INT | X | - |
+| meshFrequencies | meshFrequencies array | ARRAY DOUBLE | X | - |
+| modelFrequencies | modelFrequencies from linearFrequencies | ARRAY DOUBLE | X | - |
+| areAcousticMeshes | All linear frequencies in the XML file | ARRAY DOUBLE | X | - |
+| areLinearAcousticModels | Configuration number in the XML file | INT | X | - |
+| isFlow | Logs folder result repository | STRING | X | - |
+| isFlowMesh | DESCRIPTION | ARRAY STRING | X | - |
+| areMicrophones | Number of core in each node memory | INT | X | - |
+| areLinearCutoffResults | Maximum processes number | INT | X | - |
+| areInterpolatedMeshes | Security criteria for memory | REAL | X | - |
+| areLinearResults | DESCRIPTION | ARRAY STRING | X | - |
+| areScoutResults | DESCRIPTION | BOOL | X | - |
+| nbAcousticMeshesAvailable | DESCRIPTION | INT | X | - |
+| nbCutoffResultsAvailable | DESCRIPTION | REAL | X | - |
+| nbLinearResultsAvailable | DESCRIPTION | INT | X | - |
+| nbScoutResultsAvailable | DESCRIPTION | REAL | X | - |
+| pathOfPythonSrcFolder | Python source folder wich contain all librairies | STRING | X | - |
+| linearComputations | linearComputations name - Usually 01_Linear/04_LinearComputations | STRING | X | - |
+| initialization | Usually 00_Initialization | STRING | X | - |
+| linearPreComputations | DESCRIPTION | STRING | X | - |
+| microphones | DESCRIPTION | STRING | X | - |
+| linearCutoffComputations | DESCRIPTION | STRING | X | - |
+| flow | DESCRIPTION | STRING | X | - |
+| linearAcousticModels | DESCRIPTION | REAL | X | - |
+| interpolatedMeshes | DESCRIPTION | REAL | X | - |
+| acousticMeshes | DESCRIPTION | REAL | X | - |
