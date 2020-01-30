@@ -4,12 +4,6 @@
 All the __Copy Init__ box is written in Python.
 ### What the box does ?
 
-This part of the "Check & Read XML" Workflow is for, but, as its name suggests, to verify and read the input XML file of the Workflow. We must therefore retrieve the values that interest us.
-
-First, we must check the structure of the XML input file by running the XSD specific to this type of XML and in the specific case of this Workflow. We will therefore have to indicate the path to the XSD file.
-
-In the case of this Workflow (Canonical Intake), we need to retrieve the values for the number and the name of the configurations, the number of treatments, the frequencies as well as the name of the post-processing process. This list is not exhaustive.
-
 __Check & Read XML__ box is preceded by the __Create Folders__ box, which consist in the repository creation (contained in the *namesOfFolder* agregate) and followed by the __Get Mesh & Models Frequencies__ box which consist in the recovery of the linear frequencies and the mesh frequencies (this is just linear frequencied to which we applied a step)
 
 ![Initialization components](https://user-images.githubusercontent.com/45098441/72733988-401e8b00-3b99-11ea-9015-013f4ee6d3d6.jpeg)
@@ -69,16 +63,3 @@ __Mapped outputs variables to send to following boxes :__
 | staticFluidDensityAtFan | DESCRIPTION | REAL | - | X |
 | Cp | DESCRIPTION | REAL | - | X |
 | Cv | DESCRIPTION | REAL | - | X |
-
-
-
-__Unmapped outputs variables (which are not sent to the following boxes) :__
-
-| Variable Name | Variable description | Type | Input | Output |
-| ------ | :------------: | :------: | :------: |  :------: |
-| nbTreatments | DESCRIPTION | INT | - | X |
-| angles | Array microphones angles - Usually each 5° | ARRAY DOUBLE | - | X |
-| isEnginerating | DESCRIPTION | BOOL | - | X |
-| enginerating | DESCRIPTION | DOUBLE | - | X |
-| areAttenuationMatrices | In intake flow, we want attenuation matrice | BOOL | - | X |
-
