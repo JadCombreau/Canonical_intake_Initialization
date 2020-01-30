@@ -1,16 +1,14 @@
 ## Set ANANAX Environment and Resources PATH
 ### Script Language
 
-All the __Set ANANAX Environment and Resources PATH__ box is written in Python.
+__Set ANANAX Environment and Resources PATH__ box is written in Python and Shell UNIX language.
 ### What the box does ?
 
-This part of the "Check & Read XML" Workflow is for, but, as its name suggests, to verify and read the input XML file of the Workflow. We must therefore retrieve the values that interest us.
+These scripts allow you to source the variable environment necessary for the execution of the various workflow scripts (*cdng_ananax_home.tmp*)
 
-First, we must check the structure of the XML input file by running the XSD specific to this type of XML and in the specific case of this Workflow. We will therefore have to indicate the path to the XSD file.
+The Python script therefore allows you to create the different paths to source. Here we indicate the "jar" file which contains the libraries necessary for the execution of the Java scripts of our Workflow.
 
-In the case of this Workflow (Canonical Intake), we need to retrieve the values for the number and the name of the configurations, the number of treatments, the frequencies as well as the name of the post-processing process. This list is not exhaustive.
-
-__Check & Read XML__ box is preceded by the __Create Folders__ box, which consist in the repository creation (contained in the *namesOfFolder* agregate) and followed by the __Get Mesh & Models Frequencies__ box which consist in the recovery of the linear frequencies and the mesh frequencies (this is just linear frequencied to which we applied a step)
+__Set ANANAX Environment and Resources PATH__ box is preceded by the __Create Folders__ box, which consist in the repository creation (contained in the *namesOfFolder* agregate) and followed by the __Get Mesh & Models Frequencies__ box which consist in the recovery of the linear frequencies and the mesh frequencies (this is just linear frequencied to which we applied a step)
 
 ![Initialization components](https://user-images.githubusercontent.com/45098441/72733839-f46be180-3b98-11ea-9394-2d7339747a44.jpeg)
 
