@@ -23,7 +23,7 @@ In the case of this Workflow (Canonical Intake), we need to retrieve the values 
 
 ![Initialization components](https://user-images.githubusercontent.com/45098441/72733867-08afde80-3b99-11ea-88fb-0736ee0ea2e3.jpeg)
 
-__Check & Read XML__ box is preceded by the __Create Folders__ box, which consist in the repository creation (contained in the *namesOfFolder* agregate) and followed by the __Get Mesh & Models Frequencies__ box which consist in the recovery of the linear frequencies and the mesh frequencies (this is just linear frequencied to which we applied a step)
+__Init__ subpart is preceded by the __Set ANANAX environment and resources PATH__ box, which consist in the repository creation (contained in the *namesOfFolder* agregate) and followed by the __Create Folders__ box which consist in the recovery of the linear frequencies and the mesh frequencies (this is just linear frequencied to which we applied a step)
 
 ![Details](https://user-images.githubusercontent.com/45098441/72733862-02216700-3b99-11ea-90d0-fba2f892a949.jpeg)
 
@@ -35,8 +35,10 @@ __Check & Read XML__ box is preceded by the __Create Folders__ box, which consis
 To execute the script __Check & Read XML__ correctly, we need to import Python libraries.
 The table below lists all the imports to be made :
 
+__Init__ subpart :
+
 | Import name | Import location |
-| ------ | ------ |
+| :------: | :------: |
 | XMLAnanax2dCanonicalIntake | `/python/api/ductnoise/fannoise/ananax/ananax2d_canonical_intake` |
 | Logger | `/python/workflows/common` |
 | CommonFunctions | `/python/workflows/common` |
