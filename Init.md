@@ -45,6 +45,21 @@ __Init__ subpart :
 | PiffPostprocessing | `/python/workflows/ductnoise/common/postprocessing` |
 | PiffPostprocessingAnanax2dCanonicalIntake | `/python/workflows/ductnoise/fannoise/ananax/ananax2d_canonical_intake` |
 
+__Get JobID__ box :
+
+| XMLAnanax2dCanonicalIntake | `/python/api/ductnoise/fannoise/ananax/ananax2d_canonical_intake` |
+| Logger | `/python/workflows/common` |
+
+__Initialization__ box :
+
+| XMLAnanax2dCanonicalIntake | `/python/api/ductnoise/fannoise/ananax/ananax2d_canonical_intake` |
+| Logger | `/python/workflows/common` |
+
+__Copy Scripts & Manage Rights__ box :
+
+| XMLAnanax2dCanonicalIntake | `/python/api/ductnoise/fannoise/ananax/ananax2d_canonical_intake` |
+| Logger | `/python/workflows/common` |
+
 ### What about variables ?
 
 The table below lists all the variables to be created in Isight and their role :
