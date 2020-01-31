@@ -41,17 +41,7 @@ __Init__ subpart is preceded by the __Set ANANAX environment and resources PATH_
 To execute these scripts correctly, we need to import Python libraries.
 The table below lists all the imports to be made for each box :
 
-__Init general subpart :__
-
-| Import name | Import location |
-| :------: | :------: |
-| XMLAnanax2dCanonicalIntake | `/python/api/ductnoise/fannoise/ananax/ananax2d_canonical_intake` |
-| Logger | `/python/workflows/common` |
-| CommonFunctions | `/python/workflows/common` |
-| PiffPostprocessing | `/python/workflows/ductnoise/common/postprocessing` |
-| PiffPostprocessingAnanax2dCanonicalIntake | `/python/workflows/ductnoise/fannoise/ananax/ananax2d_canonical_intake` |
-
-__Get JobID box :___
+__Get JobID box :__
 
 | Import name | Import location |
 | :------: | :------: |
