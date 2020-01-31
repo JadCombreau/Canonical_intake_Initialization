@@ -9,13 +9,18 @@ Init Workflow part contains three boxes :
 
 ### What boxes do ?
 
+This sub-part allows the initialization of the different paths and the construction of the paths for each execution (for each frequency of each configuration via the JobID).
+
+It is separated into three boxes which are linked together.
+
 __Get JobID :__
 
-*...*
+*The script __Get JobID__ allows to determine on which directory to work by calling on the JobID which will allow us to create the different paths and directories later.*
 
 __Initialization :__
 
-*...*
+*This script makes it possible to obtain the name of study but also the name of the various processes.*
+*This script allows the construction of the Numacous Folder path according to the JobID.*
 
 __Copy Scripts & Manage Rights :__
 
