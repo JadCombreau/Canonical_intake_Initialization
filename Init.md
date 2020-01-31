@@ -21,14 +21,15 @@ __Initialization :__
 
 *This script makes it possible to obtain the name of study but also the name of the various processes.*
 *This script allows the construction of the Numacous Folder path according to the JobID.*
+*We also have a test case for "IsNIS"*
 
 __Copy Scripts & Manage Rights :__
 
-*...*
+*__Copy Scripts & Manage Rights__ script allows the folders copy and rights managing*
 
 ![Initialization components](https://user-images.githubusercontent.com/45098441/72733867-08afde80-3b99-11ea-88fb-0736ee0ea2e3.jpeg)
 
-__Init__ subpart is preceded by the __Set ANANAX environment and resources PATH__ box, which consist in ... and followed by the __Create Folders__ box which consist in ...
+__Init__ subpart is preceded by the __Set ANANAX environment and resources PATH__ box, which consist in variable environment sourcing (necessary for the execution of the various workflow scripts) and followed by the __Create Folders__ box which consist in the repository creation (contained in the namesOfFolder agregate).
 
 ![Details](https://user-images.githubusercontent.com/45098441/72733862-02216700-3b99-11ea-90d0-fba2f892a949.jpeg)
 
@@ -37,10 +38,10 @@ __Init__ subpart is preceded by the __Set ANANAX environment and resources PATH_
 
 ### Which files to import ?
 
-To execute the script __Check & Read XML__ correctly, we need to import Python libraries.
-The table below lists all the imports to be made :
+To execute these scripts correctly, we need to import Python libraries.
+The table below lists all the imports to be made for each box :
 
-__Init__ subpart :
+__Init general subpart :__
 
 | Import name | Import location |
 | :------: | :------: |
@@ -50,21 +51,21 @@ __Init__ subpart :
 | PiffPostprocessing | `/python/workflows/ductnoise/common/postprocessing` |
 | PiffPostprocessingAnanax2dCanonicalIntake | `/python/workflows/ductnoise/fannoise/ananax/ananax2d_canonical_intake` |
 
-__Get JobID__ box :
+__Get JobID box :___
 
 | Import name | Import location |
 | :------: | :------: |
 | XMLAnanax2dCanonicalIntake | `/python/api/ductnoise/fannoise/ananax/ananax2d_canonical_intake` |
 | Logger | `/python/workflows/common` |
 
-__Initialization__ box :
+__Initialization box :__
 
 | Import name | Import location |
 | :------: | :------: |
 | XMLAnanax2dCanonicalIntake | `/python/api/ductnoise/fannoise/ananax/ananax2d_canonical_intake` |
 | Logger | `/python/workflows/common` |
 
-__Copy Scripts & Manage Rights__ box :
+__Copy Scripts & Manage Rights box :__
 
 | Import name | Import location |
 | :------: | :------: |
@@ -77,28 +78,28 @@ The table below lists all the variables to be created in Isight and their role :
 
 __Mapped inputs variables to receive to previous boxes :__ 
 
-__Init__ subpart :
+__Init general subpart :__
 
 | Variable Name | Variable description | Type | Input | Output |
 | ------ | :------------: | :------: | :------: |  :------: |
 | XMLInput | Input XML which contain all data | FILE | X |- |
 | pathOfPythonSrcFolder | Python source folder wich contain all librairies | STRING | X |- |
 
-__Get JobID__ box :
+__Get JobID box :__
 
 | Variable Name | Variable description | Type | Input | Output |
 | ------ | :------------: | :------: | :------: |  :------: |
 | XMLInput | Input XML which contain all data | FILE | X |- |
 | pathOfPythonSrcFolder | Python source folder wich contain all librairies | STRING | X |- |
 
-__Initialization__ box :
+__Initialization box :__
 
 | Variable Name | Variable description | Type | Input | Output |
 | ------ | :------------: | :------: | :------: |  :------: |
 | XMLInput | Input XML which contain all data | FILE | X |- |
 | pathOfPythonSrcFolder | Python source folder wich contain all librairies | STRING | X |- |
 
-__Copy Scripts & Manage Rights__ box :
+__Copy Scripts & Manage Rights box :__
 
 | Variable Name | Variable description | Type | Input | Output |
 | ------ | :------------: | :------: | :------: |  :------: |
@@ -108,28 +109,28 @@ __Copy Scripts & Manage Rights__ box :
 
 __Mapped outputs variables to send to following boxes :__
 
-__Init__ subpart :
+__Init general subpart :__
 
 | Variable Name | Variable description | Type | Input | Output |
 | ------ | :------------: | :------: | :------: |  :------: |
 | XMLInput | Input XML which contain all data | FILE | - | X |
 | pathOfPythonSrcFolder | Python source folder wich contain all librairies | STRING | - | X |
 
-__Get JobID__ box :
+__Get JobID box :__
 
 | Variable Name | Variable description | Type | Input | Output |
 | ------ | :------------: | :------: | :------: |  :------: |
 | XMLInput | Input XML which contain all data | FILE | - | X |
 | pathOfPythonSrcFolder | Python source folder wich contain all librairies | STRING | - | X |
 
-__Initialization__ box :
+__Initialization box :__
 
 | Variable Name | Variable description | Type | Input | Output |
 | ------ | :------------: | :------: | :------: |  :------: |
 | XMLInput | Input XML which contain all data | FILE | - | X |
 | pathOfPythonSrcFolder | Python source folder wich contain all librairies | STRING | - | X |
 
-__Copy Scripts & Manage Rights__ box :
+__Copy Scripts & Manage Rights box :__
 
 | Variable Name | Variable description | Type | Input | Output |
 | ------ | :------------: | :------: | :------: |  :------: |
