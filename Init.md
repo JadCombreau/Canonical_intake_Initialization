@@ -27,10 +27,9 @@ __Copy Scripts & Manage Rights :__
 
 *__Copy Scripts & Manage Rights__ script allows the folders copy and rights managing*
 
+__Init__ subpart is preceded by the __Set ANANAX environment and resources PATH__ box, which consist in variable environment sourcing (necessary for the execution of the various workflow scripts) and followed by the __Create Folders__ box which consist in the repository creation (contained in the namesOfFolder agregate).
 
 ![Initialization components](https://user-images.githubusercontent.com/45098441/72733867-08afde80-3b99-11ea-88fb-0736ee0ea2e3.jpeg)
-
-__Init__ subpart is preceded by the __Set ANANAX environment and resources PATH__ box, which consist in variable environment sourcing (necessary for the execution of the various workflow scripts) and followed by the __Create Folders__ box which consist in the repository creation (contained in the namesOfFolder agregate).
 
 ![Details](https://user-images.githubusercontent.com/45098441/72733862-02216700-3b99-11ea-90d0-fba2f892a949.jpeg)
 
