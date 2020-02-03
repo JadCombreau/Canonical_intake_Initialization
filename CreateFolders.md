@@ -1,7 +1,7 @@
 ## Create Folders
 ### Script Language
 
-All the __Create Folders__ box is written in Shell UNIX language.
+All the __Create Folders__ box is written in Bash (Shell UNIX language).
 ### What the box does ?
 
 This script consists in initializing an array containing the various Isight variables (containing repository names) then the creation of these different folders. In the Canonical Intake Workflow case, we need a folder for each member of this list :
