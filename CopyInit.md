@@ -1,10 +1,12 @@
 ## Copy Init
 ### Script Language
 
-All the __Copy Init__ box is written in Python.
+All the __Copy Init__ box is written in Dynamic Java.
 ### What the box does ?
 
-__Check & Read XML__ box is preceded by the __Create Folders__ box, which consist in the repository creation (contained in the *namesOfFolder* agregate) and followed by the __Get Mesh & Models Frequencies__ box which consist in the recovery of the linear frequencies and the mesh frequencies (this is just linear frequencied to which we applied a step)
+COPY INIT DESCRIPTION
+
+*__Copy Init__ box is preceded by the __Scenario Analyser__ box (this box makes it possible to test if files or directories do not exist and therefore to determine which configurations or frequencies to restart) and followed by the __Update Monitoring__ box (allows to update the status of the workflow and to pass the finished parts in "completed")*.
 
 ![Initialization components](https://user-images.githubusercontent.com/45098441/72733988-401e8b00-3b99-11ea-9015-013f4ee6d3d6.jpeg)
 ----------------------------
@@ -12,7 +14,7 @@ __Check & Read XML__ box is preceded by the __Create Folders__ box, which consis
 
 ### Which files to import ?
 
-To execute the script __Check & Read XML__ correctly, we need to import Python libraries.
+To execute the script __Copy Init__ correctly, we need to import Python libraries.
 The table below lists all the imports to be made :
 
 | Import name | Import location |
