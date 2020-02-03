@@ -9,8 +9,8 @@
 
 ### Workflow type & role
 
-This Workflow (Canonical Intake) has the final goal (like the other Workflows) the acoustic attenuation matrix calculus.
-This Workflow is for canonical case of air intake, that is to say (unlike the analytical case), we do not have to generate any mesh. 
+This Workflow (__Canonical Intake__) has the final goal (*like the other Workflows*) the acoustic attenuation matrix calculus.
+This Workflow is for canonical case of air intake, that is to say (unlike the analytical case) we do not have to generate any mesh. 
 
 The mesh is assumed to be uniform and Actran automatically generates it for us. Sounds simple right ?
 
@@ -22,9 +22,9 @@ __This Workflow therefore presents seven boxes :__
 ----------------------------
 
 
-- __Initialization :__ *allows among other things the creation of initialization variables, environment variables or even the test of the structure and the reading of the input file (XML)*
+- __Initialization :__ *allows among other things the creation of initialization variables, environment variables or even structure test and the input XML file reading.*
 - __Acoustic Meshes :__ *allows the generation and the creation of an uniform mesh (canonical case)*
-- __Acoustic Models :__ *input file, thermodynamic file etc.*
+- __Acoustic Models :__ *input file, thermodynamic file (etc.)*
 - __Cutoff Computations :__ *source representation (modal base)*
 - __Scout Computations :__ *blank calculation to determine the resources required (number of HPC nodes, amount of memory, etc.)*
 - __Acoustic Computations :__ *Actran or Madhiwax solver for the noise acoustic calculation in the air intake (to obtain frequencies)*
