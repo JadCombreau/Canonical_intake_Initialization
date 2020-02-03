@@ -5,7 +5,7 @@ __Init__ Workflow part contains three boxes :
 
 - *__Get JobID__ box written in Java language*
 - *__Initialization__ box written in Java language*
-- *__Copy Scripts & Manage Rights__ written in Shell UNIX language*
+- *__Copy Scripts & Manage Rights__ written in Bash (Shell UNIX language).*
 
 ### What boxes do ?
 
