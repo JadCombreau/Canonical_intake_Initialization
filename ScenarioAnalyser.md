@@ -1,12 +1,12 @@
 ## Scenario Analyser
 ### Script Language
 
-All the __Scenario Analyser__ box is written in Python.
+All the __Scenario Analyser__ box is written in Python language.
 ### What the box does ?
 
-The scenario analyzer allows you to test if there are missing folders/files after the first execution of the workflow (during the first execution, all repositories exists but are empty). This script therefore avoids restarting all configurations/frequencies and therefore saves a lot of time ...
+The __Scenario Analyzer__ script allows you to test if there are missing folders/files after the first execution of the workflow (during the first execution, all repositories exists but are empty ...). This script therefore avoids restarting all configurations/frequencies and therefore saves a lot of time.
 
-This script must therefore be able to check if a file is missing in a specific folder (which we know  : since we know exactly the number of configurations and frequencies to launch).
+This script must therefore be able to check if a file is missing in a specific folder (we know exactly the number of configurations and frequencies to launch).
 
 To begin, this script must copy the Numacous Repository and remove folder if it already exists.
 
@@ -23,7 +23,7 @@ __This script must therefore test the existence of each member of the following 
 - areAllScoutResultsAndMemos
 - areAllComputationsResults
 
-*__Scenario Analyser__ box is preceded by the __Build Paths__ box which consist in the creation of different file paths necessary for all the Workflow and followed by the __Copy Init__ box which consists in copying the folder from our Job folder (after modifications) into the Numacous folder.*
+*__Scenario Analyser__ box is preceded by the __Build Paths__ box which consist in the creation of different file paths necessary for all the Workflow. This box is followed by the __Copy Init__ Workflow subpart which consists in copying folders from our Job folder (after modifications) into the Numacous folder.*
 
 ![Initialization components](https://user-images.githubusercontent.com/45098441/72733938-2e3ce800-3b99-11ea-9aef-180fca448d24.jpeg)
 ----------------------------
@@ -31,7 +31,7 @@ __This script must therefore test the existence of each member of the following 
 
 ### Which files to import ?
 
-To execute the script __Check & Read XML__ correctly, we need to import Python libraries.
+To execute the script __Scenario Analyser__ correctly, we need to import Python libraries.
 The table below lists all the imports to be made :
 
 | Import name | Import location |
