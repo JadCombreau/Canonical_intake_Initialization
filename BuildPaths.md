@@ -1,12 +1,12 @@
 ## Build Paths
 ### Script Language
 
-All the __Build Paths__ box is written in Python.
+All the __Build Paths__ box is written in Python language.
 ### What the box does ?
 
-*This Python script allows the creation of different file paths necessary for all the Workflow.*
+This Python script allows the creation of different file paths necessary for all the Workflow.
 
-*Indeed according to the preceding boxes which allowed us to know the number of frequencies and configurations for example ... We must now create a folder by configuration and one by frequency. The different paths are created here but the folders themselves will be created later.*
+Indeed, according to the preceding boxes which allowed us to know the number of frequencies and configurations for example, we must now create a folder by configuration and one by frequency. The different paths are created here but the folders themselves will be created later.
 
 __The script is divided into different sub-areas for easier understanding :__
 
@@ -15,15 +15,14 @@ __The script is divided into different sub-areas for easier understanding :__
 - *The "acousmesh" part*
 - *The "microphones" part*
 - *The "linear models" part*
-  - *The "linear frequency" subpart*
 - *The "linear cutoff" part*
 - *The "scouts" part*
 - *The "linear computations" part*
 - *The "postprocessing" part*
 
-*In the case of this Workflow (Canonical Intake), we need to retrieve the values for the number and the name of the configurations, the number of treatments, the frequencies as well as the name of the post-processing process. This list is not exhaustive.*
+*In this Workflow case (*Canonical Intake*), we need to retrieve the values for the number and the name of all configurations, the number of treatments, the frequencies as well as the name of the post-processing process (This list is not exhaustive)
 
-*__Build Paths__ box is preceded by the __Link Data from Numacous__ box, which consist in the Numacous directory link (copy of all files in this directory to the Job Folder repository) and followed by the __Scenario Analyser__ box : It makes it possible to test if files or directories do not exist and therefore to determine which configurations or frequencies to restart.*
+*__Build Paths__ box is preceded by the __Link Data from Numacous__ box, which consist in the Numacous directory link (copy of all files from this directory to the Job Folder repository) and followed by the __Scenario Analyser__ box (this box makes it possible to test if files or directories do not exist and therefore to determine which configurations or frequencies to restart)*.
 
 ![Initialization components](https://user-images.githubusercontent.com/45098441/72734164-7eb44580-3b99-11ea-8313-26fdce7081a8.jpeg)
 ----------------------------
