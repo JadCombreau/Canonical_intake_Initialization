@@ -1,7 +1,7 @@
 ## Set ANANAX Environment and Resources PATH
 ### Script Language
 
-__Set ANANAX Environment and Resources PATH__ box is written in Python and Shell UNIX language.
+__Set ANANAX Environment and Resources PATH__ box is written in Python and Bash (Shell UNIX language).
 ### What the box does ?
 
 These scripts allow you to source the variable environment necessary for the execution of the various workflows scripts (*cdng_ananax_home.tmp*).
