@@ -4,13 +4,13 @@
 All the __Check & Read XML__ is written in Python language.
 ### What the box does ?
 
-This part of the "Check & Read XML" Workflow is for, but, as its name suggests, to verify and read the input XML file of the Workflow. We must therefore retrieve the values that interest us.
+This part box of the Workflow nammed  __Check & Read XML__ is for (as its name suggests) the input XML verifiying and reading. We must therefore retrieve the values that interest us.
 
-First, we must check the structure of the XML input file by running the XSD specific to this type of XML and in the specific case of this Workflow. We will therefore have to indicate the path to the XSD file.
+We must check the structure of the XML input file by running a specific XSD file.
 
-In the case of this Workflow (Canonical Intake), we need to retrieve the values for the number and the name of the configurations, the number of treatments, the frequencies as well as the name of the post-processing process. This list is not exhaustive.
+In the case of this Workflow (*Canonical Intake*), we need to retrieve the values for the number and the name of the configurations, the number of treatments, the frequencies as well as the name of the post-processing process (his list is not exhaustive).
 
-*__Check & Read XML__ box is preceded by the __Create Folders__ box, which consist in the repository creation (contained in the *namesOfFolder* agregate) and followed by the __Get Mesh & Models Frequencies__ box which consist in the recovery of the linear frequencies and the mesh frequencies (this is just linear frequencied to which we applied a step)*
+*__Check & Read XML__ box is preceded by the __Create Folders__ box which consist in the repository creation (contained in the *namesOfFolder* agregate) and followed by the __Get Mesh & Models Frequencies__ box which consist in the recovery of the linear frequencies and the mesh frequencies (this is just, in fact linear frequencies to which we applied a step).*
 
 ![Initialization components](https://user-images.githubusercontent.com/45098441/72733881-11081980-3b99-11ea-8d64-d0a6db042717.jpeg)
 ----------------------------
