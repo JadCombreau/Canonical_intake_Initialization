@@ -36,17 +36,17 @@ __Inputs variables to be given to Isight or received from previous boxes :__
 
 | Variable Name | Variable description | Type | Input | Output |
 | ------ | :------------: | :------: | :------: |  :------: |
-| version | Process version - Usually "v2020r5" | STRING | X | - |
-| command | Process command - Actually "ananaxterm" | STRING | X | - |
-| nameOfMetaComponent | Name Of Meta Component - Usually "00_Initialization" | STRING | X | - |
+| version | Name of process version | STRING | X | - |
+| command | Process command name | STRING | X | - |
+| initialization | Name of Meta Component Initialization folder | STRING | X | - |
 
 
 __Outputs variables to send to following boxes :__
 
 | Variable Name | Variable description | Type | Input | Output |
 | ------ | :------------: | :------: | :------: |  :------: |
-| pathOfPythonSrcFolder | Python source folder wich contain all librairies | STRING | - | X |
-| pathOfJavaSrcFolder | Java source folder wich contain all librairies | STRING | - | X |
-| pathOfResourcesFolder | Job folder to copy all results | STRING | - | X |
-| nameOfApplicationRootFolder | Name of result logs folder - Usually "LOGS" | STRING | - | X |
-| initialization | Name Of Meta Component - Usually "00_Initialization" | STRING | - | X |
+| nameOfMetaComponent | Name of Meta Component folder | STRING | - | X |
+| pathOfJavaSrcFolder | Java source folder path wich contain all librairies | STRING | - | X |
+| pathOfPythonSrcFolder | Python source folder path wich contain all librairies | STRING | - | X |
+| pathOfResourcesFolder | Resources folder path | STRING | - | X |
+| nameOfApplicationRootFolder | Path of root folder | STRING | - | X |
