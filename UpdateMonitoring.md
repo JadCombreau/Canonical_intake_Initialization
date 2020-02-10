@@ -32,10 +32,21 @@ __Mapped inputs variables to receive to previous boxes :__
 
 | Variable Name | Variable description | Type | Input | Output |
 | ------ | :------------: | :------: | :------: |  :------: |
-| linearFrequencies | All linear frequencies in the XML file | ARRAY DOUBLE | X | - |
-| numberOfConfigurations | Configuration number in the XML file | INT | X | - |
-| meshFrequencies | meshFrequencies array | ARRAY DOUBLE | X | - |
-| modelFrequencies | modelFrequencies from linearFrequencies | ARRAY DOUBLE | X | - |
+| linearFrequencies | linearFrequencies from XML file | ARRAY REAL | X | - |
+| numberOfConfigurations | Configuration number from XML file | INT | X | - |
+| meshFrequencies | meshFrequencies array from "Get Mesh & Models Frequencies" box | ARRAY REAL | X | - |
+| modelFrequencies | modelFrequencies from linearFrequencies | ARRAY REAL | X | - |
+| linearComputations | linearComputations name - Usually 01_Linear/04_LinearComputations | STRING | X | - |
+| initialization | Usually 00_Initialization | STRING | X | - |
+| linearPreComputations | DESCRIPTION | STRING | X | - |
+| microphones | DESCRIPTION | STRING | X | - |
+| linearCutoffComputations | DESCRIPTION | STRING | X | - |
+| flow | DESCRIPTION | STRING | X | - |
+| linearAcousticModels | DESCRIPTION | REAL | X | - |
+| interpolatedMeshes | DESCRIPTION | REAL | X | - |
+| acousticMeshes | DESCRIPTION | REAL | X | - |
+| pathOfPythonSrcFolder | Python source folder wich contain all librairies | STRING | X | - |
+| pathOfMonitoringStatus | "status.log" file input path | STRING | X | - |
 | areAcousticMeshes | All linear frequencies in the XML file | ARRAY DOUBLE | X | - |
 | areLinearAcousticModels | Configuration number in the XML file | INT | X | - |
 | isFlow | Logs folder result repository | STRING | X | - |
@@ -47,15 +58,7 @@ __Mapped inputs variables to receive to previous boxes :__
 | areScoutResults | DESCRIPTION | BOOL | X | - |
 | nbAcousticMeshesAvailable | DESCRIPTION | INT | X | - |
 | nbCutoffResultsAvailable | DESCRIPTION | REAL | X | - |
+| nbInterpolatedMesehsAvailable | DESCRIPTION | REAL | X | - |
+| nbLinearAcousticModelsAvailable | DESCRIPTION | INT | X | - |
 | nbLinearResultsAvailable | DESCRIPTION | INT | X | - |
 | nbScoutResultsAvailable | DESCRIPTION | REAL | X | - |
-| pathOfPythonSrcFolder | Python source folder wich contain all librairies | STRING | X | - |
-| linearComputations | linearComputations name - Usually 01_Linear/04_LinearComputations | STRING | X | - |
-| initialization | Usually 00_Initialization | STRING | X | - |
-| linearPreComputations | DESCRIPTION | STRING | X | - |
-| microphones | DESCRIPTION | STRING | X | - |
-| linearCutoffComputations | DESCRIPTION | STRING | X | - |
-| flow | DESCRIPTION | STRING | X | - |
-| linearAcousticModels | DESCRIPTION | REAL | X | - |
-| interpolatedMeshes | DESCRIPTION | REAL | X | - |
-| acousticMeshes | DESCRIPTION | REAL | X | - |
