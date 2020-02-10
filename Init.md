@@ -65,7 +65,7 @@ __For Copy Scripts & Manage Rights box :__
 
 The table below lists all the variables to be created in Isight and their role :
 
-__Mapped inputs variables to receive to previous boxes :__ 
+__Inputs variables to be given to Isight or received from previous boxes :__ 
 
 __Init general subpart :__
 
@@ -128,7 +128,7 @@ __Copy Scripts & Manage Rights box :__
 | processNameOfApplication | Python source folder wich contain all librairies | STRING | X |- |
 
 
-__Mapped outputs variables to send to following boxes :__
+__Outputs variables to send to following boxes :__
 
 __Init general subpart :__
 
