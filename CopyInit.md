@@ -19,8 +19,8 @@ The table below lists all the imports to be made :
 
 | Import name | Import location |
 | ------ | ------ |
-| Logger | `/python/workflows/common` |
-| CommonFunctions | `/python/workflows/common` |
+| ananax.jar | `/java` |
+| CommonFunctions.java | `/java/src/common/generic` |
 
 ### What about variables ?
 
