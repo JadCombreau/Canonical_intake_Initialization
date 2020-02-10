@@ -73,7 +73,6 @@ __Init general subpart :__
 | ------ | :------------: | :------: | :------: |  :------: |
 | loggerNameOfMetaComponent | Input XML which contain all data | FILE | X | - |
 | loggerVerbosity | Python source folder wich contain all librairies | STRING | X | - |
-
 | nameOfFiperscratchInputXML | Python source folder wich contain all librairies | STRING | X | - |
 | nameOfFiperscratchMonitoring | Python source folder wich contain all librairies | STRING | X | - |
 | nameOfLogsFolder | Python source folder wich contain all librairies | STRING | X | - |
