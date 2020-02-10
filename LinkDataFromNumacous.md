@@ -31,6 +31,6 @@ __Inputs variables to be given to Isight or received from previous boxes :__
 
 | Variable Name | Variable description | Type | Input | Output |
 | ------ | :------------: | :------: | :------: |  :------: |
-| pathOfJobFolder | Job folder to copy all results - Usually "/x86_64/samples/canonicalIntake" | STRING | X | - |
-| pathOfNumacousFolder | Numacous folder repository - Usually "/projects/numacous" | STRING | X | - |
+| pathOfJobFolder | Job folder path (to copy all workflow results) | STRING | X | - |
+| pathOfNumacousFolder | Numacous folder path | STRING | X | - |
 
