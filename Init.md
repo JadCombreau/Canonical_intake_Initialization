@@ -74,26 +74,41 @@ __Init general subpart :__
 | XMLInput | Input XML which contain all data | FILE | X |- |
 | pathOfPythonSrcFolder | Python source folder wich contain all librairies | STRING | X |- |
 
-__Get JobID box :__
-
-| Variable Name | Variable description | Type | Input | Output |
-| ------ | :------------: | :------: | :------: |  :------: |
-| XMLInput | Input XML which contain all data | FILE | X |- |
-| pathOfPythonSrcFolder | Python source folder wich contain all librairies | STRING | X |- |
-
 __Initialization box :__
 
 | Variable Name | Variable description | Type | Input | Output |
 | ------ | :------------: | :------: | :------: |  :------: |
-| XMLInput | Input XML which contain all data | FILE | X |- |
-| pathOfPythonSrcFolder | Python source folder wich contain all librairies | STRING | X |- |
+| nameOfComponent | Input XML which contain all data | FILE | X |- |
+| nameOfMetaComponent | Python source folder wich contain all librairies | STRING | X |- |
+| verbosity | Python source folder wich contain all librairies | STRING | X |- |
+| nameOfFiperscratchInputXML| Python source folder wich contain all librairies | STRING | X |- |
+| nameOfFiperscratchMonitoring | Python source folder wich contain all librairies | STRING | X |- |
+| nameOfLogsFolder| Python source folder wich contain all librairies | STRING | X |- |
+| nameOfScriptsFolder | Python source folder wich contain all librairies | STRING | X |- |
+| AOPYear | Python source folder wich contain all librairies | STRING | X |- |
+| name | Python source folder wich contain all librairies | STRING | X |- |
+| usecase | Python source folder wich contain all librairies | STRING | X |- |
+| pathOfJobFolder | Python source folder wich contain all librairies | STRING | X |- |
+| pathOfNumacousRootFolder | Python source folder wich contain all librairies | STRING | X |- |
+| command | Python source folder wich contain all librairies | STRING | X |- |
+| name | Python source folder wich contain all librairies | STRING | X |- |
+| nameOfMonitoringTemplate | Python source folder wich contain all librairies | STRING | X |- |
+| pathOfResourcesFolder | Python source folder wich contain all librairies | STRING | X |- |
+| processNameOfApplication | Python source folder wich contain all librairies | STRING | X |- |
+| version | Python source folder wich contain all librairies | STRING | X |- |
+| subwfInitPathOfRootFolder | Python source folder wich contain all librairies | STRING | X |- |
+| subwfInitVersion | Python source folder wich contain all librairies | STRING | X |- |
 
 __Copy Scripts & Manage Rights box :__
 
 | Variable Name | Variable description | Type | Input | Output |
 | ------ | :------------: | :------: | :------: |  :------: |
-| XMLInput | Input XML which contain all data | FILE | X |- |
-| pathOfPythonSrcFolder | Python source folder wich contain all librairies | STRING | X |- |
+| isNis | True if input is Nis Airbus type | BOOLEAN | - | X |
+| nameOfScriptsFolder | Python source folder wich contain all librairies | STRING | X |- |
+| pathOfApplicationRootFolder | Python source folder wich contain all librairies | STRING | X |- |
+| pathOfJavaSrcFolder | Python source folder wich contain all librairies | STRING | X |- |
+| pathOfJobFolder | Python source folder wich contain all librairies | STRING | X |- |
+| processNameOfApplication | Python source folder wich contain all librairies | STRING | X |- |
 
 
 __Mapped outputs variables to send to following boxes :__
@@ -109,19 +124,14 @@ __Get JobID box :__
 
 | Variable Name | Variable description | Type | Input | Output |
 | ------ | :------------: | :------: | :------: |  :------: |
-| XMLInput | Input XML which contain all data | FILE | - | X |
-| pathOfPythonSrcFolder | Python source folder wich contain all librairies | STRING | - | X |
+| pathOfJobFolder | Job Folder path (for each configuration) | STRING | - | X |
+| pathOfNumacousRootFolder | Numacous Root Folder | STRING | - | X |
 
 __Initialization box :__
 
 | Variable Name | Variable description | Type | Input | Output |
 | ------ | :------------: | :------: | :------: |  :------: |
-| XMLInput | Input XML which contain all data | FILE | - | X |
-| pathOfPythonSrcFolder | Python source folder wich contain all librairies | STRING | - | X |
-
-__Copy Scripts & Manage Rights box :__
-
-| Variable Name | Variable description | Type | Input | Output |
-| ------ | :------------: | :------: | :------: |  :------: |
-| XMLInput | Input XML which contain all data | FILE | - | X |
-| pathOfPythonSrcFolder | Python source folder wich contain all librairies | STRING | - | X |
+| isNis | True if input is Nis Airbus type | BOOLEAN | - | X |
+| pathOfNumacousFolder | Numacous Root Folder | STRING | - | X |
+| company | User Company | STRING | - | X |
+| email | User Email adress to send workflow status | STRING | - | X |
