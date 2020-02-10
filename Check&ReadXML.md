@@ -37,41 +37,42 @@ __Inputs variables to be given to Isight or received from previous boxes :__
 
 | Variable Name | Variable description | Type | Input | Output |
 | ------ | :------------: | :------: | :------: |  :------: |
-| XMLInput | Input XML which contain all data | FILE | X |- |
-| pathOfPythonSrcFolder | Python source folder wich contain all librairies | STRING | X |- |
-| pathOfJobFolder | Job folder to copy all results | STRING | X | - |
-| nameOfLogsFolder | Name of result logs folder - Usually "LOGS" | STRING | X | - |
-| verbosity | Verbosity schema value - Actually fine | STRING | X | - |
-| nameOfComponent | Name of result component folder - Usually "checkSchema" | STRING | X | - |
-| pathOfApplicationRootFolder | Root folder - Usually "x86_64" | STRING | X | - |
-| namesOfMetaComponent | Name of result meta component folder - Usually "00_Initialization" | STRING | X | - |
-| MachToleranceDichotomy | - | REAL | X | - |
+| pathOfPythonSrcFolder | Python source folder path wich contain all librairies | STRING | X |- |
+| pathOfJobFolder | Job folder path to copy all results | STRING | X | - |
+| nameOfLogsFolder | Name of result logs folder | STRING | X | - |
+| verbosity | Verbosity schema value | STRING | X | - |
+| nameOfComponent | Name of result component folder | STRING | X | - |
+| pathOfApplicationRootFolder | Application Root folder (source) | STRING | X | - |
+| namesOfMetaComponent | Name of Initialization Meta Component folder | STRING | X | - |
+| MachToleranceDichotomy | Mach Tolerance Dichotomy value | REAL | X | - |
+| BM_in_min | - | STRING | X | - |
+| BM_in_max | - | REAL | X | - |
 
 
 __Outputs variables to send to following boxes :__
 
 | Variable Name | Variable description | Type | Input | Output |
 | ------ | :------------: | :------: | :------: |  :------: |
-| linearFrequencies | All linear frequencies in the XML file | ARRAY DOUBLE | - | X |
-| numberOfConfigurations | Configuration number in the XML file | INT | - | X |
-| pathOfLogsFolder | Logs folder result repository | STRING | - | X |
-| pathsOfUserFieldmeshes | - | ARRAY STRING | - | X |
+| linearFrequencies | All linear frequencies from the XML file | ARRAY DOUBLE | - | X |
+| numberOfConfigurations | Number of Configurations from the XML file | INT | - | X |
+| pathOfLogsFolder | Logs folder rsults path | STRING | - | X |
+| pathsOfUserFieldmeshes | User Field Meshes path | STRING | - | X |
 | maxNodeMemory | Max node memory available | INT | - | X |
 | numberOfCoresByNode | Number of core in each node memory | INT | - | X |
-| maxNumberOfProcesses | Maximum processes number | INT | - | X |
+| maxNumberOfProcesses | Maximum number of processes | INT | - | X |
 | memorySecurityCriteria | Security criteria for memory | REAL | - | X |
-| namesOfPostprocessingProcesses | - | ARRAY STRING | - | X |
-| areBaseline | - | BOOL | - | X |
-| baselineConfigurationsIds | - | INT | - | X |
-| machAtFan | - | REAL | - | X |
-| velocityAtFan | - | REAL | - | X |
-| staticCelerityAtFan | - | REAL | - | X |
-| staticFluidDensityAtFan | - | REAL | - | X |
+| namesOfPostprocessingProcesses | Array containing all post processing processes names | ARRAY STRING | - | X |
+| areBaseline | True if inputs are Baseline | BOOLEAN | - | X |
+| baselineConfigurationsIds | Array containing all Ids of Baseline Configurations | ARRAY INT | - | X |
+| machAtFan | Mach value at fan | REAL | - | X |
+| velocityAtFan | Velocity value at fan | REAL | - | X |
+| staticCelerityAtFan | Static celerity value at fan | REAL | - | X |
+| staticFluidDensityAtFan | Static fluid density value at fan | REAL | - | X |
 | Cp | - | REAL | - | X |
 | Cv | - | REAL | - | X |
-| nbTreatments | - | INT | - | X |
+| nbTreatments | Number of treatments for each configuration | INT | - | X |
 | angles | Array microphones angles - Usually each 5° | ARRAY DOUBLE | - | X |
-| isEnginerating | - | BOOL | - | X |
-| enginerating | - | DOUBLE | - | X |
-| areAttenuationMatrices | In intake flow, we want attenuation matrice | BOOL | - | X |
+| isEnginerating | True if input is Enginerating input | BOOLEAN | - | X |
+| enginerating | Engineration value | DOUBLE | - | X |
+| areAttenuationMatrices | True if inputs are attenuation matrices | BOOLEAN | - | X |
 
