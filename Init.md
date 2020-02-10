@@ -71,8 +71,26 @@ __Init general subpart :__
 
 | Variable Name | Variable description | Type | Input | Output |
 | ------ | :------------: | :------: | :------: |  :------: |
-| XMLInput | Input XML which contain all data | FILE | X |- |
-| pathOfPythonSrcFolder | Python source folder wich contain all librairies | STRING | X |- |
+| loggerNameOfMetaComponent | Input XML which contain all data | FILE | X | - |
+| loggerVerbosity | Python source folder wich contain all librairies | STRING | X | - |
+
+| nameOfFiperscratchInputXML | Python source folder wich contain all librairies | STRING | X | - |
+| nameOfFiperscratchMonitoring | Python source folder wich contain all librairies | STRING | X | - |
+| nameOfLogsFolder | Python source folder wich contain all librairies | STRING | X | - |
+| nameOfMonitoringTemplate | Python source folder wich contain all librairies | STRING | X | - |
+| nameOfScriptsFolder | Python source folder wich contain all librairies | STRING | X | - |
+| numericalStudyAOPYear | Python source folder wich contain all librairies | STRING | X | - |
+| numericalStudyName | Python source folder wich contain all librairies | STRING | X | - |
+| numericalStudyUsecase | Python source folder wich contain all librairies | STRING | X | - |
+| pathOfApplicationRootFolder | Python source folder wich contain all librairies | STRING | X | - |
+| pathOfJavaSrcFolder | Python source folder wich contain all librairies | STRING | X | - |
+| pathOfResourcesFolder | Python source folder wich contain all librairies | STRING | X | - |
+| processCommand | Python source folder wich contain all librairies | STRING | X | - |
+| processName | Python source folder wich contain all librairies | STRING | X | - |
+| processNameOfApplication | Python source folder wich contain all librairies | STRING | X | - |
+| processVersion | Python source folder wich contain all librairies | STRING | X | - |
+| subwfInitPathOfRootFolder | Python source folder wich contain all librairies | STRING | X | - |
+| subwfInitVersion | Python source folder wich contain all librairies | STRING | X | - |
 
 __Initialization box :__
 
@@ -117,8 +135,10 @@ __Init general subpart :__
 
 | Variable Name | Variable description | Type | Input | Output |
 | ------ | :------------: | :------: | :------: |  :------: |
-| XMLInput | Input XML which contain all data | FILE | - | X |
-| pathOfPythonSrcFolder | Python source folder wich contain all librairies | STRING | - | X |
+| pathOfJavaSrcFolder | Input XML which contain all data | FILE | - | X |
+| pathOfNumacousFolder | Python source folder wich contain all librairies | STRING | - | X |
+| userCompany | Python source folder wich contain all librairies | STRING | - | X |
+| userEmail | Python source folder wich contain all librairies | STRING | - | X |
 
 __Get JobID box :__
 
