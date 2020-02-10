@@ -20,7 +20,7 @@ Finally, the linear frequencies are listed in a table named *modelFrequencies*.
 
 The table below lists all the variables to be created in Isight and their role :
 
-__Mapped inputs variables to receive to previous boxes :__ 
+__Inputs variables to be given to Isight or received from previous boxes :__ 
 
 | Variable Name | Variable description | Type | Input | Output |
 | ------ | :------------: | :------: | :------: |  :------: |
@@ -29,7 +29,7 @@ __Mapped inputs variables to receive to previous boxes :__
 | minMeshFrequency | Usually "2000.0" | REAL | X | - |
 
 
-__Mapped outputs variables to send to following boxes :__
+__Outputs variables to send to following boxes :__
 
 | Variable Name | Variable description | Type | Input | Output |
 | ------ | :------------: | :------: | :------: |  :------: |
