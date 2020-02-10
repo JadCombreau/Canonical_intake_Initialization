@@ -19,11 +19,8 @@ The table below lists all the imports to be made :
 
 | Import name | Import location |
 | ------ | ------ |
-| XMLAnanax2dCanonicalIntake | `/python/api/ductnoise/fannoise/ananax/ananax2d_canonical_intake` |
 | Logger | `/python/workflows/common` |
 | CommonFunctions | `/python/workflows/common` |
-| PiffPostprocessing | `/python/workflows/ductnoise/common/postprocessing` |
-| PiffPostprocessingAnanax2dCanonicalIntake | `/python/workflows/ductnoise/fannoise/ananax/ananax2d_canonical_intake` |
 
 ### What about variables ?
 
@@ -33,35 +30,10 @@ __Inputs variables to be given to Isight or received from previous boxes :__
 
 | Variable Name | Variable description | Type | Input | Output |
 | ------ | :------------: | :------: | :------: |  :------: |
-| XMLInput | Input XML which contain all data | FILE | X |- |
-| pathOfPythonSrcFolder | Python source folder wich contain all librairies | STRING | X |- |
-| pathOfJobFolder | Job folder to copy all results | STRING | X | - |
-| nameOfLogsFolder | Name of result logs folder - Usually LOGS | STRING | X | - |
-| verbosity | Verbosity schema value - Actually fine | STRING | X | - |
-| nameOfComponent | Name of result component folder - Usually checkSchema | STRING | X | - |
-| pathOfApplicationRootFolder | Root folder - Usually /x86_64 | STRING | X | - |
-| namesOfMetaComponent | Name of result meta component folder - Usually 00_Initialization | STRING | X | - |
-| MachToleranceDichotomy | DESCRIPTION | REAL | X | - |
-
-
-__Outputs variables to send to following boxes :__
-
-| Variable Name | Variable description | Type | Input | Output |
-| ------ | :------------: | :------: | :------: |  :------: |
-| linearFrequencies | All linear frequencies in the XML file | ARRAY DOUBLE | - | X |
-| numberOfConfigurations | Configuration number in the XML file | INT | - | X |
-| pathOfLogsFolder | Logs folder result repository | STRING | - | X |
-| pathsOfUserFieldmeshes | DESCRIPTION | ARRAY STRING | - | X |
-| maxNodeMemory | Max node memory available | INT | - | X |
-| numberOfCoresByNode | Number of core in each node memory | INT | - | X |
-| maxNumberOfProcesses | Maximum processes number | INT | - | X |
-| memorySecurityCriteria | Security criteria for memory | REAL | - | X |
-| namesOfPostprocessingProcesses | DESCRIPTION | ARRAY STRING | - | X |
-| areBaseline | DESCRIPTION | BOOL | - | X |
-| baselineConfigurationsIds | DESCRIPTION | INT | - | X |
-| machAtFan | DESCRIPTION | REAL | - | X |
-| velocityAtFan | DESCRIPTION | REAL | - | X |
-| staticCelerityAtFan | DESCRIPTION | REAL | - | X |
-| staticFluidDensityAtFan | DESCRIPTION | REAL | - | X |
-| Cp | DESCRIPTION | REAL | - | X |
-| Cv | DESCRIPTION | REAL | - | X |
+| nameOfComponent | Name of Results Components folder | STRING | X | - |
+| verbosity | Verbosity schema value | STRING | X | - |
+| pathOfInputXML | Input XML file path | STRING | X | - |
+| pathOfJobFolder| Job Folder path (to copy all workflow results) | STRING | X | - |
+| pathOfLogsFolder | Name of Results Logs folder | STRING | X | - |
+| pathOfNumacousFolder | Numacous folder wich contain all data to update | STRING | X | - |
+| pathOfTools| Tools Folder path | STRING | X | - |
