@@ -35,67 +35,67 @@ __Inputs variables to be given to Isight or received from previous boxes :__
 
 | Variable Name | Variable description | Type | Input | Output |
 | ------ | :------------: | :------: | :------: |  :------: |
-| nameOfTools | Usually "tools.list" | STRING | X |- |
-| nameOfNacelle | Usually "nacelle.stp" | STRING | X |- |
-| nameOfSpinner | Usually "spinner.stp" | STRING | X | - |
+| nameOfTools | Name of tools - Usually "tools.list" | STRING | X |- |
+| nameOfNacelle | Name of Nacelle - Usually "nacelle.stp" | STRING | X |- |
+| nameOfSpinner | Name of Spinner - Usually "spinner.stp" | STRING | X | - |
 | nameOfInputXml | Name of result input XML - Usually "input.xml" | STRING | X | - |
-| nameOfMonitoringStatus | Usually "status.log" | STRING | X | - |
-| formatOfFrequencyStr | Usually "%08.2fHz" | STRING | X | - |
-| formatOfConfigurationIdStr | Usually "%03d" | STRING | X | - |
-| nameOfActranMemo | Usually "bsub.actran.memo" | STRING | X | - |
-| nameOfConstraints | Usually "constraints.txt" | STRING | X | - |
-| formatOfSizeMesh | Usually "size_%s.unv" | STRING | X |- |
-| nameOfGeomAcousData | Usually "geom_acous.data" | STRING | X |- |
-| formatOfAcousticMesh | Usually "mesh_%s.unv" | STRING | X | - |
-| formatOfFieldmesh | Usually "fieldmesh_%s.unv" | STRING | X | - |
-| formatOfFieldmeshPtl | Usually "fieldmesh_%s.ptl" | STRING | X | - |
-| nameOfMicrophones | Usually "microphones.txt" | STRING | X | - |
-| formatOfAcousticModel | Usually "conf%s_freq%d.edat" | STRING | X | - |
-| nameOfSessionForAcousticAnalysis | Usually "tutu.py" | STRING | X | - |
-| nameOfEnvFile | 0.0 | STRING | X | - |
-| nameOfCutoffModes | - | STRING | X |- |
-| formatOfScoutMemo | - | STRING | X |- |
-| formatOfScoutModel | - | STRING | X | - |
-| formatOfScoutResult | - | STRING | X | - |
-| nameOfActranSequentialLog | - | STRING | X | - |
-| nameOfActranParallelLog | - | STRING | X | - |
-| formatOfComputationResultActran | Root folder - Usually /x86_64 | STRING | X | - |
-| nameOfActranResultPtl | - | STRING | X | - |
-| formatOfComputationResultPtl | - | STRING | X | - |
-| formatOfComputationResult | - | STRING | X |- |
-| formatOfComputationMemo | - | STRING | X |- |
-| formatOfAttenuationsMatrixl | - | STRING | X | - |
-| formatOfLinearPiffResult | - | STRING | X | - |
-| nameOfLinearPiffXML | - | STRING | X | - |
-| nameOfInputs | Usually "INPUTS" | STRING | X | - |
-| nameOfInfo | - | STRING | X | - |
-| nameOfScripts | Usually "SCRIPTS" | STRING | X | - |
-| formatOfFrequencyFolder | Usually "FREQ_%s" | STRING | X | - |
-| formatOfConfigurationFolder | Usually "CONF_%s" | STRING | X |- |
-| nameOfFlowMeshFolder | Usually "FLOWMESH" | STRING | X |- |
-| nameOfFlowFolder | Usually "FLOW" | STRING | X | - |
-| nameOfAcousticMeshesFolder | Usually "ACOUSMESH" | STRING | X | - |
-| nameOfMicrophonesFolder | Usually "MICROPHONES" | STRING | X | - |
-| nameOfInterpolatedMeshesFolder | Usually "INTERPOLATED_MESH" | STRING | X | - |
-| nameOfLinearAcousticModelsFolder | Usually "LINEAR/MODELS | STRING | X | - |
-| nameOfLinearCutoffFolder | Usually "LINEAR/CUTOFF" | STRING | X | - |
-| nameOfScoutComputationsFolder | Usually "SCOUT" | STRING | X |- |
-| nameOfLinearComputationsFolder | Usually "LINEAR/COMPUTATIONS" | STRING | X | - |
-| formatOfPostprocessingProcessFolder | Usually "MODALCONTENT_%s" | STRING | X | - |
-| formatOfRelativePostprocessingFolder | Usually "RELATIVE_CONF%s" | STRING | X | - |
-| nameOfLinearPostprocessingFolder | Usually "LINEAR/POST" | STRING | X | - |
-| nameOfAbsolutePostprocessingFolder | - | STRING | X | - |
-| pathOfJobFolder | Usually "/x86_64/samples/canonicalIntake" | STRING | X | - |
-| pathOfResourcesFolder | Usually "/opt/soft/cdtng/tools/ananax/dev/resources_wf" | STRING | X | - |
-| meshFrequencies | - | ARRAY REAL | X |- |
-| pathOfUserFieldmeshes | - | ARRAY STRING | X | - |
-| areBaseline | - | ARRAY BOOL | X | - |
-| baselineConfigurationIds | - | ARRAY INT | X | - |
-| namesOfPostprocessingProcesses | - | ARRAY STRING | X | - |
-| linearFrequencies | - | ARRAY REAL | X | - |
-| numberOfConfigurations | - | INT | X | - |
-| modelFrequencies | - | ARRAY REAL | X | - |
-| pathOfNumacousFolder | - | STRING | X | - |
+| nameOfMonitoringStatus | Name of Monitoring Status - Usually "status.log" | STRING | X | - |
+| formatOfFrequencyStr | Format of Frequency - Usually "%08.2fHz" | STRING | X | - |
+| formatOfConfigurationIdStr | Format of Configuration Id - Usually "%03d" | STRING | X | - |
+| nameOfActranMemo | Name of actran Memo - Usually "bsub.actran.memo" | STRING | X | - |
+| nameOfConstraints | Name of constraints - Usually "constraints.txt" | STRING | X | - |
+| formatOfSizeMesh | Format of size Mesh - Usually "size_%s.unv" | STRING | X |- |
+| nameOfGeomAcousData | Name of Geom Acous Data - Usually "geom_acous.data" | STRING | X |- |
+| formatOfAcousticMesh | Format of Acoustic Mesh - Usually "mesh_%s.unv" | STRING | X | - |
+| formatOfFieldmesh | Format of Filed Mesh - Usually "fieldmesh_%s.unv" | STRING | X | - |
+| formatOfFieldmeshPtl | Format of Field Mesh Ptl - Usually "fieldmesh_%s.ptl" | STRING | X | - |
+| nameOfMicrophones | Name of Microphones - Usually "microphones.txt" | STRING | X | - |
+| formatOfAcousticModel | Format of Acoustic Model - Usually "conf%s_freq%d.edat" | STRING | X | - |
+| nameOfSessionForAcousticAnalysis | Name of Session for Acoustic Analysis - Usually "tutu.py" | STRING | X | - |
+| nameOfEnvFile | Name of Environment file | STRING | X | - |
+| nameOfCutoffModes | Name of Cutoff Modes | STRING | X |- |
+| formatOfScoutMemo | Format of Scout Memo | STRING | X |- |
+| formatOfScoutMode | Format of Scout Mode | STRING | X | - |
+| formatOfScoutResult | Format of Scout Result | STRING | X | - |
+| nameOfActranSequentialLog | Name of Actran Sequential Log | STRING | X | - |
+| nameOfActranParallelLog | Name of Actran Parallel Log | STRING | X | - |
+| formatOfComputationResultActran | Format of Computation Result Actran | STRING | X | - |
+| nameOfActranResultPtl | Name of Actran Result Ptl | STRING | X | - |
+| formatOfComputationResultPtl | Format of Computation Result Ptl | STRING | X | - |
+| formatOfComputationResult | Format of Computation Result | STRING | X |- |
+| formatOfComputationMemo | Format of Computation Memo | STRING | X |- |
+| formatOfAttenuationsMatrix | Format of Attenuations Maxtrix | STRING | X | - |
+| formatOfLinearPiffResult | Format of Linear Piff Result | STRING | X | - |
+| nameOfLinearPiffXML | Name of Linear Piff XML | STRING | X | - |
+| nameOfInputs | Name of Inputs - Usually "INPUTS" | STRING | X | - |
+| nameOfInfo | Name of Info | STRING | X | - |
+| nameOfScripts | Name of Scripts - Usually "SCRIPTS" | STRING | X | - |
+| formatOfFrequencyFolder | Format of Frequency directory - Usually "FREQ_%s" | STRING | X | - |
+| formatOfConfigurationFolder | Format of Configuration Folder directory - Usually "CONF_%s" | STRING | X |- |
+| nameOfFlowMeshFolder | Name of Flow Mesh directory - Usually "FLOWMESH" | STRING | X |- |
+| nameOfFlowFolder | Name of Flow directory - Usually "FLOW" | STRING | X | - |
+| nameOfAcousticMeshesFolder | Name of Acoustic Meshes directory - Usually "ACOUSMESH" | STRING | X | - |
+| nameOfMicrophonesFolder | Name Of Microphones directory - Usually "MICROPHONES" | STRING | X | - |
+| nameOfInterpolatedMeshesFolder | Name of Interpolated Meshes directory - Usually "INTERPOLATED_MESH" | STRING | X | - |
+| nameOfLinearAcousticModelsFolder | Name of Linear Acoustic Models directory - Usually "LINEAR/MODELS | STRING | X | - |
+| nameOfLinearCutoffFolder | Name of Linear Cutoff directory - Usually "LINEAR/CUTOFF" | STRING | X | - |
+| nameOfScoutComputationsFolder | Name of Scout computations directory - Usually "SCOUT" | STRING | X |- |
+| nameOfLinearComputationsFolder | Name of Linear computations directory - Usually "LINEAR/COMPUTATIONS" | STRING | X | - |
+| formatOfPostprocessingProcessFolder | Format of Post Processing Process directory - Usually "MODALCONTENT_%s" | STRING | X | - |
+| formatOfRelativePostprocessingFolder | Format of Relative Post Processing directory - Usually "RELATIVE_CONF%s" | STRING | X | - |
+| nameOfLinearPostprocessingFolder | Name of Linear Post Processing directory - Usually "LINEAR/POST" | STRING | X | - |
+| nameOfAbsolutePostprocessingFolder | Name of Absolute Post Processing directory | STRING | X | - |
+| pathOfJobFolder | Path of Job Folder (to copy all results) | STRING | X | - |
+| pathOfResourcesFolder | Path of Resources directory | STRING | X | - |
+| meshFrequencies | Mesh Frequencies array from "Get Mesh & Models Frequencies" box | ARRAY REAL | X |- |
+| pathOfUserFieldmeshes | Path of User Field Meshes | ARRAY STRING | X | - |
+| areBaseline | Array of "True" if inputs are Baseline | ARRAY BOOL | X | - |
+| baselineConfigurationIds | Baseline Configurations Ids | ARRAY INT | X | - |
+| namesOfPostprocessingProcesses | Name of Post Processing Processes | ARRAY STRING | X | - |
+| linearFrequencies | Linear Frequencies array | ARRAY REAL | X | - |
+| numberOfConfigurations | Number of Configurations | INT | X | - |
+| modelFrequencies | Models Frequencies from "Get Mesh & Models Frequencies" box | ARRAY REAL | X | - |
+| pathOfNumacousFolder | Path of Numacous directory | STRING | X | - |
 
 __Outputs variables to send to following boxes :__
 
