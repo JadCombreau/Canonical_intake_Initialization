@@ -137,9 +137,9 @@ __Outputs variables to send to following boxes :__
 | pathsOfAttenuationsMatrices_process_configurationId | - | ARRAY STRING 2D | - | X |
 | pathsOfPiffResult_process_configurationId | - | ARRAY STRING 2D | - | X |
 | pathsOfPiffXml_process_configurationId | - | ARRAY STRING 2D | - | X |
-| nbTreatments | DESCRIPTION | INT | - | X |
+| nbTreatments | Number of Treatments | INT | - | X |
 | angles | Array microphones angles - Usually each 5° | ARRAY DOUBLE | - | X |
-| isEnginerating | DESCRIPTION | BOOL | - | X |
-| enginerating | DESCRIPTION | DOUBLE | - | X |
+| isEnginerating | DESCRIPTION | BOOL | True if input is "enginerating" input | X |
+| enginerating | DESCRIPTION | DOUBLE | Enginerating value | X |
 | areAttenuationMatrices | In intake flow, we want attenuation matrice | BOOL | - | X |
 
