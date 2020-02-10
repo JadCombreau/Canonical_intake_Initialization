@@ -28,7 +28,7 @@ __Create Folders__ box is preceded by the __Init__ Workflow subpart, which consi
 
 The table below lists all the variables to be created in Isight and their role :
 
-__Mapped inputs/outputs variables to receive to previous boxes :__ 
+__Inputs variables to be given to Isight or received from previous boxes :__  
 
 | Variable Name | Variable description | Type | Input | Output |
 | ------ | :------------: | :------: | :------: |  :------: |
