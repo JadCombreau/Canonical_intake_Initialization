@@ -31,7 +31,7 @@ __The script is divided into different sub-areas for easier understanding :__
 
 The table below lists all the variables to be created in Isight and their role :
 
-__Mapped inputs variables to receive to previous boxes :__ 
+__Inputs variables to be given to Isight or received from previous boxes :__ 
 
 | Variable Name | Variable description | Type | Input | Output |
 | ------ | :------------: | :------: | :------: |  :------: |
@@ -97,7 +97,7 @@ __Mapped inputs variables to receive to previous boxes :__
 | modelFrequencies | - | ARRAY REAL | X | - |
 | pathOfNumacousFolder | - | STRING | X | - |
 
-__Mapped outputs variables to send to following boxes :__
+__Outputs variables to send to following boxes :__
 
 | Variable Name | Variable description | Type | Input | Output |
 | ------ | :------------: | :------: | :------: |  :------: |
