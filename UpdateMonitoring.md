@@ -22,7 +22,6 @@ The table below lists all the imports to be made :
 | ------ | ------ |
 | UpdateMonitoring | `/python/api/ductnoise/fannoise/ananax/ananax2d_canonical_intake` |
 | Logger | `/python/workflows/common` |
-| CommonFunctions | `/python/workflows/common` |
 
 ### What about variables ?
 
@@ -32,33 +31,33 @@ __Mapped inputs variables to receive to previous boxes :__
 
 | Variable Name | Variable description | Type | Input | Output |
 | ------ | :------------: | :------: | :------: |  :------: |
-| linearFrequencies | linearFrequencies from XML file | ARRAY REAL | X | - |
-| numberOfConfigurations | Configuration number from XML file | INT | X | - |
-| meshFrequencies | meshFrequencies array from "Get Mesh & Models Frequencies" box | ARRAY REAL | X | - |
-| modelFrequencies | modelFrequencies from linearFrequencies | ARRAY REAL | X | - |
-| linearComputations | linearComputations name - Usually 01_Linear/04_LinearComputations | STRING | X | - |
-| initialization | Usually 00_Initialization | STRING | X | - |
-| linearPreComputations | DESCRIPTION | STRING | X | - |
-| microphones | DESCRIPTION | STRING | X | - |
-| linearCutoffComputations | DESCRIPTION | STRING | X | - |
-| flow | DESCRIPTION | STRING | X | - |
-| linearAcousticModels | DESCRIPTION | REAL | X | - |
-| interpolatedMeshes | DESCRIPTION | REAL | X | - |
-| acousticMeshes | DESCRIPTION | REAL | X | - |
+| linearFrequencies | Linear Frequencies from XML file | ARRAY REAL | X | - |
+| numberOfConfigurations | Number of configurations from XML file | INT | X | - |
+| meshFrequencies | Mesh Frequencies array from "Get Mesh & Models Frequencies" box | ARRAY REAL | X | - |
+| modelFrequencies | Model Frequencies from "Get Mesh & Models Frequencies" box | ARRAY REAL | X | - |
+| linearComputations | Linear Computations folder name | STRING | X | - |
+| initialization | Initialization folder name| STRING | X | - |
+| linearPreComputations | Linear Pre Computations (Scout) folder name | STRING | X | - |
+| microphones | Microphones folder name | STRING | X | - |
+| linearCutoffComputations | Linear Cutoff Computations folder name | STRING | X | - |
+| flow | Flow folder name | STRING | X | - |
+| linearAcousticModels | Linear Acoustic Models folder name | STRING | X | - |
+| interpolatedMeshes | Interpolated Meshes folder name | STRING | X | - |
+| acousticMeshes | Acoustic Meshes folder name | STRING | X | - |
 | pathOfPythonSrcFolder | Python source folder wich contain all librairies | STRING | X | - |
 | pathOfMonitoringStatus | "status.log" file input path | STRING | X | - |
-| areAcousticMeshes | All linear frequencies in the XML file | ARRAY DOUBLE | X | - |
-| areLinearAcousticModels | Configuration number in the XML file | INT | X | - |
-| isFlow | Logs folder result repository | STRING | X | - |
-| isFlowMesh | DESCRIPTION | ARRAY STRING | X | - |
-| areMicrophones | Number of core in each node memory | INT | X | - |
-| areLinearCutoffResults | Maximum processes number | INT | X | - |
-| areInterpolatedMeshes | Security criteria for memory | REAL | X | - |
-| areLinearResults | DESCRIPTION | ARRAY STRING | X | - |
-| areScoutResults | DESCRIPTION | BOOL | X | - |
-| nbAcousticMeshesAvailable | DESCRIPTION | INT | X | - |
-| nbCutoffResultsAvailable | DESCRIPTION | REAL | X | - |
-| nbInterpolatedMesehsAvailable | DESCRIPTION | REAL | X | - |
-| nbLinearAcousticModelsAvailable | DESCRIPTION | INT | X | - |
-| nbLinearResultsAvailable | DESCRIPTION | INT | X | - |
-| nbScoutResultsAvailable | DESCRIPTION | REAL | X | - |
+| areAcousticMeshes | True if inputs are Acoustic Meshes | BOOLEAN | X | - |
+| areLinearAcousticModels | True if inputs are Linear Acoustic Models | BOOLEAN | X | - |
+| isFlow | True if input is Flow | BOOLEAN | X | - |
+| isFlowMesh | True if input is Flow Mesh | BOOLEAN | X | - |
+| areMicrophones | True if inputs are Microphones | BOOLEAN | X | - |
+| areLinearCutoffResults | True if inputs are Linear Cutoff Results | BOOLEAN | X | - |
+| areInterpolatedMeshes | True if inputs are Interpolated Meshes | BOOLEAN | X | - |
+| areLinearResults | True if inputs are Linear Results | BOOLEAN | X | - |
+| areScoutResults | True if inputs are Scout Results | BOOLEAN | X | - |
+| nbAcousticMeshesAvailable | Number of Acoustic Meshes Available | INT | X | - |
+| nbCutoffResultsAvailable | Number of Cutoff Results Available | INT | X | - |
+| nbInterpolatedMeshesAvailable | Number of Interpolated Meshes Available | INT | X | - |
+| nbLinearAcousticModelsAvailable | Number of Linear Acoustic Models Available | INT | X | - |
+| nbLinearResultsAvailable | Number of Linear Results Available | INT | X | - |
+| nbScoutResultsAvailable | Number of Scout Results Available | INT | X | - |
