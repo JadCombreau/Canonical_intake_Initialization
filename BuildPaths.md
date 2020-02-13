@@ -101,45 +101,45 @@ __Outputs variables to send to following boxes :__
 
 | Variable Name | Variable description | Type | Input | Output |
 | ------ | :------------: | :------: | :------: |  :------: |
-| pathOfTools | - | STRING | - | X |
-| pathOfScriptsRootFolder | - | STRING | - | X |
-| pathOfNacelle | - | STRING | - | X |
-| pathsOfSpinner | - | STRING | - | X |
-| pathOfInputXml | - | STRING | - | X |
-| pathOfMonitoringStatus | - | STRING | - | X |
-| pathOfConstraints | - | STRING | - | X |
-| pathsOfSizeMesh | - | ARRAY STRING | - | X |
-| pathsOfAcousticMeshes | - | ARRAY STRING | - | X |
-| pathOfAcousGeomData | - | STRING | - | X |
-| pathOfMicrophones | - | STRING | - | X |
-| pathsOfFieldmeshes | - | ARRAY STRING | - | X |
-| pathsOfFieldmeshesPtl | - | ARRAY STRING | - | X |
-| pathOfActranAcousticSession | - | STRING | - | X |
-| pathsOfLinearModels_configuration_linearFrequency | - | ARRAY STRING 2D | - | X |
-| pathsOfLinearAcousticModelsEnv_configuration_linearFrequency | - | ARRAY STRING 2D | - | X |
-| pathsOfLinearAcousticModelsMemo_configuration_linearFrequency | - | ARRAY STRING 2D | - | X |
-| pathsOfNumacousLinearModels_configuration_linearFrequency | - | ARRAY STRING 2D | - | X |
-| pathsOfLinearCutoffMemo | - | ARRAY STRING | - | X |
-| pathsOfCutoffResults | - | ARRAY STRING | - | X |
-| pathsOfScoutMemo | - | ARRAY STRING | - | X |
-| pathsOfScoutResults | - | ARRAY STRING | - | X |
-| pathsOfScoutModels | - | ARRAY STRING | - | X |
-| pathsOfScoutMemosActran | - | ARRAY STRING | - | X |
-| pathsOfScoutResultsActran | - | ARRAY STRING | - | X |
-| pathsOfScoutLogs | - | ARRAY STRING | - | X |
-| pathsOfLinearLogs_configuration_linearFrequency | - | ARRAY STRING 2D | - | X |
-| pathsOfLinearMemos_configuration_linearFrequency | - | ARRAY STRING 2D | - | X |
-| pathsOfLinearMemosActran_configuration_linearFrequency | - | ARRAY STRING 2D | - | X |
-| pathsOfLinearResults_configuration_linearFrequency | - | ARRAY STRING 2D | - | X |
-| pathsOfLinearResultsActran_configuration_linearFrequency | - | ARRAY STRING 2D | - | X |
-| pathsOfLinearResultsPtl_configuration_linearFrequency | - | ARRAY STRING 2D | - | X |
-| pathsOfLinearResultsPtlActran_configuration_linearFrequency | - | ARRAY STRING 2D | - | X |
-| pathsOfAttenuationsMatrices_process_configurationId | - | ARRAY STRING 2D | - | X |
-| pathsOfPiffResult_process_configurationId | - | ARRAY STRING 2D | - | X |
-| pathsOfPiffXml_process_configurationId | - | ARRAY STRING 2D | - | X |
+| pathOfTools | Tools directory path | STRING | - | X |
+| pathOfScriptsRootFolder | Path of the Scripts root directory | STRING | - | X |
+| pathOfNacelle | Path of nacelle directory | STRING | - | X |
+| pathsOfSpinner | Path of Spinner directory | STRING | - | X |
+| pathOfInputXml | Path of input XML file | STRING | - | X |
+| pathOfMonitoringStatus | Path of Monitoring status directory | STRING | - | X |
+| pathOfConstraints | Path of constraints directory | STRING | - | X |
+| pathsOfSizeMesh | Path of size mesh directory | ARRAY STRING | - | X |
+| pathsOfAcousticMeshes | Paths of Acoustic Meshes directories | ARRAY STRING | - | X |
+| pathOfAcousGeomData | Path of Acoustic Geometric Data directory | STRING | - | X |
+| pathOfMicrophones | Path of Microphones directory | STRING | - | X |
+| pathsOfFieldmeshes | Paths of fields meshes directories | ARRAY STRING | - | X |
+| pathsOfFieldmeshesPtl | Paths of Fields meshes Ptl directories | ARRAY STRING | - | X |
+| pathOfActranAcousticSession | Paths of Actran Acoustic Session directories | STRING | - | X |
+| pathsOfLinearModels_configuration_linearFrequency | Paths of linear models directories (for each frequency of each configuration) | ARRAY STRING 2D | - | X |
+| pathsOfLinearAcousticModelsEnv_configuration_linearFrequency | Paths of environment linear acoustic models directories (for each frequency of each configuration) | ARRAY STRING 2D | - | X |
+| pathsOfLinearAcousticModelsMemo_configuration_linearFrequency | Paths of linear acoustic models memos directories (for each frequency of each configuration) | ARRAY STRING 2D | - | X |
+| pathsOfNumacousLinearModels_configuration_linearFrequency | Paths of numacous linear models directories (for each frequency of each configuration) | ARRAY STRING 2D | - | X |
+| pathsOfLinearCutoffMemo | Paths of linear cutoff memo directories | ARRAY STRING | - | X |
+| pathsOfCutoffResults | Paths of cutoff results directories | ARRAY STRING | - | X |
+| pathsOfScoutMemo | Paths of scout memo directories | ARRAY STRING | - | X |
+| pathsOfScoutResults | Paths of scout results directories | ARRAY STRING | - | X |
+| pathsOfScoutModels | Paths of scout models directories | ARRAY STRING | - | X |
+| pathsOfScoutMemosActran | Paths of scout memos actran directories | ARRAY STRING | - | X |
+| pathsOfScoutResultsActran | Paths of scout results Actran directories | ARRAY STRING | - | X |
+| pathsOfScoutLogs | Paths of scout logs directories | ARRAY STRING | - | X |
+| pathsOfLinearLogs_configuration_linearFrequency | Paths of linear logs directories (for each frequency of each configuration) | ARRAY STRING 2D | - | X |
+| pathsOfLinearMemos_configuration_linearFrequency | Paths of linear memos directories (for each frequency of each configuration) | ARRAY STRING 2D | - | X |
+| pathsOfLinearMemosActran_configuration_linearFrequency | Paths of linear memo Actran directories (for each frequency of each configuration) | ARRAY STRING 2D | - | X |
+| pathsOfLinearResults_configuration_linearFrequency | Paths of linear results directories (for each frequency of each configuration) | ARRAY STRING 2D | - | X |
+| pathsOfLinearResultsActran_configuration_linearFrequency | Paths of linear results Actran directories (for each frequency of each configuration) | ARRAY STRING 2D | - | X |
+| pathsOfLinearResultsPtl_configuration_linearFrequency | Paths of linear results Ptl directories (for each frequency of each configuration) | ARRAY STRING 2D | - | X |
+| pathsOfLinearResultsPtlActran_configuration_linearFrequency | Paths of linear Results Ptl Actran directories (for each frequency of each configuration) | ARRAY STRING 2D | - | X |
+| pathsOfAttenuationsMatrices_process_configurationId | Paths of attenuations matrices directories | ARRAY STRING 2D | - | X |
+| pathsOfPiffResult_process_configurationId | Paths of piff result directories (for each process of each configuration) | ARRAY STRING 2D | - | X |
+| pathsOfPiffXml_process_configurationId | Paths of XML piff (for each process of each configuration) | ARRAY STRING 2D | - | X |
 | nbTreatments | Number of Treatments | INT | - | X |
 | angles | Array microphones angles - Usually each 5° | ARRAY DOUBLE | - | X |
-| isEnginerating | DESCRIPTION | BOOL | True if input is "enginerating" input | X |
-| enginerating | DESCRIPTION | DOUBLE | Enginerating value | X |
-| areAttenuationMatrices | In intake flow, we want attenuation matrice | BOOL | - | X |
+| isEnginerating | True if input is "enginerating" input | BOOLEAN | - | X |
+| enginerating | Enginerating value | DOUBLE | - | X |
+| areAttenuationMatrices | True if inputs are Matrices Attenuations | BOOLEAN | - | X |
 
