@@ -71,25 +71,25 @@ __Init general subpart :__
 
 | Variable Name | Variable description | Type | Input | Output |
 | ------ | :------------: | :------: | :------: |  :------: |
-| loggerNameOfMetaComponent | Input XML which contain all data | FILE | X | - |
-| loggerVerbosity | Python source folder wich contain all librairies | STRING | X | - |
-| nameOfFiperscratchInputXML | Python source folder wich contain all librairies | STRING | X | - |
-| nameOfFiperscratchMonitoring | Python source folder wich contain all librairies | STRING | X | - |
-| nameOfLogsFolder | Python source folder wich contain all librairies | STRING | X | - |
-| nameOfMonitoringTemplate | Python source folder wich contain all librairies | STRING | X | - |
-| nameOfScriptsFolder | Python source folder wich contain all librairies | STRING | X | - |
-| numericalStudyAOPYear | Python source folder wich contain all librairies | STRING | X | - |
-| numericalStudyName | Python source folder wich contain all librairies | STRING | X | - |
-| numericalStudyUsecase | Python source folder wich contain all librairies | STRING | X | - |
-| pathOfApplicationRootFolder | Python source folder wich contain all librairies | STRING | X | - |
-| pathOfJavaSrcFolder | Python source folder wich contain all librairies | STRING | X | - |
-| pathOfResourcesFolder | Python source folder wich contain all librairies | STRING | X | - |
-| processCommand | Python source folder wich contain all librairies | STRING | X | - |
-| processName | Python source folder wich contain all librairies | STRING | X | - |
-| processNameOfApplication | Python source folder wich contain all librairies | STRING | X | - |
-| processVersion | Python source folder wich contain all librairies | STRING | X | - |
-| subwfInitPathOfRootFolder | Python source folder wich contain all librairies | STRING | X | - |
-| subwfInitVersion | Python source folder wich contain all librairies | STRING | X | - |
+| loggerNameOfMetaComponent | Logger name of meta component | STRING | X | - |
+| loggerVerbosity | Logger verbosity | STRING | X | - |
+| nameOfFiperscratchInputXML | Name of Fiper scratch input XML | STRING | X | - |
+| nameOfFiperscratchMonitoring | Name of Fiper scratch monitoring | STRING | X | - |
+| nameOfLogsFolder | Name of logs directory | STRING | X | - |
+| nameOfMonitoringTemplate | Name of monitoring template | STRING | X | - |
+| nameOfScriptsFolder | Name of scripts directory | STRING | X | - |
+| numericalStudyAOPYear | Numerical study AOP year | STRING | X | - |
+| numericalStudyName | Name of the numerical study | STRING | X | - |
+| numericalStudyUsecase | Use case of the numerical study | STRING | X | - |
+| pathOfApplicationRootFolder | Path of the application root folder | STRING | X | - |
+| pathOfJavaSrcFolder | Path of the java source directory | STRING | X | - |
+| pathOfResourcesFolder | Path of resources directory | STRING | X | - |
+| processCommand | Process command | STRING | X | - |
+| processName | Name of the process | STRING | X | - |
+| processNameOfApplication | Process name of the Application | STRING | X | - |
+| processVersion | Process version | STRING | X | - |
+| subwfInitPathOfRootFolder | Sub workflow path of root directory | STRING | X | - |
+| subwfInitVersion | Sub workflow init version | STRING | X | - |
 
 __Initialization box :__
 
