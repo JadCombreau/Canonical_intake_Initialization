@@ -33,9 +33,8 @@ __Outputs variables to send to following boxes :__
 
 | Variable Name | Variable description | Type | Input | Output |
 | ------ | :------------: | :------: | :------: |  :------: |
-| meshFrequencies | All mesh frequencies after script | ARRAY REAL | - | X |
-| modelFrequencies | - | ARRAY REAL | - | X |
-| maxFrequency | - | REAL | - | X |
-| frequencyUpperRange | - | INT | - | X |
-| meshFrequency | mesh frequencies before array | REAL | - | X |
+| meshFrequencies | Mesh Frequencies (linear frequencies with a step mesh) | ARRAY REAL | - | X |
+| modelFrequencies | Like linear frequencies | ARRAY REAL | - | X |
+| maxFrequency | Maximum frequency allowed | REAL | - | X |
+| frequencyUpperRange | The upper range frequency in our list | INT | - | X |
 
