@@ -17,7 +17,7 @@ This script consists in initializing an array containing the various Isight vari
 - Scout Computations
 - Scripts
 
-Finally, the script modifies the acces rights in __RWX (770)__ and for groups (__gr-acplat__ in our case).
+Finally, the script modifies the acces rights in __RWX (770)__ and for groups (__gr-nactools__ in our case).
 
 __Create Folders__ box is preceded by the __Init__ Workflow subpart, which consists in correctly environment initializing (necessary for Workflow launching). This scripts box is followed by the __Check & Read XML__ box which consist in the XML file checking and reading.
 
