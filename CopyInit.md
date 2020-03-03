@@ -1,10 +1,10 @@
 ## Copy Init
 ### Script Language
 
-All the __Copy Init__ box is written in Dynamic Java.
+All the __Copy Init__ box is written in Python.
 ### What the box does ?
 
- This aim Java script box is to copy folders from our Job folder (after modifications by previous boxes) into the Numacous folder.
+ This aim Python script box is to copy folders from our Job folder (after modifications by previous boxes) into the Numacous folder.
 
 *__Copy Init__ box is preceded by the __Scenario Analyser__ box (this box makes it possible to test if files or directories do not exist and therefore to determine which configurations or frequencies to restart) and followed by the __Update Monitoring__ box (allows to update the status of the workflow and to pass the finished parts in "completed")*.
 
@@ -19,8 +19,7 @@ The table below lists all the imports to be made :
 
 | Import name | Import location |
 | ------ | ------ |
-| ananax.jar | `/java` |
-| CommonFunctions.java | `/java/src/common/generic` |
+| CopyNumacous_Init.py | `/src_wf/python/workflows/ductnoise/common` |
 
 ### What about variables ?
 
