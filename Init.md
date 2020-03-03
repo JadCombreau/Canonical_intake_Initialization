@@ -1,6 +1,8 @@
 ## Init Workflow Subpart
 ### Scripts Language
 
+All the Copy Init box is written in Dynamic Java.
+
 __Init__ Workflow part contains three boxes :
 
 - *__Get JobID__ box written in Java language*
