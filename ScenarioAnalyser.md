@@ -64,24 +64,24 @@ __Outputs variables to send to following boxes :__
 | ------ | :------------: | :------: | :------: |  :------: |
 | areAcousticMeshes | All linear frequencies in the XML file | ARRAY DOUBLE | - | X |
 | areLinearAcousticModels | Configuration number in the XML file | INT | - | X |
-| isFlow | Logs folder result repository | STRING | - | X |
-| isFlowMesh | DESCRIPTION | ARRAY STRING | - | X |
+| isFlow | True if output is Flow | BOOL | - | X |
+| isFlowMesh | True if output is Flow Mesh | BOOL | - | X |
 | areAcousticMeshConstraints | Max node memory available | INT | - | X |
 | areMicrophones | Number of core in each node memory | INT | - | X |
 | areLinearCutoffResults | Maximum processes number | INT | - | X |
 | areInterpolatedMeshes | Security criteria for memory | REAL | - | X |
-| areLinearResults | DESCRIPTION | ARRAY STRING | - | X |
-| areScoutResults | DESCRIPTION | BOOL | - | X |
-| nbAcousticMeshesAvailable | DESCRIPTION | INT | - | X |
-| nbCutoffResultsAvailable | DESCRIPTION | REAL | - | X |
-| velocityAtFan | DESCRIPTION | REAL | - | X |
-| staticCelerityAtFan | DESCRIPTION | REAL | - | X |
-| staticFluidDensityAtFan | DESCRIPTION | REAL | - | X |
-| Cp | DESCRIPTION | REAL | - | X |
-| Cv | DESCRIPTION | REAL | - | X |
-| nbTreatments | DESCRIPTION | INT | - | X |
+| areLinearResults | True if outputs are Linear Results | ARRAY BOOL | - | X |
+| areScoutResults | True if outputs are Scout Results | ARRAY BOOL | - | X |
+| nbAcousticMeshesAvailable | Number of Acoustic Meshes Available | INT | - | X |
+| nbCutoffResultsAvailable | Number of Cutoff Results Available | INT | - | X |
+| velocityAtFan | Velocity at fan | REAL | - | X |
+| staticCelerityAtFan | Static Celerity at fan | REAL | - | X |
+| staticFluidDensityAtFan | Static Fluid Density at fan | REAL | - | X |
+| Cp | - | REAL | - | X |
+| Cv | - | REAL | - | X |
+| nbTreatments | Number of Treatments | INT | - | X |
 | angles | Array microphones angles - Usually each 5° | ARRAY DOUBLE | - | X |
-| isEnginerating | DESCRIPTION | BOOL | - | X |
-| enginerating | DESCRIPTION | DOUBLE | - | X |
-| areAttenuationMatrices | In intake flow, we want attenuation matrice | BOOL | - | X |
+| isEnginerating | True if outputs is Enginerating | BOOL | - | X |
+| enginerating | Enginerating value for outputs | DOUBLE | - | X |
+| areAttenuationMatrices | True if outputs are Attenuation Matrices | ARRAY BOOL | - | X |
 
